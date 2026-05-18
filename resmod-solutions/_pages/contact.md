@@ -28,4 +28,4 @@ permalink: /contact/
 </form>
 
 **Or email directly:** [blessv2013@gmail.com](mailto:blessv2013@gmail.com)  
-#**LinkedIn:** [Connect with me](https://linkedin.com/in/yourprofile)
+
