@@ -42,14 +42,6 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-# Collections
-collections:
-  services:
-    output: true
-    permalink: /:collection/:name/
-  pages:
-    output: true
-
 # Defaults
 defaults:
   - scope:
