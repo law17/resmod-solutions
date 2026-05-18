@@ -4,7 +4,7 @@ title: "Training Hub"
 permalink: /training-hub/  
  ---
 **Upcoming Workshops**  
-*You can embed a Google Calendar or list manually. Example:*  
+*You can embed a Google Calendar or list manually. Example: 
 - **MRST for CO₂ Storage** – 15–16 July 2025, online. (mailto:blessv2013@gmail.com?subject=MRST Workshop Registration)  
 - **Geochemical Modelling with PFLOTRAN** – 5 August 2025. (mailto:blessv2013@gmail.com?subject=PFLOTRAN Workshop)  
 **Request a Custom Workshop**  
