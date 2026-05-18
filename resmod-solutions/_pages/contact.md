@@ -27,5 +27,5 @@ permalink: /contact/
   <button type="submit" class="btn btn--primary">Send Message</button>
 </form>
 
-**Or email directly:** [your.email@resmod-solutions.com](mailto:your.email@resmod-solutions.com)  
-**LinkedIn:** [Connect with me](https://linkedin.com/in/yourprofile)
+**Or email directly:** [blessv2013@gmail.com](mailto:blessv2013@gmail.com)  
+#**LinkedIn:** [Connect with me](https://linkedin.com/in/yourprofile)
