@@ -4,7 +4,7 @@ title: "CO₂ Storage Modelling"
 permalink: /services/co2-storage/
 header:
   overlay_image: /assets/images/co2-storage.jpg
-  caption: "Simulation of CO₂ plume evolution in saline aquifer"
+  caption: "Simulation of CO₂ plume evolution in saline aquifer."
 ---
 
 **Service overview:**  
