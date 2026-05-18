@@ -2,9 +2,9 @@
 title: "ResMod Solutions"
 title_separator: "|"
 subtitle: "Subsurface Simulation & Student Training"
-description: "Expert modelling for CO₂ storage, H₂ storage, EOR, and reservoir performance. Hands-on open-source training for students."
-url: "https://law17.github.io"
+description: "Expert modelling for CO₂ storage, H₂ storage, EOR, and reservoir performance. Hands-on open-source training for students.
 baseurl: "/resmod-solutions"    # must match your repo name for project sites!
+url: "https://law17.github.io"
 repository: "law17/resmod-solutions"
 
 # Author
