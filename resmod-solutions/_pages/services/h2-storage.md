@@ -3,7 +3,7 @@ layout: single
 title: "Hydrogen Storage Simulation"
 permalink: /services/h2-storage/
 header:
-  overlay_image: /assets/images/h2-storage.jpg
+  overlay_image: "{{ site.baseurl }}/assets/images/h2-storage.jpg"
   caption: "Cyclic H₂ injection/withdrawal in porous rock or salt cavern"
 ---
 
