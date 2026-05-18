@@ -8,7 +8,7 @@ header:
 ---
 
 **Service overview:**  
-History‑matched models and forecast scenarios for mature fields considering waterflood, gas injection, and chemical EOR. I help you understand recovery factors, sweep efficiency, and economics.
+History‑matched models and forecast scenarios for mature fields considering waterflood, gas injection, smart-water flood, and chemical EOR. We help you understand recovery factors, sweep efficiency, and economics.
 
 **Deliverables:**
 - Black‑oil and compositional simulation
