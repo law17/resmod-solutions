@@ -27,7 +27,7 @@ feature_row:
     url: /services/h2-storage/
     btn_label: "Learn More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/efficiency.jpg
+  - image_path: /assets/images/eor.jpg
     alt: "EOR"
     title: "EOR"
     excerpt: "Waterflood, gas injection, chemical EOR forecasting."
@@ -52,7 +52,7 @@ feature_row2:
   - image_path: /assets/images/training-workshop.jpg
     alt: "Training"
     title: "Open-Source Training"
-    excerpt: "MRST, GEOSX, Reaktoro workshops. Hands-on online."
+    excerpt: "MRST, PFLOTRAN, PHREEQC workshops. Hands-on online."
     url: /services/training/
     btn_label: "View Workshops"
     btn_class: "btn--primary"
