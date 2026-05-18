@@ -1,9 +1,10 @@
-#![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANklEQVR4nO3OQQmAABRAsScYxpg/h5VMYARvRrCCNxG2BFtmZquOAAD4i3Ot7mr/egIAwGvXA224BcUMk6pDAAAAAElFTkSuQmCC)  
+---
 **layout: single**  
  **  
  title: "About ResMod Solutions"**  
  **  
  permalink: /about/**  
+ ---
 **Who We Are**  
 Resmod-solutions is an independent consultancy specialising in advanced subsurface modelling and simulation for carbon storage, hydrogen storage, enhanced oil recovery, and reservoir forecasting.  
    
