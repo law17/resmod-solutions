@@ -3,10 +3,10 @@ layout: single
  title: "Open‑Source Software Training"**   
  permalink: /services/training/  
  header:  
- --- 
- overlay_image: "{{ site.baseurl }}/assets/images/training-workshop.jpg"  
- **  
- caption: "Virtual hands‑on workshops for individuals and university groups"**  
+   overlay_image: "{{ site.baseurl }}/assets/images/training-workshop.jpg"   
+   caption: "Virtual hands‑on workshops for individuals and university groups."
+---
+
 **Workshops we offer (all online, live):**  
 - **PFLOTRAN Essentials for CO₂ Storage**  – grid setup, fluid models, injection scenarios  
 - **Reservoir Simulation with MRST** - traditional oil recovery  and CO2 storage training  
