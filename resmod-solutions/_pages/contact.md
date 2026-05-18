@@ -6,7 +6,7 @@ permalink: /contact/
 
 **Let’s discuss your project.**
 
-<form action="https://formspree.io/f/yourFormID" method="POST">
+<form action="https://formspree.io/f/xredgdbq" method="POST">
   <label for="name">Name</label>
   <input type="text" name="name" id="name" required>
   
