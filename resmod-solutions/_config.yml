@@ -13,14 +13,14 @@ author:
   avatar: "/assets/images/logo.svg"
   bio: "Subsurface modelling specialist. Open‑source enthusiast."
   location: "Your City, Country"
-  email: "your.email@resmod-solutions.com"
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/yourprofile"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/law17"
+  email: "blessv2013@gmail.com"
+  #links:
+  #  - label: "LinkedIn"
+  #    icon: "fab fa-fw fa-linkedin"
+  #    url: "https://linkedin.com/in/yourprofile"
+  #  - label: "GitHub"
+   #   icon: "fab fa-fw fa-github"
+   #   url: "https://github.com/law17"
 
 # Theme
 remote_theme: "mmistakes/minimal-mistakes"
