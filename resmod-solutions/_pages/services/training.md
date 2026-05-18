@@ -7,7 +7,7 @@
  **  
  header:**  
  **  
- overlay_image: /assets/images/training-workshop.jpg**  
+ overlay_image: "{{ site.baseurl }}/assets/images/training-workshop.jpg"  
  **  
  caption: "Virtual hands‑on workshops for individuals and university groups"**  
 **Workshops we offer (all online, live):**  
