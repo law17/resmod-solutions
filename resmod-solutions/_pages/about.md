@@ -4,14 +4,14 @@
  title: "About ResMod Solutions"**  
  **  
  permalink: /about/**  
-**Who ** **We Are**  
+**Who We Are**  
 Resmod-solutions is an independent consultancy specialising in advanced subsurface modelling and simulation for carbon storage, hydrogen storage, enhanced oil recovery, and reservoir forecasting.  
    
 We provide technical expertise in reservoir simulation, geochemical modelling, reactive transport analysis, uncertainty assessment, and computational workflows to support energy companies, researchers, academic institutions, and project developers.  
    
 Our mission is to deliver high-quality, technically defensible modelling solutions that improve understanding of subsurface systems, reduce uncertainty, and support informed engineering and research decisions.  
    
-In addition to consultancy services, we offer professional training and technical mentoring in reservoir simulation, geochemical modelling, and open source computational tools for students, researchers, and professionals seeking practical modelling expertise.  
+In addition to consultancy, we provide professional training and technical mentoring in reservoir simulations and geochemical modelling for students, researchers, and professionals looking to build practical modelling expertise.  
 .  
 **Our Vision**  
 To advance reliable, science-driven subsurface energy solutions for carbon storage, hydrogen storage, EOR, and reservoir management worldwide. 
