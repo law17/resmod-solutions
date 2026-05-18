@@ -8,14 +8,14 @@ header:
 ---
 
 **Service overview:**  
-Design and optimisation of underground hydrogen storage (UHS) in depleted gas fields, aquifers, or caverns. I simulate cyclic operations, cushion gas requirements, and geochemical interactions that may impact deliverability.
+Design and optimisation of underground hydrogen storage (UHS) in depleted gas fields, aquifers, or caverns. We simulate cyclic operations, cushion gas requirements, and geochemical interactions that may impact deliverability.
 
 **Typical work:**
 - Dynamic simulation of injection/production cycles
 - Cushion gas sizing and mixing analysis
-- Geochemical reactivity (H₂-brine-rock) using Reaktoro
+- Geochemical reactivity (H₂-brine-rock) 
 - Pressure evolution and mechanical stability check
 
-**Software:** MRST, OpenFOAM (for CFD aspects), Reaktoro, Python utilities.
+**Software:** MRST, OpenFOAM (for CFD aspects), Python utilities.
 
 [Get in touch →](/contact/)
