@@ -1,10 +1,10 @@
 --- 
 layout: single  
- title: "Open‑Source Software Training"**   
- permalink: /services/training/  
- header:  
-   overlay_image: "{{ site.baseurl }}/assets/images/training-workshop.jpg"   
-   caption: "Virtual hands‑on workshops for individuals and university groups."
+title: "Open‑Source Software Training"**   
+permalink: /services/training/  
+header:  
+  overlay_image: "{{ site.baseurl }}/assets/images/training-workshop.jpg"   
+  caption: "Virtual hands‑on workshops for individuals and university groups."
 ---
 
 **Workshops we offer (all online, live):**  
