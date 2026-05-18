@@ -1,0 +1,88 @@
+# Site Settings
+title: "ResMod Solutions"
+title_separator: "|"
+subtitle: "Subsurface Simulation & Student Training"
+description: "Expert modelling for CO₂ storage, H₂ storage, EOR, and reservoir performance. Hands-on open-source training for students."
+url: "https://law17.github.io"
+baseurl: "/resmod-solutions"    # must match your repo name for project sites!
+repository: "law17/resmod-solutions"
+
+# Author
+author:
+  name: "Your Name"
+  avatar: "/assets/images/logo.svg"
+  bio: "Subsurface modelling specialist. Open‑source enthusiast."
+  location: "Your City, Country"
+  email: "your.email@resmod-solutions.com"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/yourprofile"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/law17"
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air"
+
+# Site Settings
+locale: "en-US"
+logo: "/assets/images/logo.svg"
+masthead_title: "ResMod Solutions"
+breadcrumbs: true
+search: false
+
+# Plugins (jekyll-remote-theme is essential!)
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Collections
+collections:
+  services:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      share: true
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+
+# Pagination
+paginate: 5
+paginate_path: /blog/page:num/
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Footer
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/yourprofile"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/law17"
