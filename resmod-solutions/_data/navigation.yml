@@ -1,13 +1,13 @@
 main:
   - title: "Home"
-    url: /
+    url: /resmod-solutions/ #url: /
   - title: "About"
-    url: /about/
+    url: /resmod-solutions/about/
   - title: "Services"
-    url: /services/co2-storage/   # first service as entry, or create a services landing page
+    url: /resmod-solutions/services/co2-storage/   # first service as entry, or create a services landing page
   - title: "Training Hub"
-    url: /training-hub/
+    url: /resmod-solutions/training-hub/
   - title: "Blog"
-    url: /blog/
+    url: /resmod-solutions/blog/
   - title: "Contact"
-    url: /contact/
+    url: /resmod-solutions/contact/
