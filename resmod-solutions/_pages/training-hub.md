@@ -1,7 +1,7 @@
 ---
 layout: single 
-title: "Training Hub"**  
-permalink: /training-hub/**  
+title: "Training Hub"  
+permalink: /training-hub/  
  ---
 **Upcoming Workshops**  
 *You can embed a Google Calendar or list manually. Example:*  
