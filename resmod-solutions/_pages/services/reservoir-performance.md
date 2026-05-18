@@ -10,7 +10,7 @@ header:
 **Service overview:**  
 Independent production forecasting using analytical and numerical methods. Ideal for reserves estimation, field development planning, and investment decisions.
 
-**What I offer:**
+**What we offer:**
 - Decline curve analysis (Arps, Fetkovich, etc.)
 - Material balance and dynamic simulation scenarios
 - History matching to production data
