@@ -1,4 +1,4 @@
-![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANklEQVR4nO3OQQmAABRAsScYxpg/h5VMYARvRrCCNxG2BFtmZquOAAD4i3Ot7mr/egIAwGvXA224BcUMk6pDAAAAAElFTkSuQmCC)  
+#![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnEAAAACCAYAAAA3pIp+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAANklEQVR4nO3OQQmAABRAsScYxpg/h5VMYARvRrCCNxG2BFtmZquOAAD4i3Ot7mr/egIAwGvXA224BcUMk6pDAAAAAElFTkSuQmCC)  
 **layout: single**  
  **  
  title: "About ResMod Solutions"**  
@@ -9,17 +9,19 @@ Resmod-solutions is an independent consultancy specialising in advanced subsurfa
    
 We provide technical expertise in reservoir simulation, geochemical modelling, reactive transport analysis, uncertainty assessment, and computational workflows to support energy companies, researchers, academic institutions, and project developers.  
    
-Our mission is to deliver high quality, technically defensible modelling solutions that improve understanding of subsurface systems, reduce uncertainty, and support informed engineering and research decisions.  
+Our mission is to deliver high-quality, technically defensible modelling solutions that improve understanding of subsurface systems, reduce uncertainty, and support informed engineering and research decisions.  
    
 In addition to consultancy services, we offer professional training and technical mentoring in reservoir simulation, geochemical modelling, and open source computational tools for students, researchers, and professionals seeking practical modelling expertise.  
 .  
 **Our Vision**  
-To advance reliable, science-driven subsurface energy solutions for carbon storage, hydrogen storage, EOR, and reservoir management worldwide.  
+To advance reliable, science-driven subsurface energy solutions for carbon storage, hydrogen storage, EOR, and reservoir management worldwide. 
+
 **Our Mission**  
-To empower operators, researchers, and students with expert reservoir simulation and geochemical modelling services.    
+To empower operators, researchers, and students with expert reservoir simulation and geochemical modelling services.   
+
 **Core Values** ** **  
 - **Scientific Excellence** – Rigorous, defensible modelling.  
-- **Simulation Integrity** – Every model built on transparent physics.  
+- **Simulation Integrity** – Every model is built on transparent physics.  
 - **Innovation** – Advanced computational and modelling approaches.  
 - **Impact** –  Delivering practical, decision-relevant outcomes.  
 - **Collaborative Precision** – Close iteration with clients until the numbers make sense.  
