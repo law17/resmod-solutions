@@ -17,6 +17,6 @@ We build predictive reservoir models for geological carbon storage. From regiona
 - Geochemical reactions (dissolution, mineralization) 
 - Uncertainty quantification and sensitivity analysis
 
-#**Software:** MRST, PFLOTRAN, PHREEQC, CMG (on request), Python scripting for automation.
+**Software:** MRST, PFLOTRAN, PHREEQC, CMG (on request), Python scripting for automation.
 
 [Request a consultation →](/contact/)
