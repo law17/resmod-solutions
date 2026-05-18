@@ -3,7 +3,7 @@ layout: single
 title: "Student Project Support"
 permalink: /services/student-projects/
 header:
-  overlay_image: /assets/images/student-project.jpg
+  overlay_image: "{{ site.baseurl }}/assets/images/student-project.jpg"
   caption: "From stuck to successful: modelling mentorship"
 ---
 
