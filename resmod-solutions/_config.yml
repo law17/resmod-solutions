@@ -3,14 +3,14 @@ title: "ResMod Solutions"
 title_separator: "|"
 subtitle: "Subsurface Simulation & Student Training"
 description: "Expert modelling for CO₂ storage, H₂ storage, EOR, and reservoir performance. Hands-on open-source training for students."
-url: "https://resmod-solutions.com"         # change to your domain
-baseurl: ""                                # leave empty if you use a custom domain
-repository: "yourusername/resmod-solutions" # GitHub repo
+url: "https://law17.github.io"
+baseurl: "/resmod-solutions"    # must match your repo name for project sites!
+repository: "law17/resmod-solutions"
 
 # Author
 author:
   name: "Your Name"
-  avatar: "/assets/images/your-photo.jpg"
+  avatar: "/assets/images/logo.svg"
   bio: "Subsurface modelling specialist. Open‑source enthusiast."
   location: "Your City, Country"
   email: "your.email@resmod-solutions.com"
@@ -20,11 +20,11 @@ author:
       url: "https://linkedin.com/in/yourprofile"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/yourusername"
+      url: "https://github.com/law17"
 
 # Theme
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "air"  # clean, modern; other options: "default", "dark", "sunrise"
+minimal_mistakes_skin: "air"
 
 # Site Settings
 locale: "en-US"
@@ -33,12 +33,9 @@ masthead_title: "ResMod Solutions"
 breadcrumbs: true
 search: false
 
-# Pagination
-paginate: 5
-paginate_path: /blog/page:num/
-
-# Plugins (pre-installed on GitHub Pages)
+# Plugins (jekyll-remote-theme is essential!)
 plugins:
+  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -53,7 +50,6 @@ collections:
 
 # Defaults
 defaults:
-  # _pages
   - scope:
       path: "_pages"
       type: pages
@@ -61,7 +57,6 @@ defaults:
       layout: single
       author_profile: false
       share: true
-  # _posts
   - scope:
       path: "_posts"
       type: posts
@@ -71,7 +66,11 @@ defaults:
       read_time: true
       share: true
 
-# Exclude from processing
+# Pagination
+paginate: 5
+paginate_path: /blog/page:num/
+
+# Exclude
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -86,4 +85,4 @@ footer:
       url: "https://linkedin.com/in/yourprofile"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/yourusername"
+      url: "https://github.com/law17"
