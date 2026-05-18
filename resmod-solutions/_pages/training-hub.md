@@ -13,4 +13,3 @@ We can tailor a workshop for your university department or research group.
  [Contact us with your requirements.]("{{ site.baseurl }}/contact/" "/contact/")  
 **Free Resources**  
 Check the [Blog for tutorials and simulation tips. Subscribe below to get notified of new courses.]("{{ site.baseurl }}/blog/" "/blog/")  
-#{% include mailchimp-signup.html %}   (optional – you can use a simple Mailchimp embed later)  
