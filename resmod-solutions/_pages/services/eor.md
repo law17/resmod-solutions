@@ -3,7 +3,7 @@ layout: single
 title: "Enhanced Oil Recovery (EOR) Simulation"
 permalink: /services/eor/
 header:
-  overlay_image: "{{ site.baseurl }}/assets/images/eor.jpg"
+  overlay_image: /resmod-solutions/assets/images/eor.jpg
   caption: "Flood front propagation in a heterogeneous reservoir"
 ---
 

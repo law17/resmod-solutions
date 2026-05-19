@@ -3,7 +3,7 @@ layout: single
 title: "Reservoir Performance Predictions"
 permalink: /services/reservoir-performance/
 header:
-  overlay_image: "{{ site.baseurl }}/assets/images/reservoir-performance.jpg"
+  overlay_image: /resmod-solutions/assets/images/reservoir-performance.jpg
   caption: "Rate‑transient analysis and forecast dashboards"
 ---
 

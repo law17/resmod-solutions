@@ -71,6 +71,9 @@ exclude:
   - node_modules
   - vendor
 
+include:
+  - _pages
+
 # Footer
 footer:
   links:

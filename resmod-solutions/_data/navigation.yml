@@ -1,13 +1,13 @@
 main:
   - title: "Home"
-    url: "{{ site.baseurl }}/" #url: /
+    url: /resmod-solutions/ 
   - title: "About"
-    url: "{{ site.baseurl }}/about/"
+    url: /resmod-solutions/about/
   - title: "Services"
-    url: "{{ site.baseurl }}/services/co2-storage/"   # first service as entry, or create a services landing page
+    url: /resmod-solutions/services/co2-storage/   # first service as entry, or create a services landing page
   - title: "Training Hub"
-    url: "{{ site.baseurl }}/training-hub/"
+    url: /resmod-solutions/training-hub/
   - title: "Blog"
-    url: "{{ site.baseurl }}/blog/"
+    url: /resmod-solutions/blog/
   - title: "Contact"
-    url: "{{ site.baseurl }}/contact/"
+    url: /resmod-solutions/contact/

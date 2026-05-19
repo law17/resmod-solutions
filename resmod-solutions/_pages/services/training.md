@@ -3,7 +3,7 @@ layout: single
 title: "Open‑Source Software Training"
 permalink: /services/training/
 header:
-  overlay_image: "{{ site.baseurl }}/assets/images/training-workshop.jpg"
+  overlay_image: /resmod-solutions/assets/images/training-workshop.jpg
   caption: "Virtual hands‑on workshops for individuals and university groups"
 ---
 

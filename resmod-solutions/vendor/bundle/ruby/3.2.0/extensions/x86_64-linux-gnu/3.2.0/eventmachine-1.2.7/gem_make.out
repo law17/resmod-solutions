@@ -1,0 +1,19 @@
+current directory: /home/lawrence/CODINGS/resmod-solutions/resmod-solutions/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/usr/bin/ruby3.2 -I/usr/lib/ruby/vendor_ruby extconf.rb
+creating Makefile
+
+current directory: /home/lawrence/CODINGS/resmod-solutions/resmod-solutions/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20260518-48271-4cg1af sitelibdir\=./.gem.20260518-48271-4cg1af clean
+
+current directory: /home/lawrence/CODINGS/resmod-solutions/resmod-solutions/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20260518-48271-4cg1af sitelibdir\=./.gem.20260518-48271-4cg1af
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: /home/lawrence/CODINGS/resmod-solutions/resmod-solutions/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20260518-48271-4cg1af sitelibdir\=./.gem.20260518-48271-4cg1af install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20260518-48271-4cg1af
+
+current directory: /home/lawrence/CODINGS/resmod-solutions/resmod-solutions/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20260518-48271-4cg1af sitelibdir\=./.gem.20260518-48271-4cg1af clean
