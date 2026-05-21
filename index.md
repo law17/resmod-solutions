@@ -101,4 +101,4 @@ feature_row2:
   </div>
 </div>
 
-<p style="text-align: center; font-size: 0.9rem; margin-top: 1rem;">*[Add your own testimonials – ask past clients for a 1‑sentence quote]*</p>
+<p style="text-align: center; font-size: 0.9rem; margin-top: 1rem;">*[Add your testimonials?]*</p>
