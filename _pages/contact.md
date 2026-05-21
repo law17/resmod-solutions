@@ -15,7 +15,7 @@ permalink: /contact/
   
   <label for="subject">I'm interested in</label>
   <select name="subject" id="subject">
-    <option value="Consulting">Consulting – CO₂ / H₂ / EOR</option>
+    <option value="Consulting">Consulting – CO₂ / H₂ / Upstream oil & gas</option>
     <option value="Student Project">Student Project Assistance</option>
     <option value="Training">Training / Workshop</option>
     <option value="Other">Other</option>
