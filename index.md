@@ -103,7 +103,7 @@ feature_row2:
 
 
 <!-- Our Clients / Partners section -->
-<h2 style="text-align: center; margin-top: 3rem;">Our Clients & Partners</h2>
+<h2 style="text-align: center; margin-top: 3rem;"> Clients & Partners</h2>
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; align-items: center; margin: 2rem 0;">
   <img src="/resmod-solutions/assets/images/logo.jpg" alt="Client 1" style="max-width: 120px; height: auto;">
   <img src="/resmod-solutions/assets/images/logo.jpg" alt="Client 2" style="max-width: 120px; height: auto;">
