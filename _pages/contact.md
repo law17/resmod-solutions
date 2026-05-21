@@ -9,6 +9,9 @@ permalink: /contact/
 <form action="https://formspree.io/f/xredgdbq" method="POST">
   <label for="name">Name</label>
   <input type="text" name="name" id="name" required>
+
+  <label for="organisation">Organisation</label>
+  <input type="text" name="organisation" id="organisation" required>
   
   <label for="_replyto">Email</label>
   <input type="email" name="_replyto" id="_replyto" required>
