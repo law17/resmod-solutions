@@ -93,11 +93,11 @@ feature_row2:
 <div style="display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; margin: 2rem 0;">
   <div style="flex: 1; min-width: 250px; background: #f0f0f0; padding: 1.5rem; border-radius: 8px;">
     <p style="font-style: italic;">“ResMod’s simulation insights helped us reduce exploration uncertainty by 30%.”</p>
-    <p style="margin-bottom: 0; font-weight: bold;">— Dr. A. Jones, Geotech Ltd</p>
+    <p style="margin-bottom: 0; font-weight: bold;">— Jones, Geoworks Ltd</p>
   </div>
   <div style="flex: 1; min-width: 250px; background: #f0f0f0; padding: 1.5rem; border-radius: 8px;">
     <p style="font-style: italic;">“The CO₂ storage modelling was precise and delivered ahead of schedule.”</p>
-    <p style="margin-bottom: 0; font-weight: bold;">— M. Chen, Carbon Solutions</p>
+    <p style="margin-bottom: 0; font-weight: bold;">— Chen, Carbon Works</p>
   </div>
 </div>
 
