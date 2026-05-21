@@ -7,6 +7,6 @@ author:
   name: "Emma"
   avatar: "/assets/images/logo.svg"
   bio: "Subsurface modelling specialist. Open‑source enthusiast."
-  location: "Scotland, UK"
+  #location: "Scotland, UK"
   email: "blessv2013@gmail.com"
 ---
