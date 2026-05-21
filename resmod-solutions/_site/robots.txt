@@ -1,1 +1,1 @@
-Sitemap: https://law17.github.io/resmod-solutions/sitemap.xml
+Sitemap: http://localhost:4000/resmod-solutions/sitemap.xml

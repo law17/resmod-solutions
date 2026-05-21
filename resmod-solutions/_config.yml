@@ -7,28 +7,13 @@ baseurl: "/resmod-solutions"    # must match your repo name for project sites!
 url: "https://law17.github.io"
 repository: "law17/resmod-solutions"
 
-# Author
-author:
-  name: "Your Name"
-  avatar: "/assets/images/logo.svg"
-  bio: "Subsurface modelling specialist. Open‑source enthusiast."
-  location: "Your City, Country"
-  email: "blessv2013@gmail.com"
-  #links:
-  #  - label: "LinkedIn"
-  #    icon: "fab fa-fw fa-linkedin"
-  #    url: "https://linkedin.com/in/yourprofile"
-  #  - label: "GitHub"
-   #   icon: "fab fa-fw fa-github"
-   #   url: "https://github.com/law17"
-
 # Theme
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "air"
 
 # Site Settings
 locale: "en-US"
-logo: "/assets/images/logo.svg"
+logo: "/assets/images/logo.jpg"
 masthead_title: "ResMod Solutions"
 breadcrumbs: true
 search: false
@@ -59,6 +44,13 @@ defaults:
       author_profile: true
       read_time: true
       share: true
+      # Add author details here
+      author:
+        name: "Lawrence"
+        avatar: "/assets/images/logo.jpg"
+        bio: "Subsurface modelling specialist. Open‑source enthusiast."
+        location: "Scotland, UK"
+        email: "blessv2013@gmail.com"
 
 # Pagination
 paginate: 5
@@ -77,9 +69,13 @@ include:
 # Footer
 footer:
   links:
-    #- label: "LinkedIn"
-    #  icon: "fab fa-fw fa-linkedin"
-    #  url: "https://linkedin.com/in/yourprofile"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/law17"
+    - label: "Services"
+      icon: "fas fa-cogs"   # or "fas fa-server" etc.
+      url: "/resmod-solutions/services/"      # your services landing page
+    - label: "About"
+      icon: "fas fa-info-circle"
+      url: "/resmod-solutions/about/"
+    - label: "Careers"
+      icon: "fas fa-briefcase"
+      url: "/resmod-solutions/careers/"       # you'll need to create this page
+

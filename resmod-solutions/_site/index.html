@@ -16,25 +16,22 @@
 
 
 <!-- begin _includes/seo.html --><title>ResMod Solutions</title>
-<meta name="description" content="Modelling CO₂ &amp; H₂ storage, EOR, and reservoir performance. Open-source training for the next generation of engineers.">
+<meta name="description" content="Expert modelling for CO₂ storage, H₂ storage, EOR, and reservoir performance. Hands-on open-source training for students.">
 
-
-  <meta name="author" content="Your Name">
-  
 
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="ResMod Solutions">
 <meta property="og:title" content="ResMod Solutions">
-<meta property="og:url" content="https://law17.github.io/resmod-solutions/">
+<meta property="og:url" content="http://localhost:4000/resmod-solutions/">
 
 
-  <meta property="og:description" content="Modelling CO₂ &amp; H₂ storage, EOR, and reservoir performance. Open-source training for the next generation of engineers.">
+  <meta property="og:description" content="Expert modelling for CO₂ storage, H₂ storage, EOR, and reservoir performance. Hands-on open-source training for students.">
 
 
 
-  <meta property="og:image" content="https://law17.github.io/resmod-solutions/resmod-solutions/assets/images/hero-co2-h2.png">
+  <meta property="og:image" content="http://localhost:4000/resmod-solutions/assets/images/logo.jpg">
   
 
 
@@ -48,7 +45,7 @@
 
 
 
-<link rel="canonical" href="https://law17.github.io/resmod-solutions/">
+<link rel="canonical" href="http://localhost:4000/resmod-solutions/">
 
 
 
@@ -59,7 +56,7 @@
   "@context": "https://schema.org",
   "@type": "Person",
     "name": null,
-    "url": "https://law17.github.io/resmod-solutions/"
+    "url": "http://localhost:4000/resmod-solutions/"
 }
 </script>
 
@@ -116,7 +113,7 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
         
-          <a class="site-logo" href="/resmod-solutions/"><img src="/resmod-solutions/assets/images/logo.svg" alt="ResMod Solutions"></a>
+          <a class="site-logo" href="/resmod-solutions/"><img src="/resmod-solutions/assets/images/logo.jpg" alt="ResMod Solutions"></a>
         
         <a class="site-title" href="/resmod-solutions/">
           ResMod Solutions
@@ -124,40 +121,46 @@
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a
-                href="/resmod-solutions/resmod-solutions/"
+                href="/resmod-solutions/"
                 
                 
               >Home</a>
             </li><li class="masthead__menu-item">
               <a
-                href="/resmod-solutions/resmod-solutions/about/"
+                href="/resmod-solutions/about/"
                 
                 
               >About</a>
             </li><li class="masthead__menu-item">
               <a
-                href="/resmod-solutions/resmod-solutions/services/co2-storage/"
+                href="/resmod-solutions/services/"
                 
                 
               >Services</a>
             </li><li class="masthead__menu-item">
               <a
-                href="/resmod-solutions/resmod-solutions/training-hub/"
+                href="/resmod-solutions/training-hub/"
                 
                 
               >Training Hub</a>
             </li><li class="masthead__menu-item">
               <a
-                href="/resmod-solutions/resmod-solutions/blog/"
+                href="/resmod-solutions/blog/"
                 
                 
               >Blog</a>
             </li><li class="masthead__menu-item">
               <a
-                href="/resmod-solutions/resmod-solutions/contact/"
+                href="/resmod-solutions/contact/"
                 
                 
               >Contact</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/resmod-solutions/careers/"
+                
+                
+              >Careers</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -185,7 +188,7 @@
 
 
 <div class="page__hero--overlay"
-  style="background-color: #1a1a2e; background-image: url('/resmod-solutions/resmod-solutions/assets/images/hero-co2-h2.png');"
+  style="background-color: #1a1a2e; background-image: url('/resmod-solutions/assets/images/logo.jpg');"
 >
   
     <div class="wrapper">
@@ -196,26 +199,15 @@
         
       </h1>
       
-        <p class="page__lead">Modelling CO₂ &amp; H₂ storage, EOR, and reservoir performance. Open-source training for the next generation of engineers.
-</p>
-      
       
 
 
 
-      
-        <p>
-        
-          <a href="/resmod-solutions/resmod-solutions/services/co2-storage/" class="btn btn--light-outline btn--large">Explore Services</a>
-        
-          <a href="/resmod-solutions/resmod-solutions/services/student-projects/" class="btn btn--light-outline btn--large">Student Support</a>
-        
-        </p>
       
     </div>
   
   
-    <span class="page__hero-caption">Precision simulation for the subsurface energy transition.
+    <span class="page__hero-caption">Precision simulation for subsurface energy systems
 </span>
   
 </div>
@@ -224,13 +216,47 @@
 
 <div id="main" role="main">
   <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="ResMod Solutions">
-    <meta itemprop="description" content="Modelling CO₂ &amp; H₂ storage, EOR, and reservoir performance. Open-source training for the next generation of engineers.">
+    <meta itemprop="headline" content="">
+    
     
     
 
     <section class="page__content" itemprop="text">
-      
+      <style>
+  * {
+    text-align: justify !important;
+  }
+  h1, h2, h3, h4, h5, h6, .btn, nav, .masthead, .page__hero-caption {
+    text-align: left !important;
+  }
+</style>
+
+<style>
+  /* Hide the title text in the home header but keep the element's space */
+  .page__hero--overlay {
+    min-height: 200px; /* adjust this to your image's natural height */
+  }
+  .page__hero--overlay h1,
+  .page__hero--overlay .page__title {
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    height: 0;
+    overflow: hidden;
+  }
+</style>
+
+<!-- Second header: custom block with title, excerpt, and action buttons -->
+<div style="background-color: #f8f9fa; padding: 2rem; margin-bottom: 2rem; border-radius: 8px; text-align: justify;">
+  <h1 style="margin-bottom: 0.5rem;">ResMod Solutions</h1>
+  <p style="font-size: 1.2rem; margin-bottom: 1rem;"> Upstream oil &amp; gas, CO₂ geosequestraion, and underground H₂ storage solutions. Empowering Engineers through training in Open-Source modelling &amp; simulation tools.</p>
+  <div>
+    <a href="/resmod-solutions/services/" class="btn btn--primary">Explore Services</a>
+    <a href="/resmod-solutions/services/student-projects/" class="btn btn--primary">Student Support</a>
+  </div>
+</div>
 
     </section>
   </article>
@@ -256,7 +282,15 @@
     
       
         
-          <li><a href="https://github.com/law17" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          <li><a href="/resmod-solutions/services/" rel="nofollow noopener noreferrer"><i class="fas fa-cogs" aria-hidden="true"></i> Services</a></li>
+        
+      
+        
+          <li><a href="/resmod-solutions/about/" rel="nofollow noopener noreferrer"><i class="fas fa-info-circle" aria-hidden="true"></i> About</a></li>
+        
+      
+        
+          <li><a href="/resmod-solutions/careers/" rel="nofollow noopener noreferrer"><i class="fas fa-briefcase" aria-hidden="true"></i> Careers</a></li>
         
       
     
@@ -268,7 +302,7 @@
 </div>
 
 
-<div class="page__footer-copyright">&copy; 2026 <a href="https://law17.github.io">ResMod Solutions</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2026 <a href="http://localhost:4000">ResMod Solutions</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
