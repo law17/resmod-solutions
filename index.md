@@ -86,3 +86,19 @@ feature_row2:
     <a href="/resmod-solutions/services/student-projects/" class="btn btn--primary">Student Support</a>
   </div>
 </div>
+
+<!-- Testimonials section -->
+<h2 style="text-align: center; margin-top: 2rem;">What our clients say</h2>
+
+<div style="display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; margin: 2rem 0;">
+  <div style="flex: 1; min-width: 250px; background: #f0f0f0; padding: 1.5rem; border-radius: 8px;">
+    <p style="font-style: italic;">“ResMod’s simulation insights helped us reduce exploration uncertainty by 30%.”</p>
+    <p style="margin-bottom: 0; font-weight: bold;">— Dr. A. Jones, Geotech Ltd</p>
+  </div>
+  <div style="flex: 1; min-width: 250px; background: #f0f0f0; padding: 1.5rem; border-radius: 8px;">
+    <p style="font-style: italic;">“The CO₂ storage modelling was precise and delivered ahead of schedule.”</p>
+    <p style="margin-bottom: 0; font-weight: bold;">— M. Chen, Carbon Solutions</p>
+  </div>
+</div>
+
+<p style="text-align: center; font-size: 0.9rem; margin-top: 1rem;">*[Add your own testimonials – ask past clients for a 1‑sentence quote]*</p>
