@@ -102,3 +102,25 @@ feature_row2:
 </div>
 
 <p style="text-align: center; font-size: 0.9rem; margin-top: 1rem;">*[Add your testimonials?]*</p>
+
+
+<!-- Our Clients / Partners section -->
+<h2 style="text-align: center; margin-top: 3rem;">Our Clients & Partners</h2>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; align-items: center; margin: 2rem 0;">
+  <div style="text-align: center;">
+    <img src="/resmod-solutions/assets/images/partner-logo.png" alt="Partner 1" style="max-width: 120px; height: auto; filter: grayscale(20%);">
+    <p style="margin-top: 0.5rem;">Company Name 1</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="/resmod-solutions/assets/images/partner-logo.png" alt="Partner 2" style="max-width: 120px; height: auto;">
+    <p style="margin-top: 0.5rem;">Company Name 2</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="/resmod-solutions/assets/images/partner-logo.png" alt="Partner 3" style="max-width: 120px; height: auto;">
+    <p style="margin-top: 0.5rem;">Company Name 3</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="/resmod-solutions/assets/images/partner-logo.png" alt="Partner 4" style="max-width: 120px; height: auto;">
+    <p style="margin-top: 0.5rem;">Company Name 4</p>
+  </div>
+</div>
