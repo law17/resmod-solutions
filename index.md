@@ -101,8 +101,6 @@ feature_row2:
   </div>
 </div>
 
-<p style="text-align: center; font-size: 0.9rem; margin-top: 1rem;">*[Add your testimonials?]*</p>
-
 
 <!-- Our Clients / Partners section -->
 <h2 style="text-align: center; margin-top: 3rem;">Our Clients & Partners</h2>
