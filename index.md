@@ -349,15 +349,10 @@ feature_row2: []
     <p>Cyclic injection, cushion gas, geochemical reactivity.</p>
     <span class="metric">↑ 25% efficiency</span>
   </a>
-  <a href="/resmod-solutions/services/eor/" class="service-card">
-    <h3>Enhanced Oil Recovery</h3>
-    <p>Waterflood, gas injection, chemical EOR forecasting.</p>
-    <span class="metric">↑ 34% recovery factor</span>
-  </a>
-  <a href="/resmod-solutions/services/reservoir-performance/" class="service-card">
-    <h3>Reservoir Performance</h3>
-    <p>Decline curve analysis, history matching, field forecasts.</p>
-    <span class="metric">📈 Accurate forecasts</span>
+  <a href="/resmod-solutions/services/upstream-oil-gas/" class="service-card">
+    <h3>Upstream Oil & Gas</h3>
+    <p>EOR, reservoir performance, decline curve analysis, history matching, field forecasts.</p>
+    <span class="metric">↑ 34% recovery & accurate forecasts</span>
   </a>
   <a href="/resmod-solutions/services/student-projects/" class="service-card">
     <h3>Student Project Support</h3>
