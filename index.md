@@ -16,6 +16,11 @@ feature_row2: []
     text-align: left !important;
   }
 
+  /* Hide any lingering page title on the splash layout */
+.splash .page__title {
+  display: none !important;
+}
+
   /* ========== SERVICE CARD STYLES ========== */
   .service-card {
     flex: 1;
@@ -245,9 +250,9 @@ feature_row2: []
 </script>
 
 <!-- You can add a tagline below the carousel if desired -->
-<div style="background: linear-gradient(135deg, #0a2540 0%, #1a3a5a 100%); color: white; padding: 2rem; text-align: center;">
-  <p style="font-size:1.2rem; max-width: 800px; margin: 0 auto;">Precision simulation for subsurface energy systems – Empowering engineers through advanced modelling and open-source training.</p>
-  <div style="margin-top:1.5rem;">
+<div style="background: linear-gradient(135deg, #0a2540 0%, #1a3a5a 100%); color: white; padding: 2rem; text-align: justify;">
+  <p style="font-size:1.2rem; max-width: 800px; margin: 0 auto; text-align: justify;">Precision simulation for subsurface energy systems – Empowering engineers through advanced modelling and open-source training.</p>
+  <div style="margin-top:1.5rem; text-align: center;">
     <a href="/resmod-solutions/services/" class="btn btn--primary" style="margin-right: 1rem;">Explore Services</a>
     <a href="/resmod-solutions/contact/" class="btn btn--light-outline">Contact Us</a>
   </div>
