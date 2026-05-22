@@ -16,7 +16,7 @@ locale: "en-US"
 logo: "/assets/images/logo.svg"
 masthead_title: "ResMod Solutions"
 breadcrumbs: true
-search: false
+search: true
 
 # Plugins (jekyll-remote-theme is essential!)
 plugins:
