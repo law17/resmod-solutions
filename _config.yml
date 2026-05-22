@@ -13,7 +13,7 @@ minimal_mistakes_skin: "air"
 
 # Site Settings
 locale: "en-US"
-logo: "/assets/images/logo.png"
+logo: "/assets/images/logo.svg"
 masthead_title: "ResMod Solutions"
 breadcrumbs: true
 search: false
