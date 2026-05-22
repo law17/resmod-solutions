@@ -3,51 +3,8 @@ layout: splash
 title: ""
 header:
   overlay_color: "#1a1a2e"
-  # No overlay_image – we use canvas instead
-feature_row:
-  - image_path: /resmod-solutions/assets/images/co2-storage.jpg
-    alt: "CO₂ Storage"
-    title: "CO₂ Storage"
-    excerpt: '<span class="service-tag co2-tag">CO₂ Storage</span> Reduce leakage risk by up to 40% with certified plume migration and geochemical trapping models.'
-    url: /resmod-solutions/services/co2-storage/
-    btn_label: "Learn More"
-    btn_class: "btn--primary"
-  - image_path: /resmod-solutions/assets/images/h2-storage.jpg
-    alt: "H₂ Storage"
-    title: "H₂ Storage"
-    excerpt: '<span class="service-tag h2-tag">H₂ Storage</span> Optimise cushion gas and maintain integrity through advanced cyclic injection simulation.'
-    url: /resmod-solutions/services/h2-storage/
-    btn_label: "Learn More"
-    btn_class: "btn--primary"
-  - image_path: /resmod-solutions/assets/images/eor.jpg
-    alt: "EOR"
-    title: "EOR"
-    excerpt: '<span class="service-tag eor-tag">EOR</span> Increase recovery factors by 15–34% with waterflood, gas injection, and chemical EOR forecasting.'
-    url: /resmod-solutions/services/eor/
-    btn_label: "Learn More"
-    btn_class: "btn--primary"
-feature_row2:
-  - image_path: /resmod-solutions/assets/images/reservoir-performance.jpg
-    alt: "Reservoir Performance"
-    title: "Reservoir Performance"
-    excerpt: '<span class="service-tag reservoir-tag">Reservoir Performance</span> Improve field development decisions with decline curve analysis and history matching.'
-    url: /resmod-solutions/services/reservoir-performance/
-    btn_label: "Learn More"
-    btn_class: "btn--primary"
-  - image_path: /resmod-solutions/assets/images/student-project.jpg
-    alt: "Student Projects"
-    title: "Student Project Assistance"
-    excerpt: '<span class="service-tag student-tag">Student Support</span> One-on-one modelling mentorship for BSc, MSc, and PhD researchers.'
-    url: /resmod-solutions/services/student-projects/
-    btn_label: "Support"
-    btn_class: "btn--primary"
-  - image_path: /resmod-solutions/assets/images/training-workshop.jpg
-    alt: "Training"
-    title: "Open-Source Training"
-    excerpt: '<span class="service-tag training-tag">Training</span> Hands‑on MRST, PFLOTRAN, and PHREEQC workshops – online & live.'
-    url: /resmod-solutions/services/training/
-    btn_label: "View Workshops"
-    btn_class: "btn--primary"
+feature_row: []
+feature_row2: []
 ---
 
 <style>
@@ -59,53 +16,103 @@ feature_row2:
     text-align: left !important;
   }
 
-  /* ========== SERVICE CARD ENHANCEMENTS ========== */
-  .feature__item {
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  /* ========== SERVICE CARD STYLES ========== */
+  .service-card {
+    flex: 1;
+    min-width: 250px;
+    background: white;
+    border: 1px solid #e0e0e0;
     border-radius: 12px;
-    overflow: hidden;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    display: block;
   }
-  .feature__item:hover {
-    transform: translateY(-6px);
+  .service-card:hover {
+    transform: translateY(-8px);
+    background-color: #e6f0fa;
     box-shadow: 0 12px 24px rgba(0,0,0,0.1);
   }
-
-  /* Service tag base style */
-  .service-tag {
-    display: inline-block;
-    font-size: 0.7rem;
+  .service-card h3 {
+    margin-top: 0;
+    color: #1a3a5a;
+    transition: color 0.2s;
+  }
+  .service-card:hover h3 {
+    color: #0a2540;
+  }
+  .service-card .metric {
+    font-size: 0.85rem;
     font-weight: bold;
-    padding: 0.2rem 0.7rem;
-    border-radius: 20px;
-    margin-bottom: 0.6rem;
-    letter-spacing: 0.5px;
-    color: white;
-  }
-
-  /* Color variants per service */
-  .co2-tag { background-color: #2c7da0; }
-  .h2-tag { background-color: #61a5c2; }
-  .eor-tag { background-color: #89c2d9; }
-  .reservoir-tag { background-color: #a9d6e5; color: #1a1a2e; }
-  .student-tag { background-color: #5f7f9e; }
-  .training-tag { background-color: #3a6b8f; }
-
-  /* Ensure excerpt text aligns nicely */
-  .feature__item .archive__item-excerpt {
+    color: #2c7da0;
     margin-top: 0.5rem;
+    display: inline-block;
+    background: #eef2f7;
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+  }
+  .service-card:hover .metric {
+    background: white;
   }
 
-  /* Hero text overlay on canvas – we'll manually add below canvas */
+  /* ========== ROTATOR STYLES ========== */
+  .rotator-container {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+    position: relative;
+    min-height: 180px;
+  }
+  .rotator-item {
+    display: none;
+    animation: fadeIn 0.8s ease;
+  }
+  .rotator-item.active {
+    display: block;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .rotator-dots {
+    margin-top: 1rem;
+  }
+  .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .dot.active {
+    background: #1a3a5a;
+  }
+
+  /* Ensure cards layout */
+  .services-grid {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 0;
+  }
 </style>
 
-<!-- ========== DYNAMIC PARTICLE HERO (Canvas) ========== -->
+<!-- ========== HERO: ANIMATED PARTICLE CANVAS ========== -->
 <canvas id="heroCanvas" style="width:100%; height:500px; display:block; background:#0a1a2a;"></canvas>
-<div style="background: linear-gradient(135deg, #0a1a2a 0%, #1a2a3a 100%); color: white; padding: 2rem; text-align: center; margin-top: -5px;">
+<div style="background: linear-gradient(135deg, #0a2540 0%, #1a3a5a 100%); color: white; padding: 2rem; text-align: center; margin-top: -5px;">
   <h1 style="margin:0; font-size: 2.5rem;">ResMod Solutions</h1>
   <p style="font-size:1.2rem; max-width: 800px; margin: 1rem auto;">Precision simulation for subsurface energy systems – CO₂ geosequestration, H₂ storage, EOR, and reservoir performance.</p>
   <div style="margin-top:1.5rem;">
     <a href="/resmod-solutions/services/" class="btn btn--primary" style="margin-right: 1rem;">Explore Services</a>
-    <a href="/resmod-solutions/services/student-projects/" class="btn btn--light-outline">Student Support</a>
+    <a href="/resmod-solutions/contact/" class="btn btn--light-outline">Contact Us</a>
   </div>
 </div>
 
@@ -127,7 +134,7 @@ feature_row2:
 
     function initParticles() {
       particles = [];
-      const count = Math.floor(width * height / 4000); // adaptive density
+      const count = Math.floor(width * height / 4000);
       for (let i = 0; i < count; i++) {
         particles.push({
           x: Math.random() * width,
@@ -147,10 +154,8 @@ feature_row2:
         ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
         ctx.fillStyle = p.color;
         ctx.fill();
-        // update
         p.x += p.vx;
         p.y += p.vy;
-        // wrap around with subtle bounce? simpler: wrap
         if (p.x < 0) p.x = width;
         if (p.x > width) p.x = 0;
         if (p.y < 0) p.y = height;
@@ -159,23 +164,134 @@ feature_row2:
       requestAnimationFrame(draw);
     }
 
-    window.addEventListener('resize', () => { resizeCanvas(); });
+    window.addEventListener('resize', () => resizeCanvas());
     resizeCanvas();
     draw();
   })();
 </script>
 
-<!-- ========== CUSTOM SECOND HEADER (Original style but cleaner) ========== -->
-<div style="background-color: #f8f9fa; padding: 2rem; margin-bottom: 2rem; border-radius: 8px; text-align: justify;">
-  <h2 style="margin-bottom: 0.5rem;">Empowering Engineers Through Open‑Source Training</h2>
-  <p style="font-size: 1.1rem; margin-bottom: 1rem;">We combine deep industry experience with practical, hands‑on workshops in MRST, PFLOTRAN, and PHREEQC.</p>
-  <div>
-    <a href="/resmod-solutions/training-hub/" class="btn btn--primary">View Workshops</a>
+<!-- ========== ROTATING MISSION/VISION/VALUES ========== -->
+<div class="rotator-container" id="rotator">
+  <div class="rotator-item active" data-index="0">
+    <h3>Our Mission</h3>
+    <p style="font-size: 1.1rem;">To develop advanced modelling solutions and foster technical expertise for carbon storage, hydrogen storage, EOR, and reservoir management, while empowering engineers through open-source training.</p>
+  </div>
+  <div class="rotator-item" data-index="1">
+    <h3>Our Vision</h3>
+    <p style="font-size: 1.1rem;">To be a trusted global partner in delivering reliable, science-driven subsurface energy solutions that advance the energy transition.</p>
+  </div>
+  <div class="rotator-item" data-index="2">
+    <h3>Our Core Values</h3>
+    <p style="font-size: 1.1rem;">🔬 Scientific Excellence &nbsp;&nbsp;|&nbsp;&nbsp; 🔧 Innovation &nbsp;&nbsp;|&nbsp;&nbsp; 🤝 Collaborative Precision &nbsp;&nbsp;|&nbsp;&nbsp; 🌍 Impact</p>
+  </div>
+  <div class="rotator-dots" id="rotatorDots"></div>
+</div>
+
+<script>
+  (function() {
+    const items = document.querySelectorAll('.rotator-item');
+    const dotsContainer = document.getElementById('rotatorDots');
+    let current = 0;
+    let interval;
+
+    // Create dots
+    items.forEach((_, idx) => {
+      const dot = document.createElement('span');
+      dot.classList.add('dot');
+      if (idx === 0) dot.classList.add('active');
+      dot.addEventListener('click', () => {
+        clearInterval(interval);
+        showItem(idx);
+        startInterval();
+      });
+      dotsContainer.appendChild(dot);
+    });
+
+    function showItem(index) {
+      items.forEach((item, i) => {
+        item.classList.remove('active');
+        if (dotsContainer.children[i]) dotsContainer.children[i].classList.remove('active');
+      });
+      items[index].classList.add('active');
+      if (dotsContainer.children[index]) dotsContainer.children[index].classList.add('active');
+      current = index;
+    }
+
+    function nextItem() {
+      const next = (current + 1) % items.length;
+      showItem(next);
+    }
+
+    function startInterval() {
+      interval = setInterval(nextItem, 5000);
+    }
+
+    // Pause on hover
+    const container = document.getElementById('rotator');
+    container.addEventListener('mouseenter', () => clearInterval(interval));
+    container.addEventListener('mouseleave', startInterval);
+
+    startInterval();
+  })();
+</script>
+
+<!-- ========== SERVICES SECTION (CLICKABLE CARDS WITH HOVER) ========== -->
+<h2 style="text-align: center; margin: 3rem 0 1.5rem;">Our Core Services</h2>
+<div class="services-grid">
+  <a href="/resmod-solutions/services/co2-storage/" class="service-card">
+    <h3>CO₂ Storage</h3>
+    <p>Plume migration, trap integrity, geochemical trapping.</p>
+    <span class="metric">↓ 40% leakage risk</span>
+  </a>
+  <a href="/resmod-solutions/services/h2-storage/" class="service-card">
+    <h3>H₂ Storage</h3>
+    <p>Cyclic injection, cushion gas, geochemical reactivity.</p>
+    <span class="metric">↑ 25% efficiency</span>
+  </a>
+  <a href="/resmod-solutions/services/eor/" class="service-card">
+    <h3>Enhanced Oil Recovery</h3>
+    <p>Waterflood, gas injection, chemical EOR forecasting.</p>
+    <span class="metric">↑ 34% recovery factor</span>
+  </a>
+  <a href="/resmod-solutions/services/reservoir-performance/" class="service-card">
+    <h3>Reservoir Performance</h3>
+    <p>Decline curve analysis, history matching, field forecasts.</p>
+    <span class="metric">📈 Accurate forecasts</span>
+  </a>
+  <a href="/resmod-solutions/services/student-projects/" class="service-card">
+    <h3>Student Project Support</h3>
+    <p>BSc, MSc, PhD modelling help & mentorship.</p>
+    <span class="metric">🎓 1-on-1 coaching</span>
+  </a>
+  <a href="/resmod-solutions/services/training/" class="service-card">
+    <h3>Open‑Source Training</h3>
+    <p>MRST, PFLOTRAN, PHREEQC workshops – online & live.</p>
+    <span class="metric">💻 Hands‑on</span>
+  </a>
+</div>
+
+<!-- ========== WHY CHOOSE US (Simple icons) ========== -->
+<h2 style="text-align: center; margin: 3rem 0 1.5rem;">Why Choose ResMod?</h2>
+<div style="display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; margin-bottom: 3rem;">
+  <div style="flex: 1; min-width: 200px; text-align: center; padding: 1rem;">
+    <div style="font-size: 2.5rem;">⚙️</div>
+    <h3>Technical Excellence</h3>
+    <p>Rigorous, defensible modelling and deep industry expertise.</p>
+  </div>
+  <div style="flex: 1; min-width: 200px; text-align: center; padding: 1rem;">
+    <div style="font-size: 2.5rem;">📚</div>
+    <h3>Open-Source Focus</h3>
+    <p>Training and solutions built on accessible, cutting-edge tools.</p>
+  </div>
+  <div style="flex: 1; min-width: 200px; text-align: center; padding: 1rem;">
+    <div style="font-size: 2.5rem;">🤝</div>
+    <h3>Client Partnership</h3>
+    <p>Collaborative and transparent processes with tangible results.</p>
   </div>
 </div>
 
-<!-- Testimonials section -->
-<h2 style="text-align: center; margin-top: 2rem;">What our clients say</h2>
+<!-- ========== TESTIMONIALS ========== -->
+<h2 style="text-align: center; margin-top: 2rem;">What Our Clients Say</h2>
 <div style="display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; margin: 2rem 0;">
   <div style="flex: 1; min-width: 250px; background: #f0f0f0; padding: 1.5rem; border-radius: 8px;">
     <p style="font-style: italic;">“ResMod’s simulation insights helped us reduce exploration uncertainty by 30%.”</p>
@@ -187,7 +303,7 @@ feature_row2:
   </div>
 </div>
 
-<!-- Clients & Partners section -->
+<!-- ========== CLIENTS & PARTNERS ========== -->
 <h2 style="text-align: center; margin-top: 3rem;">Clients & Partners</h2>
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; align-items: center; margin: 2rem 0;">
   <img src="/resmod-solutions/assets/images/logo.jpg" alt="Client 1" style="max-width: 120px; height: auto;">
