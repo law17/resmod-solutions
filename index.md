@@ -194,16 +194,10 @@ feature_row2: []
       <p>Cyclic injection, cushion gas, geochemical reactivity</p>
     </div>
   </div>
-  <div class="carousel-slide" style="background-image: url('/resmod-solutions/assets/images/concept-eor.jpg');">
+  <div class="carousel-slide" style="background-image: url('/resmod-solutions/assets/images/concept-upstream.jpg');">
     <div class="carousel-caption">
-      <h2>Enhanced Oil Recovery</h2>
-      <p>Waterflood, gas injection, chemical EOR forecasting</p>
-    </div>
-  </div>
-  <div class="carousel-slide" style="background-image: url('/resmod-solutions/assets/images/concept-reservoir.jpg');">
-    <div class="carousel-caption">
-      <h2>Reservoir Performance</h2>
-      <p>Decline curve analysis, history matching, field forecasts</p>
+      <h2>Upstream Oil & Gas Solutions</h2>
+      <p>EOR, reservoir performance, decline curve analysis, history matching</p>
     </div>
   </div>
   <div class="carousel-dots" id="carouselDots"></div>
@@ -215,6 +209,9 @@ feature_row2: []
     const dotsContainer = document.getElementById('carouselDots');
     let current = 0;
     let interval;
+
+    // Clear any existing dots (if re-running script)
+    if (dotsContainer) dotsContainer.innerHTML = '';
 
     // Create dots
     slides.forEach((_, idx) => {
@@ -248,10 +245,11 @@ feature_row2: []
       interval = setInterval(nextSlide, 5000);
     }
 
-    // Pause on hover
     const container = document.getElementById('conceptCarousel');
-    container.addEventListener('mouseenter', () => clearInterval(interval));
-    container.addEventListener('mouseleave', startInterval);
+    if (container) {
+      container.addEventListener('mouseenter', () => clearInterval(interval));
+      container.addEventListener('mouseleave', startInterval);
+    }
 
     // Show the first slide immediately
     showSlide(0);
