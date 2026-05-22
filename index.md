@@ -103,72 +103,155 @@ feature_row2: []
     justify-content: center;
     margin: 2rem 0;
   }
+
+  /* ========== CAROUSEL STYLES ========== */
+  .carousel-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    background: #0a1a2a;
+  }
+  .carousel-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .carousel-slide.active {
+    opacity: 1;
+  }
+  .carousel-caption {
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 80%;
+  }
+  .carousel-caption h2 {
+    margin: 0 0 0.5rem;
+    color: white;
+  }
+  .carousel-caption p {
+    margin: 0;
+  }
+  .carousel-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+  }
+  .carousel-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.5);
+    margin: 0 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .carousel-dot.active {
+    background: white;
+  }
 </style>
 
-<!-- ========== HERO: ANIMATED PARTICLE CANVAS ========== -->
-<canvas id="heroCanvas" style="width:100%; height:500px; display:block; background:#0a1a2a;"></canvas>
-<div style="background: linear-gradient(135deg, #0a2540 0%, #1a3a5a 100%); color: white; padding: 2rem; text-align: center; margin-top: -5px;">
-  <h1 style="margin:0; font-size: 2.5rem;">ResMod Solutions</h1>
-  <p style="font-size:1.2rem; max-width: 800px; margin: 1rem auto;">Precision simulation for subsurface energy systems – CO₂ geosequestration, H₂ storage, EOR, and reservoir performance.</p>
+<!-- ========== HERO: AUTO-ROTATING CONCEPT CAROUSEL ========== -->
+<div class="carousel-container" id="conceptCarousel">
+  <div class="carousel-slide" style="background-image: url('/resmod-solutions/assets/images/concept-co2.jpg');">
+    <div class="carousel-caption">
+      <h2>CO₂ Storage Modelling</h2>
+      <p>Plume migration, trap integrity, geochemical trapping</p>
+    </div>
+  </div>
+  <div class="carousel-slide" style="background-image: url('/resmod-solutions/assets/images/concept-h2.jpg');">
+    <div class="carousel-caption">
+      <h2>Hydrogen Storage Simulation</h2>
+      <p>Cyclic injection, cushion gas, geochemical reactivity</p>
+    </div>
+  </div>
+  <div class="carousel-slide" style="background-image: url('/resmod-solutions/assets/images/concept-eor.jpg');">
+    <div class="carousel-caption">
+      <h2>Enhanced Oil Recovery</h2>
+      <p>Waterflood, gas injection, chemical EOR forecasting</p>
+    </div>
+  </div>
+  <div class="carousel-slide" style="background-image: url('/resmod-solutions/assets/images/concept-reservoir.jpg');">
+    <div class="carousel-caption">
+      <h2>Reservoir Performance</h2>
+      <p>Decline curve analysis, history matching, field forecasts</p>
+    </div>
+  </div>
+  <div class="carousel-dots" id="carouselDots"></div>
+</div>
+
+<script>
+  (function() {
+    const slides = document.querySelectorAll('.carousel-slide');
+    const dotsContainer = document.getElementById('carouselDots');
+    let current = 0;
+    let interval;
+
+    // Create dots
+    slides.forEach((_, idx) => {
+      const dot = document.createElement('span');
+      dot.classList.add('carousel-dot');
+      if (idx === 0) dot.classList.add('active');
+      dot.addEventListener('click', () => {
+        clearInterval(interval);
+        showSlide(idx);
+        startInterval();
+      });
+      dotsContainer.appendChild(dot);
+    });
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.classList.remove('active');
+        if (dotsContainer.children[i]) dotsContainer.children[i].classList.remove('active');
+      });
+      slides[index].classList.add('active');
+      if (dotsContainer.children[index]) dotsContainer.children[index].classList.add('active');
+      current = index;
+    }
+
+    function nextSlide() {
+      const next = (current + 1) % slides.length;
+      showSlide(next);
+    }
+
+    function startInterval() {
+      interval = setInterval(nextSlide, 5000);
+    }
+
+    // Pause on hover
+    const container = document.getElementById('conceptCarousel');
+    container.addEventListener('mouseenter', () => clearInterval(interval));
+    container.addEventListener('mouseleave', startInterval);
+
+    startInterval();
+  })();
+</script>
+
+<!-- You can add a tagline below the carousel if desired -->
+<div style="background: linear-gradient(135deg, #0a2540 0%, #1a3a5a 100%); color: white; padding: 2rem; text-align: center;">
+  <p style="font-size:1.2rem; max-width: 800px; margin: 0 auto;">Precision simulation for subsurface energy systems – Empowering engineers through advanced modelling and open-source training.</p>
   <div style="margin-top:1.5rem;">
     <a href="/resmod-solutions/services/" class="btn btn--primary" style="margin-right: 1rem;">Explore Services</a>
     <a href="/resmod-solutions/contact/" class="btn btn--light-outline">Contact Us</a>
   </div>
 </div>
-
-<script>
-  (function() {
-    const canvas = document.getElementById('heroCanvas');
-    if (!canvas) return;
-    const ctx = canvas.getContext('2d');
-    let width, height;
-    let particles = [];
-
-    function resizeCanvas() {
-      width = canvas.clientWidth;
-      height = canvas.clientHeight;
-      canvas.width = width;
-      canvas.height = height;
-      initParticles();
-    }
-
-    function initParticles() {
-      particles = [];
-      const count = Math.floor(width * height / 4000);
-      for (let i = 0; i < count; i++) {
-        particles.push({
-          x: Math.random() * width,
-          y: Math.random() * height,
-          radius: Math.random() * 3 + 1,
-          vx: (Math.random() - 0.5) * 0.8,
-          vy: (Math.random() - 0.5) * 0.8 + 0.3,
-          color: `hsl(${200 + Math.random() * 40}, 80%, 60%)`
-        });
-      }
-    }
-
-    function draw() {
-      ctx.clearRect(0, 0, width, height);
-      for (let p of particles) {
-        ctx.beginPath();
-        ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-        ctx.fillStyle = p.color;
-        ctx.fill();
-        p.x += p.vx;
-        p.y += p.vy;
-        if (p.x < 0) p.x = width;
-        if (p.x > width) p.x = 0;
-        if (p.y < 0) p.y = height;
-        if (p.y > height) p.y = 0;
-      }
-      requestAnimationFrame(draw);
-    }
-
-    window.addEventListener('resize', () => resizeCanvas());
-    resizeCanvas();
-    draw();
-  })();
-</script>
 
 <!-- ========== ROTATING MISSION/VISION/VALUES ========== -->
 <div class="rotator-container" id="rotator">
@@ -226,7 +309,6 @@ feature_row2: []
       interval = setInterval(nextItem, 5000);
     }
 
-    // Pause on hover
     const container = document.getElementById('rotator');
     container.addEventListener('mouseenter', () => clearInterval(interval));
     container.addEventListener('mouseleave', startInterval);
@@ -270,7 +352,7 @@ feature_row2: []
   </a>
 </div>
 
-<!-- ========== WHY CHOOSE US (Simple icons) ========== -->
+<!-- ========== WHY CHOOSE US ========== -->
 <h2 style="text-align: center; margin: 3rem 0 1.5rem;">Why Choose ResMod?</h2>
 <div style="display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; margin-bottom: 3rem;">
   <div style="flex: 1; min-width: 200px; text-align: center; padding: 1rem;">
