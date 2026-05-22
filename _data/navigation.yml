@@ -1,15 +1,13 @@
 main:
   - title: "Home"
-    url: "/" 
+    url: /resmod-solutions/
   - title: "About"
-    url: "/about/"
+    url: /resmod-solutions/about/
   - title: "Services"
-    url: "/services/"   
-  - title: "Training Hub"
-    url: "/training-hub/"
-  - title: "Blog"
-    url: "/blog/"
+    url: /resmod-solutions/services/
+  - title: "Training"
+    url: /resmod-solutions/training-hub/
+  - title: "Research Support"
+    url: /resmod-solutions/services/student-projects/
   - title: "Contact"
-    url: "/contact/"
-  - title: "Careers"
-    url: "/careers/"
+    url: /resmod-solutions/contact/
