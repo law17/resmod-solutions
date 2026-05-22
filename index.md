@@ -252,7 +252,7 @@ feature_row2: []
 <!-- You can add a tagline below the carousel if desired -->
 <div style="background: linear-gradient(135deg, #0a2540 0%, #1a3a5a 100%); color: white; padding: 2rem; text-align: justify;">
   <p style="font-size:1.2rem; max-width: 800px; margin: 0 auto; text-align: justify;">Precision simulation for subsurface energy systems – Empowering engineers through advanced modelling and open-source training.</p>
-  <div style="margin-top:1.5rem; text-align: center;">
+  <div style="margin-top:1.5rem; text-align: justify;">
     <a href="/resmod-solutions/services/" class="btn btn--primary" style="margin-right: 1rem;">Explore Services</a>
     <a href="/resmod-solutions/contact/" class="btn btn--light-outline">Contact Us</a>
   </div>
@@ -271,10 +271,10 @@ feature_row2: []
 <div class="rotator-item" data-index="2">
     <h3>Our Core Values</h3>
     <ul style="font-size: 1.1rem; list-style-type: none; padding-left: 0; margin: 0; text-align: center;">
-        <li style="margin-bottom: 0.5rem;">🔬 Scientific Excellence</li>
-        <li style="margin-bottom: 0.5rem;">🔧 Innovation</li>
-        <li style="margin-bottom: 0.5rem;">🤝 Collaborative Precision</li>
-        <li>🌍 Impact</li>
+        <li style="margin-bottom: 0.5rem;">Scientific Excellence</li>
+        <li style="margin-bottom: 0.5rem;">Innovation</li>
+        <li style="margin-bottom: 0.5rem;">Collaborative Precision</li>
+        <li>Impact</li>
     </ul>
 </div>
   <div class="rotator-dots" id="rotatorDots"></div>
