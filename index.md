@@ -17,9 +17,9 @@ header:
   }
 
   /* Hide any lingering page title on the splash layout */
-.splash .page__title {
-  display: none !important;
-}
+  .splash .page__title {
+    display: none !important;
+  }
 </style>
 
   /* ========== SERVICE CARD STYLES ========== */
