@@ -1,10 +1,10 @@
---- 
+---
 layout: splash
 title: ""
 header:
   overlay_color: "#1a1a2e"
 feature_row: []
-feature_row2: [] 
+feature_row2: []
 ---
 
 <style>
@@ -28,6 +28,7 @@ feature_row2: []
   }
 </style>
 
+<style>
   /* ========== SERVICE CARD STYLES ========== */
   .service-card {
     flex: 1;
@@ -252,11 +253,13 @@ feature_row2: []
     container.addEventListener('mouseenter', () => clearInterval(interval));
     container.addEventListener('mouseleave', startInterval);
 
+    // Show the first slide immediately
+    showSlide(0);
     startInterval();
   })();
 </script>
 
-<!-- You can add a tagline below the carousel if desired -->
+<!-- Blue gradient bar -->
 <div style="background: linear-gradient(135deg, #0a2540 0%, #1a3a5a 100%); color: white; padding: 2rem; text-align: justify;">
   <p style="font-size:1.2rem; margin: 0; text-align: justify;">Precision simulation for subsurface energy systems. Empowering engineers through advanced modelling and open-source training.</p>
   <div style="margin-top:1.5rem; text-align: justify;">
@@ -275,15 +278,15 @@ feature_row2: []
     <h3>Our Vision</h3>
     <p style="font-size: 1.1rem;">To be a trusted global partner in delivering reliable, science-driven subsurface energy solutions that advance the energy transition.</p>
   </div>
-<div class="rotator-item" data-index="2">
+  <div class="rotator-item" data-index="2">
     <h3>Our Core Values</h3>
     <ul style="font-size: 1.1rem; list-style-type: none; padding-left: 0; margin: 0; text-align: center;">
-        <li style="margin-bottom: 0.5rem;">Scientific Excellence</li>
-        <li style="margin-bottom: 0.5rem;">Innovation</li>
-        <li style="margin-bottom: 0.5rem;">Collaborative Precision</li>
-        <li>Impact</li>
+      <li style="margin-bottom: 0.5rem;">Scientific Excellence</li>
+      <li style="margin-bottom: 0.5rem;">Innovation</li>
+      <li style="margin-bottom: 0.5rem;">Collaborative Precision</li>
+      <li>Impact</li>
     </ul>
-</div>
+  </div>
   <div class="rotator-dots" id="rotatorDots"></div>
 </div>
 
@@ -294,7 +297,6 @@ feature_row2: []
     let current = 0;
     let interval;
 
-    // Create dots
     items.forEach((_, idx) => {
       const dot = document.createElement('span');
       dot.classList.add('dot');
