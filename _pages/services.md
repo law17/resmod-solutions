@@ -14,13 +14,9 @@ Plume migration, trap integrity, geochemical trapping.
 Cyclic injection, cushion gas, geochemical reactivity.  
 [Learn more →](/resmod-solutions/services/h2-storage/)
 
-## Enhanced Oil Recovery (EOR)
+## Upstream Oil & Gas
 Waterflood, gas injection, chemical EOR forecasting.  
-[Learn more →](/resmod-solutions/services/eor/)
-
-## Reservoir Performance Predictions
-Decline curve analysis, history matching, field forecasts.  
-[Learn more →](/resmod-solutions/services/reservoir-performance/)
+[Learn more →](/resmod-solutions/services/upstream-oil-gas/)
 
 ## Student Project Support
 BSc, MSc, PhD modelling help. Supervision & review.  
