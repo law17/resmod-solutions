@@ -20,6 +20,12 @@ feature_row2: []
   .splash .page__title {
     display: none !important;
   }
+
+  /* Also hide any heading that might be inside .page__hero */
+  .splash .page__hero h1,
+  .splash .page__hero .page__title {
+    display: none !important;
+  }
 </style>
 
   /* ========== SERVICE CARD STYLES ========== */
