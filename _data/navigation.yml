@@ -11,5 +11,5 @@ main:
     url: "/blog/"
   - title: "Contact"
     url: "/contact/"
-  - title: "Careers"
-    url: "/careers/"
+  #- title: "Careers"
+ #   url: "/careers/"
