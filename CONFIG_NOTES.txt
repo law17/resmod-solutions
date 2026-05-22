@@ -1,0 +1,7 @@
+
+# Recommended homepage styling settings
+minimal_mistakes_skin: "dark"
+logo: "/assets/images/logo.svg"
+
+# Make sure this file is included in your default layout/head.
+# If your site already loads /assets/css/custom.css, just replace that file with the one provided.
