@@ -263,10 +263,15 @@ feature_row2: []
     <h3>Our Vision</h3>
     <p style="font-size: 1.1rem;">To be a trusted global partner in delivering reliable, science-driven subsurface energy solutions that advance the energy transition.</p>
   </div>
-  <div class="rotator-item" data-index="2">
+<div class="rotator-item" data-index="2">
     <h3>Our Core Values</h3>
-    <p style="font-size: 1.1rem;">🔬 Scientific Excellence &nbsp;&nbsp;|&nbsp;&nbsp; 🔧 Innovation &nbsp;&nbsp;|&nbsp;&nbsp; 🤝 Collaborative Precision &nbsp;&nbsp;|&nbsp;&nbsp; 🌍 Impact</p>
-  </div>
+    <ul style="font-size: 1.1rem; list-style-type: none; padding-left: 0; margin: 0; text-align: center;">
+        <li style="margin-bottom: 0.5rem;">🔬 Scientific Excellence</li>
+        <li style="margin-bottom: 0.5rem;">🔧 Innovation</li>
+        <li style="margin-bottom: 0.5rem;">🤝 Collaborative Precision</li>
+        <li>🌍 Impact</li>
+    </ul>
+</div>
   <div class="rotator-dots" id="rotatorDots"></div>
 </div>
 
