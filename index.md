@@ -1,10 +1,9 @@
 ---
 layout: splash
 title: ""
-header: 
-  overlay_image: /assets/images/logo.jpg
-  caption: "Precision simulation for subsurface energy systems"
+header:
   overlay_color: "#1a1a2e"
+  # No overlay_image – we use canvas instead
 feature_row:
   - image_path: /resmod-solutions/assets/images/co2-storage.jpg
     alt: "CO₂ Storage"
@@ -52,6 +51,7 @@ feature_row2:
 ---
 
 <style>
+  /* Global justification – but keep headings and buttons left */
   * {
     text-align: justify !important;
   }
@@ -94,38 +94,88 @@ feature_row2:
   .feature__item .archive__item-excerpt {
     margin-top: 0.5rem;
   }
+
+  /* Hero text overlay on canvas – we'll manually add below canvas */
 </style>
 
-<style>
-  /* Hide the title text in the home header but keep the element's space */
-  .page__hero--overlay {
-    min-height: 200px;
-  }
-  .page__hero--overlay h1,
-  .page__hero--overlay .page__title {
-    visibility: hidden;
-    font-size: 0;
-    line-height: 0;
-    margin: 0;
-    padding: 0;
-    height: 0;
-    overflow: hidden;
-  }
-</style>
+<!-- ========== DYNAMIC PARTICLE HERO (Canvas) ========== -->
+<canvas id="heroCanvas" style="width:100%; height:500px; display:block; background:#0a1a2a;"></canvas>
+<div style="background: linear-gradient(135deg, #0a1a2a 0%, #1a2a3a 100%); color: white; padding: 2rem; text-align: center; margin-top: -5px;">
+  <h1 style="margin:0; font-size: 2.5rem;">ResMod Solutions</h1>
+  <p style="font-size:1.2rem; max-width: 800px; margin: 1rem auto;">Precision simulation for subsurface energy systems – CO₂ geosequestration, H₂ storage, EOR, and reservoir performance.</p>
+  <div style="margin-top:1.5rem;">
+    <a href="/resmod-solutions/services/" class="btn btn--primary" style="margin-right: 1rem;">Explore Services</a>
+    <a href="/resmod-solutions/services/student-projects/" class="btn btn--light-outline">Student Support</a>
+  </div>
+</div>
 
-<!-- Second header: custom block with title, excerpt, and action buttons -->
+<script>
+  (function() {
+    const canvas = document.getElementById('heroCanvas');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    let width, height;
+    let particles = [];
+
+    function resizeCanvas() {
+      width = canvas.clientWidth;
+      height = canvas.clientHeight;
+      canvas.width = width;
+      canvas.height = height;
+      initParticles();
+    }
+
+    function initParticles() {
+      particles = [];
+      const count = Math.floor(width * height / 4000); // adaptive density
+      for (let i = 0; i < count; i++) {
+        particles.push({
+          x: Math.random() * width,
+          y: Math.random() * height,
+          radius: Math.random() * 3 + 1,
+          vx: (Math.random() - 0.5) * 0.8,
+          vy: (Math.random() - 0.5) * 0.8 + 0.3,
+          color: `hsl(${200 + Math.random() * 40}, 80%, 60%)`
+        });
+      }
+    }
+
+    function draw() {
+      ctx.clearRect(0, 0, width, height);
+      for (let p of particles) {
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+        ctx.fillStyle = p.color;
+        ctx.fill();
+        // update
+        p.x += p.vx;
+        p.y += p.vy;
+        // wrap around with subtle bounce? simpler: wrap
+        if (p.x < 0) p.x = width;
+        if (p.x > width) p.x = 0;
+        if (p.y < 0) p.y = height;
+        if (p.y > height) p.y = 0;
+      }
+      requestAnimationFrame(draw);
+    }
+
+    window.addEventListener('resize', () => { resizeCanvas(); });
+    resizeCanvas();
+    draw();
+  })();
+</script>
+
+<!-- ========== CUSTOM SECOND HEADER (Original style but cleaner) ========== -->
 <div style="background-color: #f8f9fa; padding: 2rem; margin-bottom: 2rem; border-radius: 8px; text-align: justify;">
-  <h1 style="margin-bottom: 0.5rem;">ResMod Solutions</h1>
-  <p style="font-size: 1.2rem; margin-bottom: 1rem;"> Upstream oil & gas, CO₂ geosequestration, and underground H₂ storage solutions. Empowering Engineers through training in Open-Source modelling & simulation tools.</p>
+  <h2 style="margin-bottom: 0.5rem;">Empowering Engineers Through Open‑Source Training</h2>
+  <p style="font-size: 1.1rem; margin-bottom: 1rem;">We combine deep industry experience with practical, hands‑on workshops in MRST, PFLOTRAN, and PHREEQC.</p>
   <div>
-    <a href="/resmod-solutions/services/" class="btn btn--primary">Explore Services</a>
-    <a href="/resmod-solutions/services/student-projects/" class="btn btn--primary">Student Support</a>
+    <a href="/resmod-solutions/training-hub/" class="btn btn--primary">View Workshops</a>
   </div>
 </div>
 
 <!-- Testimonials section -->
 <h2 style="text-align: center; margin-top: 2rem;">What our clients say</h2>
-
 <div style="display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; margin: 2rem 0;">
   <div style="flex: 1; min-width: 250px; background: #f0f0f0; padding: 1.5rem; border-radius: 8px;">
     <p style="font-style: italic;">“ResMod’s simulation insights helped us reduce exploration uncertainty by 30%.”</p>
@@ -137,7 +187,7 @@ feature_row2:
   </div>
 </div>
 
-<!-- Our Clients / Partners section -->
+<!-- Clients & Partners section -->
 <h2 style="text-align: center; margin-top: 3rem;">Clients & Partners</h2>
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; align-items: center; margin: 2rem 0;">
   <img src="/resmod-solutions/assets/images/logo.jpg" alt="Client 1" style="max-width: 120px; height: auto;">
