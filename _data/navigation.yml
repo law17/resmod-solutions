@@ -1,6 +1,6 @@
 main:
   - title: "Home"
-    url: /resmod-solutions/
+    url: /
   - title: "About"
     url: /resmod-solutions/about/
   - title: "Services"
