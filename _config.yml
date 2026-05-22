@@ -72,12 +72,14 @@ include:
 footer:
   links:
     - label: "Services"
-      icon: "fas fa-cogs"   # or "fas fa-server" etc.
-      url: "/resmod-solutions/services/"      # your services landing page
-    - label: "About"
+      icon: "fas fa-cogs"  
+      url: "/resmod-solutions/services/"      
       icon: "fas fa-info-circle"
       url: "/resmod-solutions/about/"
     - label: "Careers"
       icon: "fas fa-briefcase"
-      url: "/resmod-solutions/careers/"       # you'll need to create this page
+      url: "/resmod-solutions/careers/"   
+    - label: "Contact"
+      icon: "fas fa-envelope"
+      url: "/contact/"
 
