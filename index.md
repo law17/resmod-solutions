@@ -1,112 +1,144 @@
 ---
-layout: splash
-title: ""
-header: 
-  overlay_image: /assets/images/logo.jpg
-  caption: "Precision simulation for subsurface energy systems"
-  overlay_color: "#1a1a2e"
-feature_row:
-  - image_path: /resmod-solutions/assets/images/co2-storage.jpg
-    alt: "CO₂ Storage"
-    title: "CO₂ Storage"
-    excerpt: "Plume migration, trap integrity, geochemical trapping."
-    url: /resmod-solutions/services/co2-storage/
-    btn_label: "Learn More"
-    btn_class: "btn--primary"
-  - image_path: /resmod-solutions/assets/images/h2-storage.jpg
-    alt: "H₂ Storage"
-    title: "H₂ Storage"
-    excerpt: "Cyclic injection, cushion gas, cushion integrity."
-    url: /resmod-solutions/services/h2-storage/
-    btn_label: "Learn More"
-    btn_class: "btn--primary"
-  - image_path: /resmod-solutions/assets/images/eor.jpg
-    alt: "EOR"
-    title: "EOR"
-    excerpt: "Waterflood, gas injection, chemical EOR forecasting."
-    url: /resmod-solutions/services/eor/
-    btn_label: "Learn More"
-    btn_class: "btn--primary"
-feature_row2:
-  - image_path: /resmod-solutions/assets/images/reservoir-performance.jpg
-    alt: "Reservoir Performance"
-    title: "Reservoir Performance"
-    excerpt: "Decline curve analysis, history matching, field forecasts."
-    url: /resmod-solutions/services/reservoir-performance/
-    btn_label: "Learn More"
-    btn_class: "btn--primary"
-  - image_path: /resmod-solutions/assets/images/student-project.jpg
-    alt: "Student Projects"
-    title: "Student Project Assistance"
-    excerpt: "BSc, MSc, PhD modelling help. Supervision & review."
-    url: /resmod-solutions/services/student-projects/
-    btn_label: "Support"
-    btn_class: "btn--primary"
-  - image_path: /resmod-solutions/assets/images/training-workshop.jpg
-    alt: "Training"
-    title: "Open-Source Training"
-    excerpt: "MRST, PFLOTRAN, PHREEQC workshops. Hands-on online."
-    url: /resmod-solutions/services/training/
-    btn_label: "View Workshops"
-    btn_class: "btn--primary"
+layout: default
+title: "ResMod Solutions"
+permalink: /
 ---
 
-<style>
-  * {
-    text-align: justify !important;
-  }
-  h1, h2, h3, h4, h5, h6, .btn, nav, .masthead, .page__hero-caption {
-    text-align: left !important;
-  }
-</style>
+<section class="rs-hero">
+  <div class="rs-hero__overlay"></div>
 
-<style>
-  /* Hide the title text in the home header but keep the element's space */
-  .page__hero--overlay {
-    min-height: 200px; /* adjust this to your image's natural height */
-  }
-  .page__hero--overlay h1,
-  .page__hero--overlay .page__title {
-    visibility: hidden;
-    font-size: 0;
-    line-height: 0;
-    margin: 0;
-    padding: 0;
-    height: 0;
-    overflow: hidden;
-  }
-</style>
+  <div class="rs-navbar">
+    <a class="rs-brand" href="{{ site.baseurl }}/">
+      <img src="{{ site.baseurl }}/assets/images/logo.svg" alt="ResMod Solutions logo">
+    </a>
 
-<!-- Second header: custom block with title, excerpt, and action buttons -->
-<div style="background-color: #f8f9fa; padding: 2rem; margin-bottom: 2rem; border-radius: 8px; text-align: justify;">
-  <h1 style="margin-bottom: 0.5rem;">ResMod Solutions</h1>
-  <p style="font-size: 1.2rem; margin-bottom: 1rem;"> Upstream oil & gas, CO₂ geosequestraion, and underground H₂ storage solutions. Empowering Engineers through training in Open-Source modelling & simulation tools.</p>
+    <nav class="rs-menu" aria-label="Main navigation">
+      <a href="{{ site.baseurl }}/about/">About</a>
+      <a href="{{ site.baseurl }}/services/">Services</a>
+      <a href="{{ site.baseurl }}/training-hub/">Training</a>
+      <a href="{{ site.baseurl }}/services/student-projects/">Research Support</a>
+      <a href="{{ site.baseurl }}/contact/">Contact</a>
+    </nav>
+  </div>
+
+  <div class="rs-hero__content">
+    <div class="rs-hero__text">
+      <span class="rs-kicker">Subsurface simulation consultancy</span>
+
+      <h1>
+        Advanced Reservoir<br>
+        Simulation &<br>
+        <span>Energy Modelling</span>
+      </h1>
+
+      <div class="rs-service-line">
+        <span>CO₂ Storage</span>
+        <span>H₂ Storage</span>
+        <span>EOR</span>
+        <span>Reservoir Prediction</span>
+      </div>
+
+      <p>
+        ResMod Solutions delivers specialist modelling, simulation, training, and technical
+        advisory services for subsurface energy systems. We support CO₂ storage, underground
+        hydrogen storage, enhanced oil recovery, reservoir performance forecasting, and
+        research-led modelling workflows.
+      </p>
+
+      <div class="rs-actions">
+        <a class="rs-btn rs-btn--primary" href="{{ site.baseurl }}/services/">Explore Services</a>
+        <a class="rs-btn rs-btn--ghost" href="{{ site.baseurl }}/contact/">Contact Us</a>
+      </div>
+    </div>
+
+    <div class="rs-hero__panel">
+      <img src="{{ site.baseurl }}/assets/images/reservoir-performance.jpg" alt="Reservoir simulation dashboard">
+      <div class="rs-panel__badge">Simulation • Forecasting • Insight</div>
+    </div>
+  </div>
+</section>
+
+<section class="rs-services">
+  <article class="rs-card rs-card--co2">
+    <img src="{{ site.baseurl }}/assets/images/co2-storage.jpg" alt="CO₂ storage modelling">
+    <div class="rs-card__body">
+      <span class="rs-icon">CO₂</span>
+      <h2>CO₂ Storage Modelling</h2>
+      <p>
+        Reservoir screening, injectivity assessment, plume migration, containment analysis,
+        and geochemical trapping workflows for secure CO₂ storage.
+      </p>
+      <a href="{{ site.baseurl }}/services/co2-storage/">Learn More →</a>
+    </div>
+  </article>
+
+  <article class="rs-card rs-card--h2">
+    <img src="{{ site.baseurl }}/assets/images/h2-storage.jpg" alt="H₂ storage simulation">
+    <div class="rs-card__body">
+      <span class="rs-icon">H₂</span>
+      <h2>H₂ Storage Simulation</h2>
+      <p>
+        Underground hydrogen storage performance, cushion gas behaviour, caprock integrity,
+        cyclic injection and withdrawal modelling.
+      </p>
+      <a href="{{ site.baseurl }}/services/h2-storage/">Learn More →</a>
+    </div>
+  </article>
+
+  <article class="rs-card rs-card--eor">
+    <img src="{{ site.baseurl }}/assets/images/eor.jpg" alt="EOR and reservoir forecasting">
+    <div class="rs-card__body">
+      <span class="rs-icon">EOR</span>
+      <h2>EOR & Reservoir Forecasting</h2>
+      <p>
+        Enhanced recovery studies, history matching support, decline analysis, production
+        forecasting, uncertainty and sensitivity assessment.
+      </p>
+      <a href="{{ site.baseurl }}/services/eor/">Learn More →</a>
+    </div>
+  </article>
+</section>
+
+<section class="rs-about-strip">
   <div>
-    <a href="/resmod-solutions/services/" class="btn btn--primary">Explore Services</a>
-    <a href="/resmod-solutions/services/student-projects/" class="btn btn--primary">Student Support</a>
+    <span class="rs-kicker">Why ResMod Solutions</span>
+    <h2>Modelling, simulation, insight, and impact.</h2>
   </div>
-</div>
+  <p>
+    We combine reservoir engineering, geochemical modelling, reactive transport simulation,
+    and Python-based analysis to help clients and researchers understand complex subsurface
+    systems and make better technical decisions.
+  </p>
+</section>
 
-<!-- Testimonials section -->
-<h2 style="text-align: center; margin-top: 2rem;">What our clients say</h2>
+<section class="rs-secondary">
+  <article>
+    <img src="{{ site.baseurl }}/assets/images/training-workshop.jpg" alt="Open-source modelling training">
+    <div>
+      <h2>Open-Source Software Training</h2>
+      <p>
+        Practical training in reservoir simulation, geochemical modelling, reactive transport,
+        PHREEQC, PFLOTRAN, MRST, and Python workflows.
+      </p>
+      <a class="rs-link" href="{{ site.baseurl }}/training-hub/">View Training →</a>
+    </div>
+  </article>
 
-<div style="display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; margin: 2rem 0;">
-  <div style="flex: 1; min-width: 250px; background: #f0f0f0; padding: 1.5rem; border-radius: 8px;">
-    <p style="font-style: italic;">“ResMod’s simulation insights helped us reduce exploration uncertainty by 30%.”</p>
-    <p style="margin-bottom: 0; font-weight: bold;">— Jones, Geoworks Ltd</p>
-  </div>
-  <div style="flex: 1; min-width: 250px; background: #f0f0f0; padding: 1.5rem; border-radius: 8px;">
-    <p style="font-style: italic;">“The CO₂ storage modelling was precise and delivered ahead of schedule.”</p>
-    <p style="margin-bottom: 0; font-weight: bold;">— Chen, Carbon Works</p>
-  </div>
-</div>
+  <article>
+    <img src="{{ site.baseurl }}/assets/images/student-project.jpg" alt="Research support and modelling guidance">
+    <div>
+      <h2>Research & Student Support</h2>
+      <p>
+        Technical mentoring, model setup guidance, troubleshooting, interpretation support,
+        and research workflow development for BSc, MSc, and PhD projects.
+      </p>
+      <a class="rs-link" href="{{ site.baseurl }}/services/student-projects/">Get Support →</a>
+    </div>
+  </article>
+</section>
 
-
-<!-- Our Clients / Partners section -->
-<h2 style="text-align: center; margin-top: 3rem;"> Clients & Partners</h2>
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; align-items: center; margin: 2rem 0;">
-  <img src="/resmod-solutions/assets/images/logo.jpg" alt="Client 1" style="max-width: 120px; height: auto;">
-  <img src="/resmod-solutions/assets/images/logo.jpg" alt="Client 2" style="max-width: 120px; height: auto;">
-  <img src="/resmod-solutions/assets/images/logo.jpg" alt="Client 3" style="max-width: 120px; height: auto;">
-  <img src="/resmod-solutions/assets/images/logo.jpg" alt="Client 4" style="max-width: 120px; height: auto;">
-</div>
+<section class="rs-cta">
+  <h2>Need modelling support for a reservoir, CO₂ storage, H₂ storage, or research project?</h2>
+  <p>Send a brief description of your project and we will help define the right modelling workflow.</p>
+  <a class="rs-btn rs-btn--primary" href="{{ site.baseurl }}/contact/">Start a Conversation</a>
+</section>
