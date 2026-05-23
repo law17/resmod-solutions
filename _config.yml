@@ -47,10 +47,10 @@ defaults:
       share: true
       # Add author details here
       author:
-        name: "Lawrence"
+        name: "Emma"
         avatar: "/assets/images/logo.png"
         bio: "Subsurface modelling specialist. Open‑source enthusiast."
-        location: "Scotland, UK"
+        location: "city, contry"
         email: "blessv2013@gmail.com"
 
 # Pagination
@@ -74,9 +74,8 @@ footer:
     - label: "Services"
       icon: "fas fa-cogs"  
       url: "/strataflux-energy/services/"      
+    - label: "About"
       icon: "fas fa-info-circle"
-    - label "About"
-      icon: "fas fa-square"
       url: "/strataflux-energy/about/"
     - label: "Careers"
       icon: "fas fa-briefcase"
