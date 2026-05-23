@@ -62,6 +62,6 @@ permalink: /services/h2-storage/
 
     <p><strong>Software:</strong> MRST, OpenFOAM (for CFD aspects), Python utilities.</p>
 
-    <p><a href="/resmod-solutions/contact/" class="btn btn--primary">Request a consultation →</a></p>
+    <p><a href="/strataflux-energy/contact/" class="btn btn--primary">Request a consultation →</a></p>
   </div>
 </div>

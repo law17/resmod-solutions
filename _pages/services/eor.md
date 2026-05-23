@@ -62,6 +62,6 @@ permalink: /services/eor/
 
     <p><strong>Software:</strong> MRST, open‑source compositional simulators, Python.</p>
 
-    <p><a href="/resmod-solutions/contact/" class="btn btn--primary">Request a consultation →</a></p>
+    <p><a href="/strataflux-energy/contact/" class="btn btn--primary">Request a consultation →</a></p>
   </div>
 </div>
