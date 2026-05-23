@@ -365,7 +365,7 @@ feature_row2: []
 </div>
 
 <!-- ========== WHY CHOOSE US ========== -->
-<h2 style="text-align: center; margin: 3rem 0 1.5rem;">Why Choose ResMod?</h2>
+<h2 style="text-align: center; margin: 3rem 0 1.5rem;">Why Choose StrataFlux Energy?</h2>
 <div style="display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; margin-bottom: 3rem;">
   <div style="flex: 1; min-width: 200px; text-align: center; padding: 1rem;">
     <div style="font-size: 2.5rem;">⚙️</div>
@@ -388,7 +388,7 @@ feature_row2: []
 <h2 style="text-align: center; margin-top: 2rem;">What Our Clients Say</h2>
 <div style="display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; margin: 2rem 0;">
   <div style="flex: 1; min-width: 250px; background: #f0f0f0; padding: 1.5rem; border-radius: 8px;">
-    <p style="font-style: italic;">“ResMod’s simulation insights helped us reduce exploration uncertainty by 30%.”</p>
+    <p style="font-style: italic;">“StrataFlux Energy’s simulation insights helped us reduce exploration uncertainty by 30%.”</p>
     <p style="margin-bottom: 0; font-weight: bold;">— Jones, Geoworks Ltd</p>
   </div>
   <div style="flex: 1; min-width: 250px; background: #f0f0f0; padding: 1.5rem; border-radius: 8px;">
