@@ -15,7 +15,7 @@ permalink: /about/
 
 ## Who We Are
 
-Resmod Solutions is an independent consultancy specialising in advanced subsurface modelling and simulation for carbon storage, hydrogen storage, and upstream oil & gas.
+StrataFlux Energy is an independent consultancy specialising in advanced subsurface modelling and simulation for carbon storage, hydrogen storage, and upstream oil & gas.
 
 We provide technical expertise in reservoir simulation, geochemical modelling, reactive transport analysis, uncertainty assessment, and computational workflows to support energy companies, researchers, academic institutions, and project developers.
 
