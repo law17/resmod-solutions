@@ -1,11 +1,11 @@
 # Site Settings
-title: "ResMod Solutions"
+title: "StrataFlux Energy"
 title_separator: "|"
 subtitle: "Subsurface Simulation & Student Training"
 description: "Expert modelling for CO₂ storage, H₂ storage, EOR, and reservoir performance. Hands-on open-source training for students."
-baseurl: "/resmod-solutions"    # must match your repo name for project sites!
+baseurl: "/strataflux-energy"    # must match your repo name for project sites!
 url: "https://law17.github.io"
-repository: "law17/resmod-solutions"
+repository: "law17/strataflux-energy"
 
 # Theme
 remote_theme: "mmistakes/minimal-mistakes"
@@ -14,7 +14,7 @@ minimal_mistakes_skin: "air"
 # Site Settings
 locale: "en-US"
 logo: "/assets/images/logo.png"
-masthead_title: "ResMod Solutions"
+masthead_title: "StrataFlux Energy"
 breadcrumbs: true
 search: false
 
@@ -48,7 +48,7 @@ defaults:
       # Add author details here
       author:
         name: "Lawrence"
-        avatar: "/assets/images/logo.jpg"
+        avatar: "/assets/images/logo.png"
         bio: "Subsurface modelling specialist. Open‑source enthusiast."
         location: "Scotland, UK"
         email: "blessv2013@gmail.com"
@@ -73,12 +73,12 @@ footer:
   links:
     - label: "Services"
       icon: "fas fa-cogs"  
-      url: "/resmod-solutions/services/"      
+      url: "/strataflux-energy/services/"      
       icon: "fas fa-info-circle"
-      url: "/resmod-solutions/about/"
+      url: "/strataflux-energy/about/"
     - label: "Careers"
       icon: "fas fa-briefcase"
-      url: "/resmod-solutions/careers/"   
+      url: "/strataflux-energy/careers/"   
     - label: "Contact"
       icon: "fas fa-envelope"
       url: "/contact/"
