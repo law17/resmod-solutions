@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "About ResMod Solutions"
+title: "About StrataFlux Energy"
 permalink: /about/
 ---
 
