@@ -20,7 +20,7 @@ permalink: /training-hub/
 **Request a Custom Workshop**  
 We can tailor a workshop for your university department or research group.  
 
-[Contact us with your requirements.](/resmod-solutions/contact/)
+[Contact us with your requirements.](/strataflux-energy/contact/)
 
 **Free Resources**  
-Check the [Blog](/resmod-solutions/blog/) for tutorials and simulation tips.
+Check the [Blog](/strataflux-energy/blog/) for tutorials and simulation tips.
