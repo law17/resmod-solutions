@@ -1,4 +1,4 @@
-/* ResMod Solutions homepage upgrade */
+/* StrataFlux Energy homepage upgrade */
 
 /* Hide Minimal Mistakes masthead only on the homepage because this page has its own nav */
 body.layout--default .masthead {
@@ -36,7 +36,7 @@ body.layout--default .masthead {
   color: var(--rs-text);
   background:
     linear-gradient(90deg, rgba(3, 9, 20, 0.98) 0%, rgba(3, 9, 20, 0.88) 38%, rgba(3, 9, 20, 0.42) 100%),
-    url("/resmod-solutions/assets/images/hero-co2-h2.png") center right / cover no-repeat;
+    url("/strataflux-energy/assets/images/hero-co2-h2.png") center right / cover no-repeat;
   border-bottom: 1px solid var(--rs-border);
 }
 
