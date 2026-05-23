@@ -14,7 +14,7 @@ permalink: /careers/
 </style>
 
 ## Join Our Team
-Thank you for showing interest in ResMod Solutions. We are always looking for talented subsurface engineers, modellers, and simulation specialists.
+Thank you for showing interest in StrataFlux Energy. We are always looking for talented subsurface engineers, modellers, and simulation specialists.
 
 ### Current Openings
 *There are no open positions at the moment, but we welcome speculative applications.*
