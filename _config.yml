@@ -1,7 +1,7 @@
 # Site Settings
 title: "StrataFlux Energy"
 title_separator: "|"
-subtitle: "Subsurface Simulation & Student Training"
+subtitle: " "
 description: "Expert modelling for CO₂ storage, H₂ storage, EOR, and reservoir performance. Hands-on open-source training for students."
 baseurl: "/strataflux-energy"    # must match your repo name for project sites!
 url: "https://law17.github.io"
