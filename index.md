@@ -400,8 +400,8 @@ feature_row2: []
 <!-- ========== CLIENTS & PARTNERS ========== -->
 <h2 style="text-align: center; margin-top: 3rem;">Clients & Partners</h2>
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; align-items: center; margin: 2rem 0;">
-  <img src="/strataflux-energys/assets/images/logo.jpg" alt="Client 1" style="max-width: 120px; height: auto;">
-  <img src="/strataflux-energys/assets/images/logo.jpg" alt="Client 2" style="max-width: 120px; height: auto;">
-  <img src="/strataflux-energys/assets/images/logo.jpg" alt="Client 3" style="max-width: 120px; height: auto;">
-  <img src="/strataflux-energys/assets/images/logo.jpg" alt="Client 4" style="max-width: 120px; height: auto;">
+  <img src="/strataflux-energy/assets/images/logo.jpg" alt="Client 1" style="max-width: 120px; height: auto;">
+  <img src="/strataflux-energy/assets/images/logo.jpg" alt="Client 2" style="max-width: 120px; height: auto;">
+  <img src="/strataflux-energy/assets/images/logo.jpg" alt="Client 3" style="max-width: 120px; height: auto;">
+  <img src="/strataflux-energy/assets/images/logo.jpg" alt="Client 4" style="max-width: 120px; height: auto;">
 </div>
