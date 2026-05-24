@@ -180,19 +180,19 @@ feature_row2: []
 
 <!-- ========== HERO: AUTO-ROTATING CONCEPT CAROUSEL ========== -->
 <div class="carousel-container" id="conceptCarousel">
-  <div class="carousel-slide" style="background-image: url('/strataflux-energys/assets/images/concept-co2.jpg');">
+  <div class="carousel-slide" style="background-image: url('/assets/images/concept-co2.jpg');">
     <div class="carousel-caption">
       <h2>CO₂ Storage Modelling</h2>
       <p>Plume migration, trap integrity, geochemical trapping</p>
     </div>
   </div>
-  <div class="carousel-slide" style="background-image: url('/strataflux-energys/assets/images/concept-h2.jpg');">
+  <div class="carousel-slide" style="background-image: url('/assets/images/concept-h2.jpg');">
     <div class="carousel-caption">
       <h2>Hydrogen Storage Simulation</h2>
       <p>Cyclic injection, cushion gas, geochemical reactivity</p>
     </div>
   </div>
-  <div class="carousel-slide" style="background-image: url('/strataflux-energys/assets/images/concept-upstream.jpg');">
+  <div class="carousel-slide" style="background-image: url('/assets/images/concept-upstream.jpg');">
     <div class="carousel-caption">
       <h2>Upstream Oil & Gas Solutions</h2>
       <p>EOR, reservoir performance, decline curve analysis, history matching</p>
@@ -259,8 +259,8 @@ feature_row2: []
 <div style="background: linear-gradient(135deg, #0a2540 0%, #1a3a5a 100%); color: white; padding: 2rem; text-align: justify;">
   <p style="font-size:1.2rem; margin: 0; text-align: justify;">Precision simulation for subsurface energy systems. Empowering engineers through advanced modelling and open-source training.</p>
   <div style="margin-top:1.5rem; text-align: justify;">
-    <a href="/strataflux-energy/services/" class="btn btn--primary" style="margin-right: 1rem;">Explore Services</a>
-    <a href="/strataflux-energy/contact/" class="btn btn--light-outline">Contact Us</a>
+    <a href="/services/" class="btn btn--primary" style="margin-right: 1rem;">Explore Services</a>
+    <a href="/contact/" class="btn btn--light-outline">Contact Us</a>
   </div>
 </div>
 
@@ -335,27 +335,27 @@ feature_row2: []
 <!-- ========== SERVICES SECTION (CLICKABLE CARDS WITH HOVER) ========== -->
 <h2 style="text-align: center; margin: 3rem 0 1.5rem;">Our Core Services</h2>
 <div class="services-grid">
-  <a href="/strataflux-energy/services/co2-storage/" class="service-card">
+  <a href="/services/co2-storage/" class="service-card">
     <h3>CO₂ Storage</h3>
     <p>Plume migration, trap integrity, geochemical trapping.</p>
     <span class="metric">↓ 40% leakage risk</span>
   </a>
-  <a href="/strataflux-energy/services/h2-storage/" class="service-card">
+  <a href="/services/h2-storage/" class="service-card">
     <h3>H₂ Storage</h3>
     <p>Cyclic injection, cushion gas, geochemical reactivity.</p>
     <span class="metric">↑ 25% efficiency</span>
   </a>
-  <a href="/strataflux-energy/services/upstream-oil-gas/" class="service-card">
+  <a href="/services/upstream-oil-gas/" class="service-card">
     <h3>Upstream Oil & Gas</h3>
     <p>EOR, reservoir performance, decline curve analysis, history matching, field forecasts.</p>
     <span class="metric">↑ 34% recovery & accurate forecasts</span>
   </a>
-  <a href="/strataflux-energy/services/student-projects/" class="service-card">
+  <a href="/services/student-projects/" class="service-card">
     <h3>Student Project Support</h3>
     <p>BSc, MSc, PhD modelling help & mentorship.</p>
     <span class="metric">🎓 1-on-1 coaching</span>
   </a>
-  <a href="/strataflux-energy/services/training/" class="service-card">
+  <a href="/services/training/" class="service-card">
     <h3>Open‑Source Training</h3>
     <p>MRST, PFLOTRAN, PHREEQC workshops – online & live.</p>
     <span class="metric">💻 Hands‑on</span>
@@ -398,8 +398,8 @@ feature_row2: []
 <!-- ========== CLIENTS & PARTNERS ========== -->
 <h2 style="text-align: center; margin-top: 3rem;">Clients & Partners</h2>
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; align-items: center; margin: 2rem 0;">
-  <img src="/strataflux-energy/assets/images/logo.jpg" alt="Client 1" style="max-width: 120px; height: auto;">
-  <img src="/strataflux-energy/assets/images/logo.jpg" alt="Client 2" style="max-width: 120px; height: auto;">
-  <img src="/strataflux-energy/assets/images/logo.jpg" alt="Client 3" style="max-width: 120px; height: auto;">
-  <img src="/strataflux-energy/assets/images/logo.jpg" alt="Client 4" style="max-width: 120px; height: auto;">
+  <img src="/assets/images/logo.jpg" alt="Client 1" style="max-width: 120px; height: auto;">
+  <img src="/assets/images/logo.jpg" alt="Client 2" style="max-width: 120px; height: auto;">
+  <img src="/assets/images/logo.jpg" alt="Client 3" style="max-width: 120px; height: auto;">
+  <img src="/assets/images/logo.jpg" alt="Client 4" style="max-width: 120px; height: auto;">
 </div>
