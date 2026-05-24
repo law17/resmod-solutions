@@ -23,4 +23,4 @@ We can tailor a workshop for your university department or research group.
 [Contact us with your requirements.](/contact/)
 
 **Free Resources**  
-Check the [Blog](/strataflux-energy/blog/) for tutorials and simulation tips.
+Check the [Blog](/blog/) for tutorials and simulation tips.
