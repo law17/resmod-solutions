@@ -63,6 +63,6 @@ permalink: /services/co2-storage/
 
     <p><strong>Software:</strong> MRST, PFLOTRAN, PHREEQC, CMG (on request), Python scripting for automation.</p>
 
-    <p><a href="/strataflux-energy/contact/" class="btn btn--primary">Request a consultation →</a></p>
+    <p><a href="/contact/" class="btn btn--primary">Request a consultation →</a></p>
   </div>
 </div>
