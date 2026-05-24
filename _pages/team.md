@@ -10,7 +10,7 @@ permalink: /team/
     <h3>Dr. O. Nimo</h3>
     <p><strong>Founder & Lead Modeller</strong><br>15+ years in reservoir simulation, CO₂ storage, and EOR.</p>
     <p>🔹 Specialties: MRST, PFLOTRAN, Python workflows</p>
-    <p><a href="/strataflux-energy/contact/">Contact</a></p>
+    <p><a href="/contact/">Contact</a></p>
   </div>
   <!-- Add more experts similarly -->
 </div>
