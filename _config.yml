@@ -75,12 +75,12 @@ include:
 # Footer
 footer:
   links:
-    - label: "Services"
-      icon: "fas fa-cogs"  
-      url: "/services/"      
     - label: "About"
       icon: "fas fa-info-circle"
       url: "/about/"
+    - label: "Services"
+      icon: "fas fa-cogs"  
+      url: "/services/"      
     - label: "Careers"
       icon: "fas fa-briefcase"
       url: "/careers/"   
