@@ -63,6 +63,6 @@ permalink: /services/reservoir-performance/
 
     <p><strong>Software:</strong> Python (scipy, pandas), MRST, Excel (structured).</p>
 
-    <p><a href="/strataflux-energy/contact/" class="btn btn--primary">Request a consultation →</a></p>
+    <p><a href="/contact/" class="btn btn--primary">Request a consultation →</a></p>
   </div>
 </div>
