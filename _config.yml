@@ -3,8 +3,8 @@ title: "StrataFlux Energy"
 title_separator: "|"
 subtitle: " "
 description: "Expert modelling for CO₂ storage, H₂ storage, EOR, and reservoir performance. Hands-on open-source training for students."
-baseurl: "/strataflux-energy"    # must match your repo name for project sites!
-url: "https://law17.github.io"
+baseurl: "/strataflux-energy"         # must match your repo name for project sites, i.e. "_config.yml" directly/folder
+url: "https://stratafluxenergy.com"   # "https://law17.github.io"
 repository: "law17/strataflux-energy"
 
 # Theme
