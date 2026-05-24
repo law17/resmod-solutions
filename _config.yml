@@ -3,7 +3,7 @@ title: "StrataFlux Energy"
 title_separator: "|"
 subtitle: " "
 description: "Expert modelling for CO₂ storage, H₂ storage, EOR, and reservoir performance. Hands-on open-source training for students."
-baseurl: "/strataflux-energy"         # must match your repo name for project sites, i.e. "_config.yml" directly/folder
+baseurl: " " #"/strataflux-energy"         # must match your repo name for project sites, i.e. "_config.yml" directly/folder
 url: "https://stratafluxenergy.com"   # "https://law17.github.io"
 repository: "law17/strataflux-energy"
 
@@ -77,14 +77,14 @@ footer:
   links:
     - label: "Services"
       icon: "fas fa-cogs"  
-      url: "/strataflux-energy/services/"      
+      url: "/services/"      
     - label: "About"
       icon: "fas fa-info-circle"
-      url: "/strataflux-energy/about/"
+      url: "/about/"
     - label: "Careers"
       icon: "fas fa-briefcase"
-      url: "/strataflux-energy/careers/"   
+      url: "/careers/"   
     - label: "Contact"
       icon: "fas fa-envelope"
-      url: "/straflux-energy/contact/"
+      url: "/contact/"
 
