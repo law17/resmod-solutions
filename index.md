@@ -489,7 +489,7 @@ feature_row2: []
         label: "Carbon Storage",
         title: "Advanced CO₂ Storage Modelling",
         text: "Science-driven modelling workflows for storage screening, plume migration, injectivity, trapping mechanisms, and long-term subsurface performance.",
-        image: "/assets/images/co2_storage.png",
+        image: "/assets/images/co2_storage_reduced.png",
         alt: "CO₂ storage modelling concept",
         link: "/services/co2-storage/",
         button: "Explore CO₂ Storage"
@@ -498,7 +498,7 @@ feature_row2: []
         label: "Hydrogen Storage",
         title: "Underground H₂ Storage Simulation",
         text: "Technical modelling for cushion gas behaviour, cyclic injection and withdrawal, containment risk, geochemical reactivity, and storage performance.",
-        image: "/assets/images/h2_storage.png",
+        image: "/assets/images/h2_storage_reduced.png",
         alt: "Hydrogen storage simulation concept",
         link: "/services/h2-storage/",
         button: "Explore H₂ Storage"
@@ -507,7 +507,7 @@ feature_row2: []
         label: "Upstream Oil & Gas",
         title: "Reservoir Performance Forecasting",
         text: "Integrated simulation, history matching, decline analysis, and uncertainty assessment to support better oil & gas reservoir decisions.",
-        image: "/assets/images/reservoir_performance.png",
+        image: "/assets/images/reservoir_performance_reduced.png",
         alt: "Reservoir performance forecasting concept",
         link: "/services/upstream-oil-gas/",
         button: "Explore Forecasting"
