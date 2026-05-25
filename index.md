@@ -268,11 +268,11 @@ feature_row2: []
 <div class="rotator-container" id="rotator">
   <div class="rotator-item active" data-index="0">
     <h3>Our Mission</h3>
-    <p style="font-size: 1.1rem; text-align: justify;">To develop advanced modelling solutions and foster technical expertise for carbon storage, hydrogen storage, EOR, and reservoir management, while empowering engineers through open-source training.</p>
+    <p style="font-size: 1.1rem; text-align: justify;">To support informed subsurface decision-making through advanced modelling, simulation, and technical expertise across the energy sector.</p>
   </div>
   <div class="rotator-item" data-index="1">
     <h3>Our Vision</h3>
-    <p style="font-size: 1.1rem; text-align: justify;">To be a trusted global partner in delivering reliable, science-driven subsurface energy solutions that advance the energy industry.</p>
+    <p style="font-size: 1.1rem; text-align: justify;">To shape the future of subsurface energy through innovation, technical expertise, and scientifically grounded solutions.</p>
   </div>
   <div class="rotator-item" data-index="2">
     <h3>Our Core Values</h3>
