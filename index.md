@@ -267,22 +267,24 @@ feature_row2: []
 <!-- ========== ROTATING MISSION/VISION/VALUES ========== -->
 <div class="rotator-container" id="rotator">
   <div class="rotator-item active" data-index="0">
-    <h3>Our Mission</h3>
+    <h3 style="text-align: left;">Our Mission</h3>
     <p style="font-size: 1.1rem; text-align: justify;">To support informed subsurface decision-making through advanced modelling, simulation, and technical expertise across the energy sector.</p>
   </div>
   <div class="rotator-item" data-index="1">
-    <h3>Our Vision</h3>
-    <p style="font-size: 1.1rem; text-align: justify;">To shape the future of subsurface energy through innovation, technical expertise, and scientifically grounded solutions.</p>
+    <h3 style="text-align: left;">Our Vision</h3>
+    <p style="font-size: 1.1rem; justify;">To shape the future of subsurface energy through innovation, technical expertise, and scientifically grounded solutions.</p>
   </div>
   <div class="rotator-item" data-index="2">
-    <h3>Our Core Values</h3>
-    <ul style="font-size: 1.1rem; text-align: left; list-style-type: none; padding-left: 0; margin: 0;">
-      <li style="margin-bottom: 0.5rem;">Scientific Excellence</li>
-      <li style="margin-bottom: 0.5rem;">Simulation Integrity</li>
-      <li style="margin-bottom: 0.5rem;">Innovation</li>
-      <li style="margin-bottom: 0.5rem;">Collaborative Excellence</li>
-      <li>Practical Impact</li>
-    </ul>
+    <div style="text-align: left;">
+      <h3>Our Core Values</h3>
+      <ul style="font-size: 1.1rem; text-align: left; list-style-type: none; padding-left: 0; margin: 0;">
+        <li style="margin-bottom: 0.5rem;">Scientific Excellence</li>
+        <li style="margin-bottom: 0.5rem;">Simulation Integrity</li>
+        <li style="margin-bottom: 0.5rem;">Innovation</li>
+        <li style="margin-bottom: 0.5rem;">Collaborative Excellence</li>
+        <li>Practical Impact</li>
+      </ul>
+    </div>
   </div>
   <div class="rotator-dots" id="rotatorDots"></div>
 </div>
@@ -382,7 +384,7 @@ feature_row2: []
     <div style="font-size: 2.5rem;">⬢</div>
     <h3>Decision-Focused Modelling</h3>
     <p>
-      Simulation workflows designed to support technical decision-making, uncertainty evaluation, risk reduction, and reservoir performance optimization.
+      Simulation workflows are designed to support technical decision-making, uncertainty evaluation, risk reduction, and reservoir performance optimization.
     </p>
   </div>
 
