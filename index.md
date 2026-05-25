@@ -364,7 +364,7 @@ feature_row2: []
 </div>
 
 <!-- ========== WHY CHOOSE STRATAFLUX ENERGY ========== -->
-<h2 style="text-align: left; margin: 3rem 0 1.5rem;">
+<h2 style="text-align: center; margin: 3rem 0 1.5rem;">
   Why Choose StrataFlux Energy?
 </h2>
 
