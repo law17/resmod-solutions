@@ -33,8 +33,8 @@ To support informed subsurface decision-making through advanced modelling, simul
 
 ## Core Values
 
-- **Scientific Excellence** – Rigorous, defensible modelling.
-- **Simulation Integrity** – Every model is built on transparent physics.
-- **Innovation** – Advanced computational and modelling approaches.
-- **Impact** – Delivering practical, decision-relevant outcomes.
-- **Collaborative Precision** – Close iteration with clients until the numbers make sense.
+- **Scientific Excellence** – Delivering technically robust and scientifically grounded subsurface modelling solutions.
+- **Simulation Integrity** – Building models on transparent assumptions, sound physics, and defensible methodologies.
+- **Innovation** – Applying advanced computational workflows and modern simulation approaches to complex subsurface challenges.
+- **Practical Impact** – Providing modelling insights that support informed decisions, risk reduction, and operational understanding.
+- **Collaborative Excellence** – Working closely with clients and partners through transparent communication and iterative technical engagement.
