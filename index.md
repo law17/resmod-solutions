@@ -7,9 +7,9 @@ feature_row2: []
 
 <style>
   /* Global justification – but keep headings and buttons left */
-  * {
+  /** {
     text-align: justify !important;
-  }
+  */}
   h1, h2, h3, h4, h5, h6, .btn, nav, .masthead, .page__hero-caption {
     text-align: left !important;
   }
