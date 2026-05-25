@@ -192,7 +192,7 @@ feature_row2: []
       --<p>Cyclic injection, cushion gas, geochemical reactivity</p>
     </div>
   </div>
-  <div class="carousel-slide" style="background-image: url('/assets/images/reservoir-performance.jpg');">
+  <div class="carousel-slide" style="background-image: url('/assets/images/reservoir-performance.png');">
     <div class="carousel-caption">
       <h2>Upstream Oil & Gas Solutions</h2>
       --<p>EOR, reservoir performance, decline curve analysis, history matching</p>
