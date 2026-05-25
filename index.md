@@ -45,6 +45,14 @@ feature_row2: []
     line-height: 1.7;
   }
 
+    .sf-section-intro_2 {
+    font-size: 1.12rem;
+    color: var(--sf-muted);
+    max-width: 850px;
+    line-height: 1.7;
+    text-align: justify;
+  }
+
   .carousel-container {
     position: relative;
     width: 100%;
@@ -336,7 +344,7 @@ feature_row2: []
 <!-- ========== HERO CAROUSEL ========== -->
 <div class="carousel-container" id="conceptCarousel">
 
-  <div class="carousel-slide" style="background-image: url('/assets/images/co2_storage.png');">
+  <div class="carousel-slide" style="background-image: url('/assets/images/co-storage.png');">
     <div class="carousel-caption">
       <div class="sf-eyebrow">Carbon Storage</div>
       <h1>Advanced CO₂ Storage Modelling</h1>
@@ -348,7 +356,7 @@ feature_row2: []
     </div>
   </div>
 
-  <div class="carousel-slide" style="background-image: url('/assets/images/h2_storage.png');">
+  <div class="carousel-slide" style="background-image: url('/assets/images/h2-storage.png');">
     <div class="carousel-caption">
       <div class="sf-eyebrow">Hydrogen Storage</div>
       <h1>Underground H₂ Storage Simulation</h1>
@@ -425,8 +433,8 @@ feature_row2: []
   })();
 </script>
 
-<!-- ========== POSITIONING BAR ========== -->
-<section class="sf-positioning sf-section" style="padding: 1.5rem 1.5rem;">
+<!-- ========== BLUE GRADIENT, POSITIONING BAR ========== -->
+<section class="sf-positioning sf-section" style="padding: 1.5rem 1.5rem; text-align: justify">
   <div class="sf-container">
     <p>
       StrataFlux Energy provides advanced subsurface modelling, simulation, and technical advisory services for carbon storage, hydrogen storage, upstream oil and gas, and reservoir performance forecasting.
@@ -443,10 +451,10 @@ feature_row2: []
   <div class="sf-container who-grid">
     <div>
       <h2 class="sf-section-title">Who We Are</h2>
-      <p class="sf-section-intro">
-        StrataFlux Energy is an independent subsurface consultancy focused on advanced modelling, simulation, and technical analysis for carbon storage, hydrogen storage, and upstream energy systems.
+      <p class="sf-section-intro_2">
+        StrataFlux Energy is an independent subsurface consultancy focused on advanced modelling, simulation, and technical analysis for carbon and hydrogen storage, as well as upstream oil & gas systems.
       </p>
-      <p class="sf-section-intro">
+      <p class="sf-section-intro_2">
         We deliver scientifically rigorous reservoir simulation, reactive transport modelling, geochemical analysis, and computational workflows that support informed decision-making across the energy sector. Our work helps clients evaluate subsurface performance, reduce uncertainty, and better understand complex flow and storage processes.
       </p>
     </div>
@@ -468,7 +476,7 @@ feature_row2: []
 <section class="sf-section" style="background: var(--sf-light);">
   <div class="sf-container">
     <h2 class="sf-section-title">Core Consultancy Services</h2>
-    <p class="sf-section-intro">
+    <p class="sf-section-intro_2">
       We provide specialist modelling and simulation support for complex subsurface energy challenges, from early-stage screening to technical decision support and performance forecasting.
     </p>
 
@@ -509,7 +517,7 @@ feature_row2: []
 <section class="sf-section">
   <div class="sf-container">
     <h2 class="sf-section-title">Why Choose StrataFlux Energy?</h2>
-    <p class="sf-section-intro">
+    <p class="sf-section-intro_2">
       Our approach combines technical depth, scientific rigor, and practical engineering insight to deliver modelling outcomes that clients can trust.
     </p>
 
@@ -541,7 +549,7 @@ feature_row2: []
 <section class="sf-section" style="background: var(--sf-light);">
   <div class="sf-container">
     <h2 class="sf-section-title">Training, Research Support, and Capacity Development</h2>
-    <p class="sf-section-intro">
+    <p class="sf-section-intro_2">
       Beyond consultancy, StrataFlux Energy supports technical capacity development through applied training, mentoring, and modelling guidance for professionals, researchers, and students.
     </p>
 
