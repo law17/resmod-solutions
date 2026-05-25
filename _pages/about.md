@@ -15,7 +15,7 @@ permalink: /about/
 
 ## Who We Are
 
-StrataFlux Energy is an independent subsurface consultancy focused on advanced modelling, simulation, and technical analysis for carbon storage, hydrogen storage, and upstream energy systems.
+StrataFlux Energy is an independent subsurface consultancy focused on advanced modelling, simulation, and technical analysis for geologic carbon and hydrogen storage, as well as upstream oil & gas systems.
 
 We deliver scientifically rigorous reservoir simulation, reactive transport modelling, geochemical analysis, and computational workflows that support informed decision-making across the energy sector. Our work helps clients evaluate subsurface performance, reduce uncertainty, and better understand complex flow and storage processes.
 
