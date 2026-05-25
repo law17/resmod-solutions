@@ -342,7 +342,7 @@ feature_row2: []
   }
 </style>
 
-<!-- ========== HERO SPLIT SECTION WITH TABS ========== -->
+<!-- ========== HERO CAROUSEL SPLIT SECTION WITH TABS ========== -->
 <style>
   .hero-split {
     background: linear-gradient(135deg, #f3f5f7 0%, #e9edf1 100%);
@@ -488,7 +488,7 @@ feature_row2: []
         label: "Carbon Storage",
         title: "Advanced CO₂ Storage Modelling",
         text: "Science-driven modelling workflows for storage screening, plume migration, injectivity, trapping mechanisms, and long-term subsurface performance.",
-        image: "/assets/images/co2-storage.png",
+        image: "/assets/images/co2_storage.png",
         alt: "CO₂ storage modelling concept",
         link: "/services/co2-storage/",
         button: "Explore CO₂ Storage"
@@ -497,7 +497,7 @@ feature_row2: []
         label: "Hydrogen Storage",
         title: "Underground H₂ Storage Simulation",
         text: "Technical modelling for cushion gas behaviour, cyclic injection and withdrawal, containment risk, geochemical reactivity, and storage performance.",
-        image: "/assets/images/h2-storage.png",
+        image: "/assets/images/h2_storage.png",
         alt: "Hydrogen storage simulation concept",
         link: "/services/h2-storage/",
         button: "Explore H₂ Storage"
