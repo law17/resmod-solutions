@@ -693,7 +693,7 @@ feature_row2: []
 <!-- ========== FINAL CTA ========== -->
 <section class="cta-section">
   <div class="sf-container">
-    <h2>Need technical support for a subsurface modelling project?</h2>
+    <h2>Looking for advanced subsurface modelling expertise?</h2>
     <p>
       Whether you are assessing CO₂ storage potential, evaluating underground hydrogen storage, forecasting reservoir performance, or developing a research workflow, StrataFlux Energy provides technically rigorous solutions for your complex subsurface energy challenges.
     </p>
