@@ -363,23 +363,35 @@ feature_row2: []
   </a>
 </div>
 
-<!-- ========== WHY CHOOSE US ========== -->
-<h2 style="text-align: center; margin: 3rem 0 1.5rem;">Why Choose StrataFlux Energy?</h2>
+<!-- ========== WHY CHOOSE STRATAFLUX ENERGY ========== -->
+<h2 style="text-align: center; margin: 3rem 0 1.5rem;">
+  Why Choose StrataFlux Energy?
+</h2>
+
 <div style="display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; margin-bottom: 3rem;">
-  <div style="flex: 1; min-width: 200px; text-align: center; padding: 1rem;">
-    <div style="font-size: 2.5rem;">⚙️</div>
-    <h3>Technical Excellence</h3>
-    <p>Rigorous, defensible modelling and deep industry expertise.</p>
+
+  <div style="flex: 1; min-width: 220px; text-align: center; padding: 1rem;">
+    <div style="font-size: 2.5rem;">⬢</div>
+    <h3>Advanced Technical Expertise</h3>
+    <p>
+      Delivering high-quality subsurface modelling, reactive transport simulation, and reservoir forecasting grounded in scientific and engineering rigor.
+    </p>
   </div>
-  <div style="flex: 1; min-width: 200px; text-align: center; padding: 1rem;">
-    <div style="font-size: 2.5rem;">📚</div>
-    <h3>Open-Source Focus</h3>
-    <p>Training and solutions built on accessible, cutting-edge tools.</p>
+
+  <div style="flex: 1; min-width: 220px; text-align: center; padding: 1rem;">
+    <div style="font-size: 2.5rem;">⬢</div>
+    <h3>Decision-Focused Modelling</h3>
+    <p>
+      Simulation workflows designed to support technical decision-making, uncertainty evaluation, risk reduction, and reservoir performance optimization.
+    </p>
   </div>
-  <div style="flex: 1; min-width: 200px; text-align: center; padding: 1rem;">
-    <div style="font-size: 2.5rem;">🤝</div>
-    <h3>Client Partnership</h3>
-    <p>Collaborative and transparent processes with tangible results.</p>
+
+  <div style="flex: 1; min-width: 220px; text-align: center; padding: 1rem;">
+    <div style="font-size: 2.5rem;">⬢</div>
+    <h3>Collaborative Technical Support</h3>
+    <p>
+      Working closely with clients, researchers, and students through transparent communication, tailored workflows, and practical technical guidance.
+    </p>
   </div>
 </div>
 
