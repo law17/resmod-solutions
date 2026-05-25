@@ -468,7 +468,7 @@ feature_row2: []
         <a href="/services/co2-storage/" class="btn btn--primary" id="heroPrimary">
           Explore CO₂ Storage
         </a>
-        <a href="/contact/" class="btn btn--light-outline">
+        <a href="/contact/" class="btn btn--primary">
           Discuss a Project
         </a>
       </div>
