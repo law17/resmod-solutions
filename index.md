@@ -278,7 +278,7 @@ feature_row2: []
     <div style="text-align: left;">
       <h3>Our Core Values</h3>
       <ul style="font-size: 1.1rem; text-align: left; list-style-type: none; padding-left: 0; margin: 0;">
-        <li style="margin-bottom: 0.5rem;">Scientific Excellence</li>
+        <li style="margin-bottom: 0.5rem;">Scientific Rigor</li>
         <li style="margin-bottom: 0.5rem;">Simulation Integrity</li>
         <li style="margin-bottom: 0.5rem;">Innovation</li>
         <li style="margin-bottom: 0.5rem;">Collaborative Excellence</li>
