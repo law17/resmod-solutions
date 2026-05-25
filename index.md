@@ -183,7 +183,7 @@ feature_row2: []
   <div class="carousel-slide" style="background-image: url('/assets/images/co2_storage.png');">
     <div class="carousel-caption">
       <h2>CO₂ Storage Modelling</h2>
-      <!--<p>Plume migration, trap integrity, geochemical trapping</p>
+      --<p>Plume migration, trap integrity, geochemical trapping</p>
     </div>
   </div>
   <div class="carousel-slide" style="background-image: url('/assets/images/h2_storage.png');">
@@ -195,7 +195,7 @@ feature_row2: []
   <div class="carousel-slide" style="background-image: url('/assets/images/reservoir_performance.png');">
     <div class="carousel-caption">
       <h2>Upstream Oil & Gas Solutions</h2>
-      <!--<p>EOR, reservoir performance, decline curve analysis, history matching</p>
+      --<p>EOR, reservoir performance, decline curve analysis, history matching</p>
     </div>
   </div>
   <div class="carousel-dots" id="carouselDots"></div>
