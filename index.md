@@ -505,7 +505,7 @@ feature_row2: []
       reservoir: {
         label: "Upstream Oil & Gas",
         title: "Reservoir Performance Forecasting",
-        text: "Integrated simulation, history matching, decline analysis, EOR evaluation, and uncertainty assessment to support better reservoir decisions.",
+        text: "Integrated simulation, history matching, decline analysis, and uncertainty assessment to support better oil & gas reservoir decisions.",
         image: "/assets/images/reservoir_performance.png",
         alt: "Reservoir performance forecasting concept",
         link: "/services/upstream-oil-gas/",
