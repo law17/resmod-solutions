@@ -383,7 +383,7 @@ feature_row2: []
 </div>
 
 <!-- ========== TESTIMONIALS ========== -->
-<h2 style="text-align: center; margin-top: 2rem;">What Our Clients Say</h2>
+<!--<h2 style="text-align: center; margin-top: 2rem;">What Our Clients Say</h2>
 <div style="display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; margin: 2rem 0;">
   <div style="flex: 1; min-width: 250px; background: #f0f0f0; padding: 1.5rem; border-radius: 8px;">
     <p style="font-style: italic;">“StrataFlux Energy’s simulation insights helped us reduce exploration uncertainty by 30%.”</p>
@@ -393,13 +393,13 @@ feature_row2: []
     <p style="font-style: italic;">“The CO₂ storage modelling was precise and delivered ahead of schedule.”</p>
     <p style="margin-bottom: 0; font-weight: bold;">— Chen, Carbon Works</p>
   </div>
-</div>
+</div>-->
 
 <!-- ========== CLIENTS & PARTNERS ========== -->
-<h2 style="text-align: center; margin-top: 3rem;">Clients & Partners</h2>
+<!--<h2 style="text-align: center; margin-top: 3rem;">Clients & Partners</h2>
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; align-items: center; margin: 2rem 0;">
   <img src="/assets/images/logo.jpg" alt="Client 1" style="max-width: 120px; height: auto;">
   <img src="/assets/images/logo.jpg" alt="Client 2" style="max-width: 120px; height: auto;">
   <img src="/assets/images/logo.jpg" alt="Client 3" style="max-width: 120px; height: auto;">
   <img src="/assets/images/logo.jpg" alt="Client 4" style="max-width: 120px; height: auto;">
-</div>
+</div>-->
