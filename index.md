@@ -189,7 +189,7 @@ feature_row2: []
   <div class="carousel-slide" style="background-image: url('/assets/images/h2_storage.png');">
     <div class="carousel-caption">
       <h2>Hydrogen Storage Simulation</h2>
-      <!--<p>Cyclic injection, cushion gas, geochemical reactivity</p>
+      --<p>Cyclic injection, cushion gas, geochemical reactivity</p>
     </div>
   </div>
   <div class="carousel-slide" style="background-image: url('/assets/images/reservoir_performance.png');">
