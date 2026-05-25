@@ -15,21 +15,21 @@ permalink: /about/
 
 ## Who We Are
 
-StrataFlux Energy is an independent consultancy specialising in advanced subsurface modelling and simulation for carbon storage, hydrogen storage, and upstream oil & gas.
+StrataFlux Energy is an independent subsurface consultancy focused on advanced modelling, simulation, and technical analysis for carbon storage, hydrogen storage, and upstream energy systems.
 
-We provide technical expertise in reservoir simulation, geochemical modelling, reactive transport analysis, uncertainty assessment, and computational workflows to support energy companies, researchers, academic institutions, and project developers.
+We deliver scientifically rigorous reservoir simulation, reactive transport modelling, geochemical analysis, and computational workflows that support informed decision-making across the energy sector. Our work helps clients evaluate subsurface performance, reduce uncertainty, and better understand complex flow and storage processes.
 
-Our mission is to deliver high-quality, technically defensible modelling solutions that improve understanding of subsurface systems, reduce uncertainty, and support informed engineering and research decisions.
+Combining technical depth with practical engineering insight, we support energy companies, researchers, project developers, and academic institutions through high-quality modelling solutions tailored to subsurface energy challenges.
 
-In addition to consultancy, we provide professional training and technical mentoring in reservoir simulations and geochemical modelling for students, researchers, and professionals looking to build practical modelling expertise.
+Beyond consultancy, StrataFlux Energy is committed to technical capacity development through specialised training, mentoring, and applied learning in reservoir simulation and geochemical modelling.
 
 ## Our Vision
 
-To advance reliable, science-driven subsurface energy solutions for carbon storage, hydrogen storage, and traditional oil & gas production.
+To shape the future of subsurface energy through innovation, technical expertise, and scientifically grounded solutions.
 
 ## Our Mission
 
-To empower operators, researchers, and students with expert reservoir simulation and geochemical modelling services.
+To support informed subsurface decision-making through advanced modelling, simulation, and technical expertise across the energy sector.
 
 ## Core Values
 
