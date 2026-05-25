@@ -6,198 +6,372 @@ feature_row2: []
 ---
 
 <style>
-  /* Global justification – but keep headings and buttons left */
-  /** {
-    text-align: justify !important;
-  */}
-  h1, h2, h3, h4, h5, h6, .btn, nav, .masthead, .page__hero-caption {
-    text-align: left !important;
-  }
-
-  /* Hide any lingering page title on the splash layout */
-  .splash .page__title {
-    display: none !important;
-  }
-
-  /* Also hide any heading that might be inside .page__hero */
+  .splash .page__title,
   .splash .page__hero h1,
   .splash .page__hero .page__title {
     display: none !important;
   }
-</style>
 
-<style>
-  /* ========== SERVICE CARD STYLES ========== */
-  .service-card {
-    flex: 1;
-    min-width: 250px;
-    background: white;
-    border: 1px solid #e0e0e0;
-    border-radius: 12px;
-    padding: 1.5rem;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    text-decoration: none;
-    color: inherit;
-    display: block;
-  }
-  .service-card:hover {
-    transform: translateY(-8px);
-    background-color: #e6f0fa;
-    box-shadow: 0 12px 24px rgba(0,0,0,0.1);
-  }
-  .service-card h3 {
-    margin-top: 0;
-    color: #1a3a5a;
-    transition: color 0.2s;
-  }
-  .service-card:hover h3 {
-    color: #0a2540;
-  }
-  .service-card .metric {
-    font-size: 0.85rem;
-    font-weight: bold;
-    color: #2c7da0;
-    margin-top: 0.5rem;
-    display: inline-block;
-    background: #eef2f7;
-    padding: 0.2rem 0.6rem;
-    border-radius: 20px;
-  }
-  .service-card:hover .metric {
-    background: white;
+  :root {
+    --sf-navy: #0a2540;
+    --sf-blue: #1a3a5a;
+    --sf-green: #63b32e;
+    --sf-cyan: #2c7da0;
+    --sf-light: #f3f5f7;
+    --sf-text: #1f2933;
+    --sf-muted: #5f6b7a;
+    --sf-border: #d9e2ec;
   }
 
-  /* ========== ROTATOR STYLES ========== */
-  .rotator-container {
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-    border-radius: 12px;
-    padding: 2rem;
-    margin: 2rem 0;
-    text-align: center;
-    position: relative;
-    min-height: 180px;
-  }
-  .rotator-item {
-    display: none;
-    animation: fadeIn 0.8s ease;
-  }
-  .rotator-item.active {
-    display: block;
-  }
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-  .rotator-dots {
-    margin-top: 1rem;
-  }
-  .dot {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: #ccc;
-    margin: 0 5px;
-    cursor: pointer;
-    transition: background 0.2s;
-  }
-  .dot.active {
-    background: #1a3a5a;
+  .sf-section {
+    padding: 3.5rem 1.5rem;
   }
 
-  /* Ensure cards layout */
-  .services-grid {
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 2rem 0;
+  .sf-container {
+    max-width: 1180px;
+    margin: 0 auto;
   }
 
-  /* ========== CAROUSEL STYLES ========== */
+  .sf-section-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--sf-navy);
+  }
+
+  .sf-section-intro {
+    font-size: 1.12rem;
+    color: var(--sf-muted);
+    max-width: 850px;
+    line-height: 1.7;
+  }
+
   .carousel-container {
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 560px;
     overflow: hidden;
     background: #0a1a2a;
   }
+
   .carousel-slide {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    inset: 0;
     opacity: 0;
     transition: opacity 1s ease-in-out;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
-    justify-content: center;
   }
+
+  .carousel-slide::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(5, 20, 36, 0.88), rgba(5, 20, 36, 0.35), rgba(5, 20, 36, 0.05));
+  }
+
   .carousel-slide.active {
     opacity: 1;
   }
+
   .carousel-caption {
-    background: rgba(0,0,0,0.6);
+    position: relative;
+    z-index: 2;
     color: white;
-    padding: 1rem 2rem;
-    border-radius: 8px;
-    text-align: center;
-    max-width: 80%;
+    max-width: 680px;
+    padding: 4rem;
   }
-  .carousel-caption h2 {
-    margin: 0 0 0.5rem;
+
+  .carousel-caption h1 {
+    font-size: 3.2rem;
+    line-height: 1.05;
+    margin-bottom: 1rem;
     color: white;
   }
+
   .carousel-caption p {
-    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
   }
+
+  .sf-eyebrow {
+    color: var(--sf-green);
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+  }
+
   .carousel-dots {
     position: absolute;
-    bottom: 20px;
-    left: 0;
-    right: 0;
-    text-align: center;
+    bottom: 22px;
+    left: 4rem;
     z-index: 10;
   }
+
   .carousel-dot {
     display: inline-block;
-    width: 12px;
-    height: 12px;
+    width: 13px;
+    height: 13px;
     border-radius: 50%;
-    background: rgba(255,255,255,0.5);
-    margin: 0 6px;
+    background: rgba(255,255,255,0.45);
+    margin-right: 8px;
     cursor: pointer;
-    transition: background 0.2s;
   }
+
   .carousel-dot.active {
+    background: var(--sf-green);
+  }
+
+  .sf-hero-buttons a {
+    margin-right: 0.8rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .sf-positioning {
+    background: linear-gradient(135deg, #0a2540 0%, #1a3a5a 100%);
+    color: white;
+  }
+
+  .sf-positioning p {
+    font-size: 1.25rem;
+    line-height: 1.7;
+    max-width: 980px;
+    margin: 0;
+  }
+
+  .who-grid {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 2.5rem;
+    align-items: center;
+  }
+
+  .who-card {
     background: white;
+    border: 1px solid var(--sf-border);
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 12px 30px rgba(10, 37, 64, 0.08);
+  }
+
+  .who-card h3 {
+    margin-top: 0;
+    color: var(--sf-navy);
+  }
+
+  .who-card ul {
+    margin: 0;
+    padding-left: 1.2rem;
+    line-height: 1.8;
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .service-card {
+    background: white;
+    border: 1px solid var(--sf-border);
+    border-radius: 16px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 24px rgba(10, 37, 64, 0.07);
+    transition: all 0.25s ease;
+  }
+
+  .service-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 34px rgba(10, 37, 64, 0.13);
+  }
+
+  .service-card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+  }
+
+  .service-card-body {
+    padding: 1.4rem;
+  }
+
+  .service-card h3 {
+    margin-top: 0;
+    color: var(--sf-navy);
+  }
+
+  .service-card p {
+    color: var(--sf-muted);
+    line-height: 1.65;
+  }
+
+  .metric {
+    display: inline-block;
+    margin-top: 0.5rem;
+    background: #eef7ee;
+    color: #2f7d32;
+    font-size: 0.82rem;
+    font-weight: 700;
+    padding: 0.35rem 0.75rem;
+    border-radius: 999px;
+  }
+
+  .why-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .why-card {
+    background: #ffffff;
+    border: 1px solid var(--sf-border);
+    border-radius: 16px;
+    padding: 1.7rem;
+    box-shadow: 0 10px 24px rgba(10, 37, 64, 0.06);
+  }
+
+  .why-icon {
+    width: 46px;
+    height: 46px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, var(--sf-green), #2f7d32);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .why-card h3 {
+    margin-top: 0;
+    color: var(--sf-navy);
+  }
+
+  .why-card p {
+    color: var(--sf-muted);
+    line-height: 1.65;
+  }
+
+  .support-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .support-card {
+    background: #f8fafc;
+    border: 1px solid var(--sf-border);
+    border-radius: 16px;
+    padding: 2rem;
+  }
+
+  .support-card h3 {
+    color: var(--sf-navy);
+    margin-top: 0;
+  }
+
+  .support-card p {
+    color: var(--sf-muted);
+    line-height: 1.65;
+  }
+
+  .cta-section {
+    background: linear-gradient(135deg, #071b2f 0%, #0a2540 55%, #143f2c 100%);
+    color: white;
+    text-align: center;
+    padding: 4rem 1.5rem;
+    border-radius: 0;
+  }
+
+  .cta-section h2 {
+    color: white;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .cta-section p {
+    max-width: 760px;
+    margin: 0 auto 1.8rem;
+    font-size: 1.15rem;
+    line-height: 1.7;
+  }
+
+  @media (max-width: 900px) {
+    .carousel-container {
+      height: 520px;
+    }
+
+    .carousel-caption {
+      padding: 2rem;
+    }
+
+    .carousel-caption h1 {
+      font-size: 2.3rem;
+    }
+
+    .who-grid,
+    .services-grid,
+    .why-grid,
+    .support-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .carousel-dots {
+      left: 2rem;
+    }
   }
 </style>
 
-<!-- ========== HERO: AUTO-ROTATING CONCEPT CAROUSEL ========== -->
+<!-- ========== HERO CAROUSEL ========== -->
 <div class="carousel-container" id="conceptCarousel">
-  <div class="carousel-slide" style="background-image: url('/assets/images/co2-storage.png');">
+
+  <div class="carousel-slide" style="background-image: url('/assets/images/co2_storage.png');">
     <div class="carousel-caption">
-      <h2>CO₂ Storage Modelling</h2>
-      --<p>Plume migration, trap integrity, geochemical trapping</p>
+      <div class="sf-eyebrow">Carbon Storage</div>
+      <h1>Advanced CO₂ Storage Modelling</h1>
+      <p>Science-driven modelling workflows for storage screening, plume migration, injectivity, trapping mechanisms, and long-term subsurface performance.</p>
+      <div class="sf-hero-buttons">
+        <a href="/services/co2-storage/" class="btn btn--primary">Explore CO₂ Storage</a>
+        <a href="/contact/" class="btn btn--light-outline">Discuss a Project</a>
+      </div>
     </div>
   </div>
-  <div class="carousel-slide" style="background-image: url('/assets/images/h2-storage.png');">
+
+  <div class="carousel-slide" style="background-image: url('/assets/images/h2_storage.png');">
     <div class="carousel-caption">
-      <h2>Hydrogen Storage Simulation</h2>
-      --<p>Cyclic injection, cushion gas, geochemical reactivity</p>
+      <div class="sf-eyebrow">Hydrogen Storage</div>
+      <h1>Underground H₂ Storage Simulation</h1>
+      <p>Technical modelling for cushion gas behaviour, cyclic injection and withdrawal, containment risk, geochemical reactivity, and storage performance.</p>
+      <div class="sf-hero-buttons">
+        <a href="/services/h2-storage/" class="btn btn--primary">Explore H₂ Storage</a>
+        <a href="/contact/" class="btn btn--light-outline">Request Support</a>
+      </div>
     </div>
   </div>
-  <div class="carousel-slide" style="background-image: url('/assets/images/reservoir-performance.png');">
+
+  <div class="carousel-slide" style="background-image: url('/assets/images/reservoir_performance.png');">
     <div class="carousel-caption">
-      <h2>Upstream Oil & Gas Solutions</h2>
-      --<p>EOR, reservoir performance, decline curve analysis, history matching</p>
+      <div class="sf-eyebrow">Upstream Oil & Gas</div>
+      <h1>Reservoir Performance Forecasting</h1>
+      <p>Integrated simulation, history matching, decline analysis, EOR evaluation, and uncertainty assessment to support better reservoir decisions.</p>
+      <div class="sf-hero-buttons">
+        <a href="/services/upstream-oil-gas/" class="btn btn--primary">Explore Forecasting</a>
+        <a href="/contact/" class="btn btn--light-outline">Contact Us</a>
+      </div>
     </div>
   </div>
+
   <div class="carousel-dots" id="carouselDots"></div>
 </div>
 
@@ -208,10 +382,8 @@ feature_row2: []
     let current = 0;
     let interval;
 
-    // Clear any existing dots (if re-running script)
     if (dotsContainer) dotsContainer.innerHTML = '';
 
-    // Create dots
     slides.forEach((_, idx) => {
       const dot = document.createElement('span');
       dot.classList.add('carousel-dot');
@@ -235,12 +407,11 @@ feature_row2: []
     }
 
     function nextSlide() {
-      const next = (current + 1) % slides.length;
-      showSlide(next);
+      showSlide((current + 1) % slides.length);
     }
 
     function startInterval() {
-      interval = setInterval(nextSlide, 5000);
+      interval = setInterval(nextSlide, 6000);
     }
 
     const container = document.getElementById('conceptCarousel');
@@ -249,172 +420,167 @@ feature_row2: []
       container.addEventListener('mouseleave', startInterval);
     }
 
-    // Show the first slide immediately
     showSlide(0);
     startInterval();
   })();
 </script>
 
-<!-- Blue gradient bar -->
-<div style="background: linear-gradient(135deg, #0a2540 0%, #1a3a5a 100%); color: white; padding: 2rem; text-align: justify;">
-  <p style="font-size:1.2rem; margin: 0; text-align: justify;">Precision simulation for subsurface energy systems. Empowering engineers through advanced modelling and open-source training.</p>
-  <div style="margin-top:1.5rem; text-align: justify;">
-    <a href="/services/" class="btn btn--primary" style="margin-right: 1rem;">Explore Services</a>
-    <a href="/contact/" class="btn btn--light-outline">Contact Us</a>
+<!-- ========== POSITIONING BAR ========== -->
+<section class="sf-positioning sf-section">
+  <div class="sf-container">
+    <p>
+      StrataFlux Energy provides advanced subsurface modelling, simulation, and technical advisory services for carbon storage, hydrogen storage, upstream oil and gas, and reservoir performance forecasting.
+    </p>
+    <div style="margin-top:1.5rem;">
+      <a href="/services/" class="btn btn--primary" style="margin-right: 1rem;">Explore Services</a>
+      <a href="/contact/" class="btn btn--light-outline">Discuss a Project</a>
+    </div>
   </div>
-</div>
+</section>
 
-<!-- ========== ROTATING MISSION/VISION/VALUES ========== -->
-<div class="rotator-container" id="rotator">
-  <div class="rotator-item active" data-index="0">
-    <h3 style="text-align: left;">Our Mission</h3>
-    <p style="font-size: 1.1rem; text-align: justify;">To support informed subsurface decision-making through advanced modelling, simulation, and technical expertise across the energy sector.</p>
-  </div>
-  <div class="rotator-item" data-index="1">
-    <h3 style="text-align: left;">Our Vision</h3>
-    <p style="font-size: 1.1rem; text-align: justify;">To shape the future of subsurface energy through innovation, technical expertise, and scientifically grounded solutions.</p>
-  </div>
-  <div class="rotator-item" data-index="2">
-    <div style="text-align: left;">
-      <h3>Our Core Values</h3>
-      <ul style="font-size: 1.1rem; text-align: left; list-style-type: none; padding-left: 0; margin: 0;">
-        <li style="margin-bottom: 0.5rem;">Scientific Rigor</li>
-        <li style="margin-bottom: 0.5rem;">Simulation Integrity</li>
-        <li style="margin-bottom: 0.5rem;">Innovation</li>
-        <li style="margin-bottom: 0.5rem;">Collaborative Excellence</li>
-        <li>Practical Impact</li>
+<!-- ========== WHO WE ARE ========== -->
+<section class="sf-section">
+  <div class="sf-container who-grid">
+    <div>
+      <h2 class="sf-section-title">Who We Are</h2>
+      <p class="sf-section-intro">
+        StrataFlux Energy is an independent subsurface consultancy focused on advanced modelling, simulation, and technical analysis for carbon storage, hydrogen storage, and upstream energy systems.
+      </p>
+      <p class="sf-section-intro">
+        We deliver scientifically rigorous reservoir simulation, reactive transport modelling, geochemical analysis, and computational workflows that support informed decision-making across the energy sector. Our work helps clients evaluate subsurface performance, reduce uncertainty, and better understand complex flow and storage processes.
+      </p>
+    </div>
+
+    <div class="who-card">
+      <h3>Technical Focus</h3>
+      <ul>
+        <li>Reservoir simulation and forecasting</li>
+        <li>CO₂ storage performance assessment</li>
+        <li>Underground hydrogen storage modelling</li>
+        <li>Reactive transport and geochemical analysis</li>
+        <li>Uncertainty and sensitivity evaluation</li>
       </ul>
     </div>
   </div>
-  <div class="rotator-dots" id="rotatorDots"></div>
-</div>
+</section>
 
-<script>
-  (function() {
-    const items = document.querySelectorAll('.rotator-item');
-    const dotsContainer = document.getElementById('rotatorDots');
-    let current = 0;
-    let interval;
+<!-- ========== CORE SERVICES ========== -->
+<section class="sf-section" style="background: var(--sf-light);">
+  <div class="sf-container">
+    <h2 class="sf-section-title">Core Consultancy Services</h2>
+    <p class="sf-section-intro">
+      We provide specialist modelling and simulation support for complex subsurface energy challenges, from early-stage screening to technical decision support and performance forecasting.
+    </p>
 
-    items.forEach((_, idx) => {
-      const dot = document.createElement('span');
-      dot.classList.add('dot');
-      if (idx === 0) dot.classList.add('active');
-      dot.addEventListener('click', () => {
-        clearInterval(interval);
-        showItem(idx);
-        startInterval();
-      });
-      dotsContainer.appendChild(dot);
-    });
+    <div class="services-grid">
 
-    function showItem(index) {
-      items.forEach((item, i) => {
-        item.classList.remove('active');
-        if (dotsContainer.children[i]) dotsContainer.children[i].classList.remove('active');
-      });
-      items[index].classList.add('active');
-      if (dotsContainer.children[index]) dotsContainer.children[index].classList.add('active');
-      current = index;
-    }
+      <a href="/services/co2-storage/" class="service-card">
+        <img src="/assets/images/co2_storage.png" alt="CO₂ storage modelling">
+        <div class="service-card-body">
+          <h3>CO₂ Storage Modelling</h3>
+          <p>Storage screening, injectivity assessment, plume migration, trapping mechanisms, caprock considerations, and long-term storage performance.</p>
+          <span class="metric">Modelling & Simulation</span>
+        </div>
+      </a>
 
-    function nextItem() {
-      const next = (current + 1) % items.length;
-      showItem(next);
-    }
+      <a href="/services/h2-storage/" class="service-card">
+        <img src="/assets/images/h2_storage.png" alt="Hydrogen storage simulation">
+        <div class="service-card-body">
+          <h3>Hydrogen Storage Simulation</h3>
+          <p>Underground H₂ storage modelling, cushion gas behaviour, cyclic operation, containment risk, geochemical reactivity, and performance evaluation.</p>
+          <span class="metric">Storage Performance</span>
+        </div>
+      </a>
 
-    function startInterval() {
-      interval = setInterval(nextItem, 5000);
-    }
+      <a href="/services/upstream-oil-gas/" class="service-card">
+        <img src="/assets/images/reservoir_performance.png" alt="Reservoir performance forecasting">
+        <div class="service-card-body">
+          <h3>Upstream Oil & Gas</h3>
+          <p>EOR studies, reservoir forecasting, history matching, decline curve analysis, field performance evaluation, and development scenario testing.</p>
+          <span class="metric">Forecasting & Optimization</span>
+        </div>
+      </a>
 
-    const container = document.getElementById('rotator');
-    container.addEventListener('mouseenter', () => clearInterval(interval));
-    container.addEventListener('mouseleave', startInterval);
-
-    startInterval();
-  })();
-</script>
-
-<!-- ========== SERVICES SECTION (CLICKABLE CARDS WITH HOVER) ========== -->
-<h2 style="text-align: left; margin: 3rem 0 1.5rem;">Our Core Services</h2>
-<div class="services-grid">
-  <a href="/services/co2-storage/" class="service-card">
-    <h3>CO₂ Storage</h3>
-    <p>Plume migration, trap integrity, geochemical trapping.</p>
-    <span class="metric">↓ 40% leakage risk</span>
-  </a>
-  <a href="/services/h2-storage/" class="service-card">
-    <h3>H₂ Storage</h3>
-    <p>Cyclic injection, cushion gas, geochemical reactivity.</p>
-    <span class="metric">↑ 25% efficiency</span>
-  </a>
-  <a href="/services/upstream-oil-gas/" class="service-card">
-    <h3>Upstream Oil & Gas</h3>
-    <p>EOR, reservoir performance, decline curve analysis, history matching, field forecasts.</p>
-    <span class="metric">↑ 34% recovery & accurate forecasts</span>
-  </a>
-  <a href="/services/student-projects/" class="service-card">
-    <h3>Student Project Support</h3>
-    <p>BSc, MSc, PhD modelling help & mentorship.</p>
-    <span class="metric">🎓 1-on-1 coaching</span>
-  </a>
-  <a href="/services/training/" class="service-card">
-    <h3>Open‑Source Training</h3>
-    <p>MRST, PFLOTRAN, PHREEQC workshops – online & live.</p>
-    <span class="metric">💻 Hands‑on</span>
-  </a>
-</div>
+    </div>
+  </div>
+</section>
 
 <!-- ========== WHY CHOOSE STRATAFLUX ENERGY ========== -->
-<h2 style="text-align: center; margin: 3rem 0 1.5rem;">
-  Why Choose StrataFlux Energy?
-</h2>
-
-<div style="display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; margin-bottom: 3rem;">
-
-  <div style="flex: 1; min-width: 220px; text-align: center; padding: 1rem;">
-    <div style="font-size: 2.5rem;">⬢</div>
-    <h3>Advanced Technical Expertise</h3>
-    <p>
-      Delivering high-quality subsurface modelling, reactive transport simulation, and reservoir forecasting grounded in scientific and engineering rigor.
+<section class="sf-section">
+  <div class="sf-container">
+    <h2 class="sf-section-title">Why Choose StrataFlux Energy?</h2>
+    <p class="sf-section-intro">
+      Our approach combines technical depth, scientific rigor, and practical engineering insight to deliver modelling outcomes that clients can trust.
     </p>
-  </div>
 
-  <div style="flex: 1; min-width: 220px; text-align: center; padding: 1rem;">
-    <div style="font-size: 2.5rem;">⬢</div>
-    <h3>Decision-Focused Modelling</h3>
-    <p>
-      Simulation workflows are designed to support technical decision-making, uncertainty evaluation, risk reduction, and reservoir performance optimization.
+    <div class="why-grid">
+
+      <div class="why-card">
+        <div class="why-icon">▣</div>
+        <h3>Advanced Technical Expertise</h3>
+        <p>Delivering high-quality subsurface modelling, reactive transport simulation, and reservoir forecasting grounded in scientific and engineering rigor.</p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-icon">⌁</div>
+        <h3>Decision-Focused Modelling</h3>
+        <p>Simulation workflows designed to support technical decision-making, uncertainty evaluation, risk reduction, and reservoir performance optimization.</p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-icon">◎</div>
+        <h3>Collaborative Technical Support</h3>
+        <p>Working closely with clients, researchers, and technical teams through transparent communication, tailored workflows, and practical technical guidance.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== TRAINING AND RESEARCH SUPPORT ========== -->
+<section class="sf-section" style="background: var(--sf-light);">
+  <div class="sf-container">
+    <h2 class="sf-section-title">Training, Research Support, and Capacity Development</h2>
+    <p class="sf-section-intro">
+      Beyond consultancy, StrataFlux Energy supports technical capacity development through applied training, mentoring, and modelling guidance for professionals, researchers, and students.
     </p>
-  </div>
 
-  <div style="flex: 1; min-width: 220px; text-align: center; padding: 1rem;">
-    <div style="font-size: 2.5rem;">⬢</div>
-    <h3>Collaborative Technical Support</h3>
-    <p>
-      Working closely with clients, researchers, and students through transparent communication, tailored workflows, and practical technical guidance.
+    <div class="support-grid">
+
+      <div class="support-card">
+        <h3>Open-Source Modelling Training</h3>
+        <p>Hands-on training in reservoir simulation, geochemical modelling, reactive transport workflows, and open-source tools including PFLOTRAN, PHREEQC, MRST, and Python-based modelling workflows.</p>
+        <a href="/services/training/" class="btn btn--primary">View Training</a>
+      </div>
+
+      <div class="support-card">
+        <h3>Research & Student Support</h3>
+        <p>Technical mentoring, modelling guidance, workflow development, troubleshooting, and research support for BSc, MSc, PhD, and early-career researchers working on subsurface energy projects.</p>
+        <a href="/services/student-projects/" class="btn btn--primary">Explore Support</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== INSIGHTS SECTION ========== -->
+<section class="sf-section">
+  <div class="sf-container">
+    <h2 class="sf-section-title">Technical Insights</h2>
+    <p class="sf-section-intro">
+      Insights and technical resources focused on advanced subsurface modelling, energy storage systems, reactive transport processes, and reservoir performance forecasting.
     </p>
+    <a href="/blog/" class="btn btn--primary">Visit Insights</a>
   </div>
-</div>
+</section>
 
-<!-- ========== TESTIMONIALS ========== -->
-<!--<h2 style="text-align: center; margin-top: 2rem;">What Our Clients Say</h2>
-<div style="display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; margin: 2rem 0;">
-  <div style="flex: 1; min-width: 250px; background: #f0f0f0; padding: 1.5rem; border-radius: 8px;">
-    <p style="font-style: italic;">“StrataFlux Energy’s simulation insights helped us reduce exploration uncertainty by 30%.”</p>
-    <p style="margin-bottom: 0; font-weight: bold;">— Jones, Geoworks Ltd</p>
+<!-- ========== FINAL CTA ========== -->
+<section class="cta-section">
+  <div class="sf-container">
+    <h2>Need technical support for a subsurface modelling project?</h2>
+    <p>
+      Whether you are assessing CO₂ storage potential, evaluating underground hydrogen storage, forecasting reservoir performance, or developing a research workflow, StrataFlux Energy can help turn complex subsurface questions into clear technical insight.
+    </p>
+    <a href="/contact/" class="btn btn--primary">Discuss Your Project</a>
   </div>
-  <div style="flex: 1; min-width: 250px; background: #f0f0f0; padding: 1.5rem; border-radius: 8px;">
-    <p style="font-style: italic;">“The CO₂ storage modelling was precise and delivered ahead of schedule.”</p>
-    <p style="margin-bottom: 0; font-weight: bold;">— Chen, Carbon Works</p>
-  </div>
-</div>-->
-
-<!-- ========== CLIENTS & PARTNERS ========== -->
-<!--<h2 style="text-align: center; margin-top: 3rem;">Clients & Partners</h2>
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; align-items: center; margin: 2rem 0;">
-  <img src="/assets/images/logo.jpg" alt="Client 1" style="max-width: 120px; height: auto;">
-  <img src="/assets/images/logo.jpg" alt="Client 2" style="max-width: 120px; height: auto;">
-  <img src="/assets/images/logo.jpg" alt="Client 3" style="max-width: 120px; height: auto;">
-  <img src="/assets/images/logo.jpg" alt="Client 4" style="max-width: 120px; height: auto;">
-</div>-->
+</section>
