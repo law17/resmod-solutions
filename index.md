@@ -300,7 +300,7 @@ feature_row2: []
     text-align: center;
     padding: 4rem 1.5rem;
     border-radius: 0;
-    text-align: left;
+    text-align: left !important;
   }
 
   .cta-section h2 {
