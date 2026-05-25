@@ -272,7 +272,7 @@ feature_row2: []
   </div>
   <div class="rotator-item" data-index="1">
     <h3 style="text-align: left;">Our Vision</h3>
-    <p style="font-size: 1.1rem; justify;">To shape the future of subsurface energy through innovation, technical expertise, and scientifically grounded solutions.</p>
+    <p style="font-size: 1.1rem; text-align: justify;">To shape the future of subsurface energy through innovation, technical expertise, and scientifically grounded solutions.</p>
   </div>
   <div class="rotator-item" data-index="2">
     <div style="text-align: left;">
