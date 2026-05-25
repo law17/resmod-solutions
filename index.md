@@ -334,7 +334,7 @@ feature_row2: []
 </script>
 
 <!-- ========== SERVICES SECTION (CLICKABLE CARDS WITH HOVER) ========== -->
-<h2 style="text-align: center; margin: 3rem 0 1.5rem;">Our Core Services</h2>
+<h2 style="text-align: left; margin: 3rem 0 1.5rem;">Our Core Services</h2>
 <div class="services-grid">
   <a href="/services/co2-storage/" class="service-card">
     <h3>CO₂ Storage</h3>
@@ -364,7 +364,7 @@ feature_row2: []
 </div>
 
 <!-- ========== WHY CHOOSE STRATAFLUX ENERGY ========== -->
-<h2 style="text-align: justify; margin: 3rem 0 1.5rem;">
+<h2 style="text-align: left; margin: 3rem 0 1.5rem;">
   Why Choose StrataFlux Energy?
 </h2>
 
