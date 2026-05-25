@@ -300,7 +300,7 @@ feature_row2: []
     text-align: center;
     padding: 4rem 1.5rem;
     border-radius: 0;
-    text-align: left !important;
+    text-align: justify !important;
   }
 
   .cta-section h2 {
@@ -310,11 +310,12 @@ feature_row2: []
   }
 
   .cta-section p {
-    max-width: 760px;
-    margin: 0 auto 1.8rem;
-    font-size: 1.15rem;
-    line-height: 1.7;
-  }
+  max-width: 760px;
+  margin: 0 0 1.8rem 0;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  text-align: justify !important;
+}
 
   @media (max-width: 900px) {
     .carousel-container {
