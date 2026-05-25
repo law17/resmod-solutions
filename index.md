@@ -342,95 +342,201 @@ feature_row2: []
   }
 </style>
 
-<!-- ========== HERO CAROUSEL ========== -->
-<div class="carousel-container" id="conceptCarousel">
+<!-- ========== HERO SPLIT SECTION WITH TABS ========== -->
+<style>
+  .hero-split {
+    background: linear-gradient(135deg, #f3f5f7 0%, #e9edf1 100%);
+    padding: 4rem 1.5rem;
+  }
 
-  <div class="carousel-slide" style="background-image: url('/assets/images/co-storage.png');">
-    <div class="carousel-caption">
-      <div class="sf-eyebrow">Carbon Storage</div>
-      <h1>Advanced CO₂ Storage Modelling</h1>
-      <p>Science-driven modelling workflows for storage screening, plume migration, injectivity, trapping mechanisms, and long-term subsurface performance.</p>
-      <div class="sf-hero-buttons">
-        <a href="/services/co2-storage/" class="btn btn--primary">Explore CO₂ Storage</a>
-        <a href="/contact/" class="btn btn--light-outline">Discuss a Project</a>
+  .hero-split-container {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 0.95fr 1.05fr;
+    gap: 3rem;
+    align-items: center;
+  }
+
+  .hero-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .hero-tab {
+    border: 1px solid #d9e2ec;
+    background: white;
+    color: #0a2540;
+    padding: 0.55rem 0.9rem;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 0.88rem;
+    cursor: pointer;
+    transition: all 0.25s ease;
+  }
+
+  .hero-tab.active,
+  .hero-tab:hover {
+    background: #63b32e;
+    color: white;
+    border-color: #63b32e;
+  }
+
+  .hero-label {
+    color: #63b32e;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 0.8rem;
+    font-size: 0.85rem;
+  }
+
+  .hero-title {
+    font-size: 3rem;
+    line-height: 1.08;
+    color: #0a2540;
+    margin: 0 0 1.2rem;
+  }
+
+  .hero-text {
+    color: #4f5f6f;
+    font-size: 1.18rem;
+    line-height: 1.75;
+    margin-bottom: 1.6rem;
+    text-align: justify;
+  }
+
+  .hero-actions a {
+    margin-right: 0.8rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .hero-image-wrap {
+    background: white;
+    padding: 0.7rem;
+    border-radius: 22px;
+    border: 1px solid #d9e2ec;
+    box-shadow: 0 22px 45px rgba(10, 37, 64, 0.15);
+  }
+
+  .hero-image-wrap img {
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+    border-radius: 16px;
+    display: block;
+  }
+
+  @media (max-width: 900px) {
+    .hero-split-container {
+      grid-template-columns: 1fr;
+    }
+
+    .hero-title {
+      font-size: 2.25rem;
+    }
+
+    .hero-image-wrap img {
+      height: 300px;
+    }
+  }
+</style>
+
+<section class="hero-split">
+  <div class="hero-split-container">
+
+    <div class="hero-copy">
+      <div class="hero-tabs">
+        <button class="hero-tab active" data-service="co2">CO₂ Storage</button>
+        <button class="hero-tab" data-service="h2">H₂ Storage</button>
+        <button class="hero-tab" data-service="reservoir">Reservoir Forecasting</button>
+      </div>
+
+      <div class="hero-label" id="heroLabel">Carbon Storage</div>
+
+      <h1 class="hero-title" id="heroTitle">
+        Advanced CO₂ Storage Modelling
+      </h1>
+
+      <p class="hero-text" id="heroText">
+        Science-driven modelling workflows for storage screening, plume migration, injectivity, trapping mechanisms, and long-term subsurface performance.
+      </p>
+
+      <div class="hero-actions">
+        <a href="/services/co2-storage/" class="btn btn--primary" id="heroPrimary">
+          Explore CO₂ Storage
+        </a>
+        <a href="/contact/" class="btn btn--light-outline">
+          Discuss a Project
+        </a>
       </div>
     </div>
-  </div>
 
-  <div class="carousel-slide" style="background-image: url('/assets/images/h2-storage.png');">
-    <div class="carousel-caption">
-      <div class="sf-eyebrow">Hydrogen Storage</div>
-      <h1>Underground H₂ Storage Simulation</h1>
-      <p>Technical modelling for cushion gas behaviour, cyclic injection and withdrawal, containment risk, geochemical reactivity, and storage performance.</p>
-      <div class="sf-hero-buttons">
-        <a href="/services/h2-storage/" class="btn btn--primary">Explore H₂ Storage</a>
-        <a href="/contact/" class="btn btn--light-outline">Request Support</a>
-      </div>
+    <div class="hero-image-wrap">
+      <img id="heroImage" src="/assets/images/co2_storage.png" alt="CO₂ storage modelling concept">
     </div>
-  </div>
 
-  <div class="carousel-slide" style="background-image: url('/assets/images/reservoir_performance.png');">
-    <div class="carousel-caption">
-      <div class="sf-eyebrow">Upstream Oil & Gas</div>
-      <h1>Reservoir Performance Forecasting</h1>
-      <p>Integrated simulation, history matching, decline analysis, EOR evaluation, and uncertainty assessment to support better reservoir decisions.</p>
-      <div class="sf-hero-buttons">
-        <a href="/services/upstream-oil-gas/" class="btn btn--primary">Explore Forecasting</a>
-        <a href="/contact/" class="btn btn--light-outline">Contact Us</a>
-      </div>
-    </div>
   </div>
-
-  <div class="carousel-dots" id="carouselDots"></div>
-</div>
+</section>
 
 <script>
   (function() {
-    const slides = document.querySelectorAll('.carousel-slide');
-    const dotsContainer = document.getElementById('carouselDots');
-    let current = 0;
-    let interval;
+    const heroData = {
+      co2: {
+        label: "Carbon Storage",
+        title: "Advanced CO₂ Storage Modelling",
+        text: "Science-driven modelling workflows for storage screening, plume migration, injectivity, trapping mechanisms, and long-term subsurface performance.",
+        image: "/assets/images/co2_storage.png",
+        alt: "CO₂ storage modelling concept",
+        link: "/services/co2-storage/",
+        button: "Explore CO₂ Storage"
+      },
+      h2: {
+        label: "Hydrogen Storage",
+        title: "Underground H₂ Storage Simulation",
+        text: "Technical modelling for cushion gas behaviour, cyclic injection and withdrawal, containment risk, geochemical reactivity, and storage performance.",
+        image: "/assets/images/h2_storage.png",
+        alt: "Hydrogen storage simulation concept",
+        link: "/services/h2-storage/",
+        button: "Explore H₂ Storage"
+      },
+      reservoir: {
+        label: "Upstream Oil & Gas",
+        title: "Reservoir Performance Forecasting",
+        text: "Integrated simulation, history matching, decline analysis, EOR evaluation, and uncertainty assessment to support better reservoir decisions.",
+        image: "/assets/images/reservoir_performance.png",
+        alt: "Reservoir performance forecasting concept",
+        link: "/services/upstream-oil-gas/",
+        button: "Explore Forecasting"
+      }
+    };
 
-    if (dotsContainer) dotsContainer.innerHTML = '';
+    const tabs = document.querySelectorAll(".hero-tab");
+    const label = document.getElementById("heroLabel");
+    const title = document.getElementById("heroTitle");
+    const text = document.getElementById("heroText");
+    const image = document.getElementById("heroImage");
+    const primary = document.getElementById("heroPrimary");
 
-    slides.forEach((_, idx) => {
-      const dot = document.createElement('span');
-      dot.classList.add('carousel-dot');
-      if (idx === 0) dot.classList.add('active');
-      dot.addEventListener('click', () => {
-        clearInterval(interval);
-        showSlide(idx);
-        startInterval();
+    tabs.forEach(tab => {
+      tab.addEventListener("click", () => {
+        const key = tab.dataset.service;
+        const item = heroData[key];
+
+        tabs.forEach(t => t.classList.remove("active"));
+        tab.classList.add("active");
+
+        label.textContent = item.label;
+        title.textContent = item.title;
+        text.textContent = item.text;
+        image.src = item.image;
+        image.alt = item.alt;
+        primary.href = item.link;
+        primary.textContent = item.button;
       });
-      dotsContainer.appendChild(dot);
     });
-
-    function showSlide(index) {
-      slides.forEach((slide, i) => {
-        slide.classList.remove('active');
-        if (dotsContainer.children[i]) dotsContainer.children[i].classList.remove('active');
-      });
-      slides[index].classList.add('active');
-      if (dotsContainer.children[index]) dotsContainer.children[index].classList.add('active');
-      current = index;
-    }
-
-    function nextSlide() {
-      showSlide((current + 1) % slides.length);
-    }
-
-    function startInterval() {
-      interval = setInterval(nextSlide, 6000);
-    }
-
-    const container = document.getElementById('conceptCarousel');
-    if (container) {
-      container.addEventListener('mouseenter', () => clearInterval(interval));
-      container.addEventListener('mouseleave', startInterval);
-    }
-
-    showSlide(0);
-    startInterval();
   })();
 </script>
 
