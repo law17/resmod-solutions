@@ -280,8 +280,8 @@ feature_row2: []
       <li style="margin-bottom: 0.5rem;">Scientific Excellence</li>
       <li style="margin-bottom: 0.5rem;">Simulation Integrity</li>
       <li style="margin-bottom: 0.5rem;">Innovation</li>
-      <li style="margin-bottom: 0.5rem;">Collaborative Precision</li>
-      <li>Impact</li>
+      <li style="margin-bottom: 0.5rem;">Collaborative Excellence</li>
+      <li>Practical Impact</li>
     </ul>
   </div>
   <div class="rotator-dots" id="rotatorDots"></div>
