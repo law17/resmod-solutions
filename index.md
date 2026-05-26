@@ -506,7 +506,7 @@ feature_row2: []
         title: "Advanced CO₂ Storage Modelling",
         text: "Science-driven modelling workflows for storage screening, plume migration, injectivity, trapping mechanisms, and long-term subsurface performance.",
         image: "/assets/images/co2_storage_reduced.png",
-        alt: "CO₂ storage modelling concept",
+        /*alt: "CO₂ storage modelling concept",*/
         link: "/services/co2-storage/",
         button: "Explore CO₂ Storage"
       },
