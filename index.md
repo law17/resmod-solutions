@@ -492,7 +492,7 @@ feature_row2: []
     </div>
 
     <div class="hero-image-wrap">
-      <img id="heroImage" src="/assets/images/co2-storage.png" /*alt="CO₂ storage modelling concept">*/
+      <img id="heroImage" src="/assets/images/co2-storage.jpg" <!--alt="CO₂ storage modelling concept"> -->
     </div>
 
   </div>
@@ -505,8 +505,8 @@ feature_row2: []
         label: "Carbon Storage",
         title: "Advanced CO₂ Storage Modelling",
         text: "Science-driven modelling workflows for storage screening, plume migration, injectivity, trapping mechanisms, and long-term subsurface performance.",
-        image: "/assets/images/co2_storage_reduced.png",
-        /*alt: "CO₂ storage modelling concept",*/
+        image: "/assets/images/co2-storage.jpg",
+        <!--alt: "CO₂ storage modelling concept",-->
         link: "/services/co2-storage/",
         button: "Explore CO₂ Storage"
       },
@@ -514,8 +514,8 @@ feature_row2: []
         label: "Hydrogen Storage",
         title: "Underground H₂ Storage Simulation",
         text: "Technical modelling for cushion gas behaviour, cyclic injection and withdrawal, containment risk, geochemical reactivity, and storage performance.",
-        image: "/assets/images/h2-storage.png",
-        /*alt: "Hydrogen storage simulation concept",*/
+        image: "/assets/images/h2-storage.jpg",
+        <!--alt: "Hydrogen storage simulation concept",-->
         link: "/services/h2-storage/",
         button: "Explore H₂ Storage"
       },
@@ -523,8 +523,8 @@ feature_row2: []
         label: "Upstream Oil & Gas",
         title: "Reservoir Performance Forecasting",
         text: "Integrated simulation, history matching, decline analysis, and uncertainty assessment to support better oil & gas reservoir decisions.",
-        image: "/assets/images/reservoir-performance.png",
-        /*alt: "Reservoir performance forecasting concept",*/
+        image: "/assets/images/reservoir-performance.jpg",
+        <!--alt: "Reservoir performance forecasting concept",-->
         link: "/services/upstream-oil-gas/",
         button: "Explore Forecasting"
       }
