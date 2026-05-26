@@ -492,7 +492,8 @@ feature_row2: []
     </div>
 
     <div class="hero-image-wrap">
-      <img id="heroImage" src="/assets/images/co2-storage.jpg" <!--alt="CO₂ storage modelling concept"> -->
+      <!--alt<img id="heroImage" src="/assets/images/co2-storage.jpg" alt="CO₂ storage modelling concept"> --> 
+      <img id="heroImage" src="/assets/images/co2-storage.jpg"> 
     </div>
 
   </div>
