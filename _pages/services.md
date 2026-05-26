@@ -4,6 +4,15 @@ title: "Our Services"
 permalink: /services/
 ---
 
+<style>
+  * {
+    text-align: justify !important;
+  }
+  h1, h2, h3, h4, h5, h6, .btn, nav, .masthead, .page__hero-caption {
+    text-align: left !important;
+  }
+</style>
+
 ## Advanced Subsurface Modelling & Technical Consultancy
 
 StrataFlux Energy provides specialist subsurface modelling, simulation, and technical advisory services for carbon storage, hydrogen storage, upstream oil and gas, and reservoir performance forecasting.
