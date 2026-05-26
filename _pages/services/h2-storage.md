@@ -99,74 +99,92 @@ permalink: /services/h2-storage/
   </div>
 
   <!-- TEXT -->
-  <div class="service-text">
+<div class="service-text">
 
-## Underground Hydrogen Storage Modelling & Simulation
+<h2>Underground Hydrogen Storage Modelling & Simulation</h2>
 
+<p>
 StrataFlux Energy provides advanced modelling and simulation services for underground hydrogen storage (UHS) systems, supporting technical evaluation, operational planning, and long-term storage performance assessment across subsurface storage environments.
+</p>
 
+<p>
 Our workflows combine multiphase flow simulation, reactive transport analysis, uncertainty evaluation, and AI-assisted computational methodologies to help clients better understand hydrogen containment, cyclic storage behaviour, cushion gas performance, and subsurface reactivity under operational conditions.
+</p>
 
----
+<hr>
 
-### Technical Capabilities
+<h3>Technical Capabilities</h3>
 
-- Underground hydrogen storage simulation
-- Cyclic injection and withdrawal analysis
-- Cushion gas sizing and optimization
-- Hydrogen migration and containment assessment
-- Pressure evolution and reservoir performance forecasting
-- Caprock integrity and leakage risk evaluation
-- Reactive transport and geochemical interaction studies
-- Sensitivity and uncertainty evaluation
-- Operational scenario and deliverability assessment
+<ul>
+  <li>Underground hydrogen storage simulation</li>
+  <li>Cyclic injection and withdrawal analysis</li>
+  <li>Cushion gas sizing and optimization</li>
+  <li>Hydrogen migration and containment assessment</li>
+  <li>Pressure evolution and reservoir performance forecasting</li>
+  <li>Caprock integrity and leakage risk evaluation</li>
+  <li>Reactive transport and geochemical interaction studies</li>
+  <li>Sensitivity and uncertainty evaluation</li>
+  <li>Operational scenario and deliverability assessment</li>
+</ul>
 
----
+<hr>
 
-### Storage Systems & Applications
+<h3>Storage Systems & Applications</h3>
 
+<p>
 We support technical evaluation and modelling studies for:
+</p>
 
-- Depleted gas reservoirs
-- Saline aquifers
-- Salt cavern storage systems
-- Cushion gas performance studies
-- Seasonal and large-scale hydrogen storage
-- Energy storage integration studies
-- Storage screening and feasibility assessment
-- Risk and containment evaluation
-- Injection strategy optimization
-- Long-term storage performance forecasting
+<ul>
+  <li>Depleted gas reservoirs</li>
+  <li>Saline aquifers</li>
+  <li>Salt cavern storage systems</li>
+  <li>Cushion gas performance studies</li>
+  <li>Seasonal and large-scale hydrogen storage</li>
+  <li>Energy storage integration studies</li>
+  <li>Storage screening and feasibility assessment</li>
+  <li>Risk and containment evaluation</li>
+  <li>Injection strategy optimization</li>
+  <li>Long-term storage performance forecasting</li>
+</ul>
 
----
+<hr>
 
-### Typical Deliverables
+<h3>Typical Deliverables</h3>
 
-- Dynamic reservoir simulation models
-- Injection and production cycle forecasts
-- Cushion gas requirement analysis
-- Pressure and saturation evolution studies
-- Hydrogen plume migration assessment
-- Containment and leakage risk evaluation
-- Reactive transport and geochemical analysis
-- Sensitivity and uncertainty studies
-- Technical reports and modelling documentation
+<ul>
+  <li>Dynamic reservoir simulation models</li>
+  <li>Injection and production cycle forecasts</li>
+  <li>Cushion gas requirement analysis</li>
+  <li>Pressure and saturation evolution studies</li>
+  <li>Hydrogen plume migration assessment</li>
+  <li>Containment and leakage risk evaluation</li>
+  <li>Reactive transport and geochemical analysis</li>
+  <li>Sensitivity and uncertainty studies</li>
+  <li>Technical reports and modelling documentation</li>
+</ul>
 
----
+<hr>
 
-### Advanced Computational & AI-Assisted Workflows
+<h3>Advanced Computational & AI-Assisted Workflows</h3>
 
+<p>
 We use advanced simulation, computational automation, data-driven analysis, and AI-assisted methods to support efficient, scientifically grounded evaluations of underground hydrogen storage.
+</p>
 
+<p>
 These approaches help improve workflow efficiency, uncertainty assessment, model interpretation, operational forecasting, and technical decision support across complex subsurface hydrogen storage systems.
+</p>
 
----
+<hr>
 
 <div class="service-cta">
 
-<a href="/contact/" class="btn btn--primary">
-Discuss an Underground Hydrogen Storage Project →
-</a>
+  <a href="/contact/" class="btn btn--primary">
+    Discuss an Underground Hydrogen Storage Project →
+  </a>
+
+</div>
 
 </div>
 
