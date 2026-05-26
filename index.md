@@ -450,7 +450,7 @@ feature_row2: []
 <section class="sf-positioning sf-section" style="padding: 1.5rem 1.5rem; text-align: justify">
   <div class="sf-container">
     <p>
-      StrataFlux Energy provides advanced subsurface modelling, simulation, and technical advisory services for carbon storage, hydrogen storage, upstream oil and gas, and reservoir performance forecasting.
+      StrataFlux Energy provides advanced subsurface modelling, simulation, and technical advisory services for subsurface energy operations.
     </p>
     <div style="margin-top:1.5rem;">
       <a href="/services/" class="btn btn--primary" style="margin-right: 1rem;">Explore Services</a>
