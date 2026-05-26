@@ -167,7 +167,7 @@ permalink: /services/upstream-oil-gas/
     </p>
 
     <p>
-      These approaches help improve history matching, forecasting reliability, uncertainty assessment, scenario screening, and decision support for complex upstream oil and gas assets.
+     Our workflow helps improve history matching, forecasting reliability, uncertainty assessment, scenario screening, and decision support for complex upstream oil and gas assets.
     </p>
 
     <hr>
