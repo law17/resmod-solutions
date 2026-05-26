@@ -163,7 +163,7 @@ Our technical workflows integrate advanced simulation, computational automation,
 </p>
 
 <p>
-These approaches help improve workflow efficiency, uncertainty assessment, model interpretation, and technical decision support across complex subsurface energy systems.
+These approaches help improve workflow efficiency, uncertainty assessment, model interpretation, and technical decision support across complex subsurface systems.
 </p>
 
 <hr>
