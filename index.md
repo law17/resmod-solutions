@@ -370,12 +370,13 @@ feature_row2: []
     border: 1px solid #d9e2ec;
     background: white;
     color: #0a2540;
-    padding: 0.55rem 0.9rem;
+    padding: 0.5rem 0.8rem;
     border-radius: 999px;
     font-weight: 700;
-    font-size: 0.88rem;
+    font-size: 0.82rem;
     cursor: pointer;
     transition: all 0.25s ease;
+    white-space: nowrap;
   }
 
   .hero-tab.active,
@@ -491,7 +492,7 @@ feature_row2: []
     </div>
 
     <div class="hero-image-wrap">
-      <img id="heroImage" src="/assets/images/co2_storage.png" alt="CO₂ storage modelling concept">
+      <img id="heroImage" src="/assets/images/co2-storage.png" alt="CO₂ storage modelling concept">
     </div>
 
   </div>
@@ -513,7 +514,7 @@ feature_row2: []
         label: "Hydrogen Storage",
         title: "Underground H₂ Storage Simulation",
         text: "Technical modelling for cushion gas behaviour, cyclic injection and withdrawal, containment risk, geochemical reactivity, and storage performance.",
-        image: "/assets/images/h2_storage_reduced.png",
+        image: "/assets/images/h2-storage.png",
         alt: "Hydrogen storage simulation concept",
         link: "/services/h2-storage/",
         button: "Explore H₂ Storage"
@@ -522,7 +523,7 @@ feature_row2: []
         label: "Upstream Oil & Gas",
         title: "Reservoir Performance Forecasting",
         text: "Integrated simulation, history matching, decline analysis, and uncertainty assessment to support better oil & gas reservoir decisions.",
-        image: "/assets/images/reservoir_performance_reduced.png",
+        image: "/assets/images/reservoir-performance.png",
         alt: "Reservoir performance forecasting concept",
         link: "/services/upstream-oil-gas/",
         button: "Explore Forecasting"
@@ -560,9 +561,9 @@ feature_row2: []
 <section class="sf-section">
   <div class="sf-container who-grid">
     <div>
-      <h2 class="sf-section-title">Who We Are</h2>
+      <h2 class="sf-section-title">StrataFlux Energy</h2>
       <p class="sf-section-intro_2">
-        StrataFlux Energy is an independent subsurface consultancy focused on advanced modelling, simulation, and technical analysis for carbon and hydrogen storage, as well as upstream oil & gas systems.
+        We are an independent subsurface consultancy focused on advanced modelling, simulation, and technical analysis for carbon and hydrogen storage, as well as upstream oil & gas systems.
       </p>
       <p class="sf-section-intro_2">
         We deliver scientifically rigorous reservoir simulation, reactive transport modelling, geochemical analysis, and computational workflows that support informed decision-making across the energy sector. Our work helps clients evaluate subsurface performance, reduce uncertainty, and better understand complex flow and storage processes.
