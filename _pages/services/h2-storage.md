@@ -188,6 +188,4 @@ These methodologies help improve cushion gas assessment, containment evaluation,
 
 </div>
 
-  </div>
-
 </div>
