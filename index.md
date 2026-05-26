@@ -445,6 +445,21 @@ feature_row2: []
   }
 </style>
 
+<!-- ========== BLUE GRADIENT, POSITIONING BAR ========== -->
+<section class="sf-positioning sf-section" style="padding: 1.5rem 1.5rem; text-align: justify">
+  <div class="sf-container">
+    <p>
+      StrataFlux Energy provides advanced subsurface modelling, simulation, and technical advisory services for carbon storage, hydrogen storage, upstream oil and gas, and reservoir performance forecasting.
+    </p>
+    <div style="margin-top:1.5rem;">
+      <a href="/services/" class="btn btn--primary" style="margin-right: 1rem;">Explore Services</a>
+      <a href="/contact/" class="btn btn--light-outline">Discuss a Project</a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== HERO BAR ========== -->
+
 <section class="hero-split">
   <div class="hero-split-container">
 
@@ -540,19 +555,6 @@ feature_row2: []
     });
   })();
 </script>
-
-<!-- ========== BLUE GRADIENT, POSITIONING BAR ========== -->
-<section class="sf-positioning sf-section" style="padding: 1.5rem 1.5rem; text-align: justify">
-  <div class="sf-container">
-    <p>
-      StrataFlux Energy provides advanced subsurface modelling, simulation, and technical advisory services for carbon storage, hydrogen storage, upstream oil and gas, and reservoir performance forecasting.
-    </p>
-    <div style="margin-top:1.5rem;">
-      <a href="/services/" class="btn btn--primary" style="margin-right: 1rem;">Explore Services</a>
-      <a href="/contact/" class="btn btn--light-outline">Discuss a Project</a>
-    </div>
-  </div>
-</section>
 
 <!-- ========== WHO WE ARE ========== -->
 <section class="sf-section">
