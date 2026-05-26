@@ -45,24 +45,75 @@ permalink: /services/co2-storage/
 </style>
 
 <div class="service-layout">
+
   <div class="service-image">
     <img src="{{ '/assets/images/co2-storage.jpg' | relative_url }}" alt="CO₂ storage simulation">
   </div>
+
   <div class="service-text">
-    <p><strong>Service overview:</strong><br>
-    We build predictive reservoir models for geological carbon storage. From regional screening to detailed site characterization, we help assess storage capacity, injectivity, plume migration, and long-term trapping mechanisms.</p>
 
-    <p><strong>Typical deliverables:</strong></p>
-    <ul>
-      <li>3D static and dynamic models (structured/unstructured grids)</li>
-      <li>Plume footprint and pressure front evolution</li>
-      <li>Trap integrity and leakage risk analysis</li>
-      <li>Geochemical reactions (dissolution, mineralization)</li>
-      <li>Uncertainty quantification and sensitivity analysis</li>
-    </ul>
+## Advanced CO₂ Storage Modelling & Simulation
 
-    <p><strong>Software:</strong> MRST, PFLOTRAN, PHREEQC, CMG (on request), Python scripting for automation.</p>
+StrataFlux Energy provides scientifically rigorous modelling and simulation services for geological carbon storage projects, supporting technical evaluation from early-stage screening to long-term storage performance assessment.
 
-    <p><a href="/contact/" class="btn btn--primary">Request a consultation →</a></p>
+Our workflows integrate reservoir simulation, reactive transport modelling, geochemical analysis, and uncertainty evaluation to help clients better understand injectivity, containment, trapping mechanisms, and long-term subsurface behaviour.
+
+---
+
+### Technical Capabilities
+
+- Storage capacity estimation
+- Injectivity and pressure management analysis
+- CO₂ plume migration forecasting
+- Caprock and trap integrity assessment
+- Reactive transport and geochemical modelling
+- Mineral trapping and dissolution analysis
+- Sensitivity and uncertainty evaluation
+- Long-term storage performance forecasting
+
+---
+
+### Typical Applications
+
+- Saline aquifer storage assessment
+- Depleted reservoir screening
+- Injection strategy evaluation
+- Site characterization support
+- Storage containment studies
+- Risk and uncertainty analysis
+- Monitoring and performance forecasting
+
+---
+
+### Typical Deliverables
+
+- 3D static and dynamic reservoir models
+- Structured and unstructured simulation grids
+- Pressure and saturation evolution forecasts
+- CO₂ plume footprint prediction
+- Reactive transport and mineralization analysis
+- Sensitivity and uncertainty studies
+- Technical reports and modelling documentation
+
+---
+
+### Software & Computational Workflows
+
+Our modelling workflows combine advanced open-source and commercial simulation tools, including:
+
+- PFLOTRAN
+- PHREEQC
+- MRST
+- Python-based automation workflows
+- CMG (on request)
+
+---
+
+<p>
+<a href="/contact/" class="btn btn--primary">
+Request a Consultation →
+</a>
+</p>
+
   </div>
 </div>
