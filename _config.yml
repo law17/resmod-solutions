@@ -87,4 +87,7 @@ footer:
     - label: "Contact"
       icon: "fas fa-envelope"
       url: "/contact/"
+    - label: "Privacy notice"
+      icon: "fas fa-cogs"
+      url: "/privacy/"
 
