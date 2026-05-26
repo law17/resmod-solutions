@@ -492,7 +492,7 @@ feature_row2: []
     </div>
 
     <div class="hero-image-wrap">
-      <img id="heroImage" src="/assets/images/co2-storage.png" alt="CO₂ storage modelling concept">
+      <img id="heroImage" src="/assets/images/co2-storage.png" /*alt="CO₂ storage modelling concept">*/
     </div>
 
   </div>
@@ -515,7 +515,7 @@ feature_row2: []
         title: "Underground H₂ Storage Simulation",
         text: "Technical modelling for cushion gas behaviour, cyclic injection and withdrawal, containment risk, geochemical reactivity, and storage performance.",
         image: "/assets/images/h2-storage.png",
-        alt: "Hydrogen storage simulation concept",
+        /*alt: "Hydrogen storage simulation concept",*/
         link: "/services/h2-storage/",
         button: "Explore H₂ Storage"
       },
@@ -524,7 +524,7 @@ feature_row2: []
         title: "Reservoir Performance Forecasting",
         text: "Integrated simulation, history matching, decline analysis, and uncertainty assessment to support better oil & gas reservoir decisions.",
         image: "/assets/images/reservoir-performance.png",
-        alt: "Reservoir performance forecasting concept",
+        /*alt: "Reservoir performance forecasting concept",*/
         link: "/services/upstream-oil-gas/",
         button: "Explore Forecasting"
       }
