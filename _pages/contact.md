@@ -30,5 +30,6 @@ permalink: /contact/
   <button type="submit" class="btn btn--primary">Send Message</button>
 </form>
 
-**Or email directly:** [blessv2013@gmail.com](mailto:blessv2013@gmail.com)  
+/***Or email directly:** [blessv2013@gmail.com](mailto:blessv2013@gmail.com) */ 
+**Or email directly:** [Email will be provided shortly.] 
 
