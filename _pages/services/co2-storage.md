@@ -99,69 +99,81 @@ permalink: /services/co2-storage/
   </div>
 
   <!-- TEXT -->
-  <div class="service-text">
+<div class="service-text">
 
-## Advanced CO₂ Storage Modelling & Simulation
+<h2>Advanced CO₂ Storage Modelling & Simulation</h2>
 
+<p>
 StrataFlux Energy provides scientifically rigorous modelling and simulation services for geological carbon storage projects, supporting technical evaluation from early-stage screening to long-term storage performance assessment.
+</p>
 
+<p>
 Our workflows integrate reservoir simulation, reactive transport modelling, geochemical analysis, uncertainty evaluation, and AI-assisted computational methodologies to help clients better understand injectivity, containment, trapping mechanisms, and long-term subsurface behaviour.
+</p>
 
----
+<hr>
 
-### Technical Capabilities
+<h3>Technical Capabilities</h3>
 
-- Storage capacity estimation
-- Injectivity and pressure management analysis
-- CO₂ plume migration forecasting
-- Caprock and trap integrity assessment
-- Reactive transport and geochemical modelling
-- Mineral trapping and dissolution analysis
-- Sensitivity and uncertainty evaluation
-- Long-term storage performance forecasting
+<ul>
+  <li>Storage capacity estimation</li>
+  <li>Injectivity and pressure management analysis</li>
+  <li>CO₂ plume migration forecasting</li>
+  <li>Caprock and trap integrity assessment</li>
+  <li>Reactive transport and geochemical modelling</li>
+  <li>Mineral trapping and dissolution analysis</li>
+  <li>Sensitivity and uncertainty evaluation</li>
+  <li>Long-term storage performance forecasting</li>
+</ul>
 
----
+<hr>
 
-### Typical Applications
+<h3>Typical Applications</h3>
 
-- Saline aquifer storage assessment
-- Depleted reservoir screening
-- Injection strategy evaluation
-- Site characterization support
-- Storage containment studies
-- Risk and uncertainty analysis
-- Monitoring and performance forecasting
+<ul>
+  <li>Saline aquifer storage assessment</li>
+  <li>Depleted reservoir screening</li>
+  <li>Injection strategy evaluation</li>
+  <li>Site characterization support</li>
+  <li>Storage containment studies</li>
+  <li>Risk and uncertainty analysis</li>
+  <li>Monitoring and performance forecasting</li>
+</ul>
 
----
+<hr>
 
-### Typical Deliverables
+<h3>Typical Deliverables</h3>
 
-- 3D static and dynamic reservoir models
-- Structured and unstructured simulation grids
-- Pressure and saturation evolution forecasts
-- CO₂ plume footprint prediction
-- Reactive transport and mineralization analysis
-- Sensitivity and uncertainty studies
-- Technical reports and modelling documentation
+<ul>
+  <li>3D static and dynamic reservoir models</li>
+  <li>Structured and unstructured simulation grids</li>
+  <li>Pressure and saturation evolution forecasts</li>
+  <li>CO₂ plume footprint prediction</li>
+  <li>Reactive transport and mineralization analysis</li>
+  <li>Sensitivity and uncertainty studies</li>
+  <li>Technical reports and modelling documentation</li>
+</ul>
 
----
+<hr>
 
-### Advanced Computational & AI-Assisted Workflows
+<h3>Advanced Computational & AI-Assisted Workflows</h3>
 
+<p>
 Our technical workflows integrate advanced simulation, computational automation, data-driven analysis, and AI-assisted methodologies to support efficient and scientifically grounded subsurface evaluations.
+</p>
 
+<p>
 These approaches help improve workflow efficiency, uncertainty assessment, model interpretation, and technical decision support across complex subsurface energy systems.
+</p>
 
----
+<hr>
 
 <div class="service-cta">
 
-<a href="/contact/" class="btn btn--primary">
-Discuss a CO₂ Storage Project →
-</a>
+  <a href="/contact/" class="btn btn--primary">
+    Discuss a CO₂ Storage Project →
+  </a>
 
 </div>
-
-  </div>
 
 </div>
