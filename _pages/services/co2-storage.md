@@ -159,11 +159,12 @@ Our workflows integrate reservoir simulation, reactive transport modelling, geoc
 <h3>Advanced Computational & AI-Assisted Workflows</h3>
 
 <p>
-Our technical workflows integrate advanced simulation, computational automation, data-driven analysis, and AI-assisted methodologies to support efficient and scientifically grounded subsurface evaluations.
+Our CO₂ storage workflows integrate reservoir simulation, reactive transport modelling, computational automation, and AI-assisted analysis to support scientifically rigorous evaluation of geological carbon storage systems.
 </p>
 
 <p>
-These approaches help improve workflow efficiency, uncertainty assessment, model interpretation, and technical decision support across complex subsurface systems.
+These approaches help improve injectivity assessment, plume migration forecasting, trapping evaluation, uncertainty analysis, and long-term storage performance prediction across complex subsurface environments.
+</p>
 </p>
 
 <hr>
