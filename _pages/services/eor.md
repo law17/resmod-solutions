@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: single 
 title: "Enhanced Oil Recovery (EOR)"
 permalink: /services/eor/
 ---
