@@ -4,7 +4,7 @@ title: "CO₂ Storage Modelling"
 permalink: /services/co2-storage/
 --- 
 
-<style>
+<style> 
 
   .page__title {
     display: none;
@@ -165,7 +165,6 @@ Our CO₂ storage workflows integrate reservoir simulation, reactive transport m
 <p>
 These approaches help improve injectivity assessment, plume migration forecasting, trapping evaluation, uncertainty analysis, and long-term storage performance prediction across complex subsurface environments.
 </p>
-</p>
 
 <hr>
 
@@ -174,6 +173,8 @@ These approaches help improve injectivity assessment, plume migration forecastin
   <a href="/contact/" class="btn btn--primary">
     Discuss a CO₂ Storage Project →
   </a>
+
+</div>
 
 </div>
 
