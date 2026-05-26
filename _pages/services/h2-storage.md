@@ -169,11 +169,11 @@ We support technical evaluation and modelling studies for:
 <h3>Advanced Computational & AI-Assisted Workflows</h3>
 
 <p>
-We use advanced simulation, computational automation, data-driven analysis, and AI-assisted methods to support efficient, scientifically grounded evaluations of underground hydrogen storage.
+Our underground hydrogen storage workflows combine multiphase flow simulation, operational forecasting, computational automation, and AI-assisted analysis to support efficient evaluation of cyclic storage performance and subsurface hydrogen behaviour.
 </p>
 
 <p>
-These approaches help improve workflow efficiency, uncertainty assessment, model interpretation, operational forecasting, and technical decision support across complex subsurface hydrogen storage systems.
+These methodologies help improve cushion gas assessment, containment evaluation, operational scenario analysis, uncertainty quantification, and long-term hydrogen storage performance forecasting.
 </p>
 
 <hr>
