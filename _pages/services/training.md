@@ -95,9 +95,11 @@ permalink: /services/training/
 <div class="service-layout">
 
   <!-- IMAGE -->
+  {% comment %}
   <div class="service-image">
     <img src="{{ '/assets/images/training-workshop.jpg' | relative_url }}" alt="Open-source modelling and simulation training">
   </div>
+  {% endcomment %}
 
   <!-- TEXT -->
   <div class="service-text">
@@ -125,10 +127,10 @@ permalink: /services/training/
     <ul>
       <li>Reservoir simulation fundamentals and workflow development</li>
       <li>Black oil and compositional reservoir modelling concepts</li>
-      <li>CO₂ storage modelling and plume migration analysis</li>
-      <li>Underground hydrogen storage modelling and cyclic storage workflows</li>
+      <li>CO₂ storage modelling and analysis</li>
+      <li>Underground hydrogen storage modelling and workflow development </li>
       <li>Reactive transport and geochemical modelling</li>
-      <li>PHREEQC-based geochemical analysis</li>
+      <li>PHREEQC-based geochemical modelling and interpretation of results</li>
       <li>PFLOTRAN-based reactive transport modelling</li>
       <li>MRST-based reservoir simulation workflows</li>
       <li>Python for post-processing, plotting, automation, and sensitivity analysis</li>
@@ -137,7 +139,7 @@ permalink: /services/training/
 
     <hr>
 
-    <h3>Who This Training Is For</h3>
+    <h3>Who Is This Training For</h3>
 
     <ul>
       <li>Students working on simulation-based BSc, MSc, or PhD projects</li>
@@ -195,7 +197,7 @@ permalink: /services/training/
       <li>Training is grounded in real subsurface modelling problems, not generic software demonstrations.</li>
       <li>Sessions combine theory, workflow design, simulation practice, and result interpretation.</li>
       <li>Participants learn the reasoning behind modelling choices, not only which buttons or commands to use.</li>
-      <li>Training can be tailored to CO₂ storage, hydrogen storage, reservoir forecasting, reactive transport, or geochemical modelling topics.</li>
+      <li>Training can be tailored to CO₂ storage, hydrogen storage, reservoir forecasting, or reactive transport modelling topics.</li>
       <li>Support can be adapted for beginners, intermediate users, or advanced research workflows.</li>
     </ul>
 
