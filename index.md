@@ -341,6 +341,118 @@ feature_row2: []
       left: 2rem;
     }
   }
+
+  /* ========== AI SECTION ========== */
+  .ai-section {
+    background: linear-gradient(135deg, #071b2f 0%, #0a2540 55%, #143f2c 100%);
+    color: white;
+    padding: 4rem 1.5rem;
+  }    
+
+  .ai-header {
+    max-width: 900px;
+    margin-bottom: 2rem;
+  }
+
+  .ai-label {
+    display: inline-block;
+    color: #63b32e;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .ai-header h2 {
+    color: white;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .ai-header p {
+    font-size: 1.12rem;
+    line-height: 1.75;
+    text-align: justify;
+    color: #e8eef5;
+  }
+
+  .ai-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .ai-card {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    padding: 1.7rem;
+    box-shadow: 0 14px 30px rgba(0,0,0,0.18);
+  }
+
+  .ai-icon {
+    width: 46px;
+    height: 46px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #63b32e, #2f7d32);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .ai-card h3,
+  .ai-applications h3,
+  .ai-list-grid h4 {
+  color: white;
+}
+
+  .ai-card p {
+    color: #e8eef5;
+    line-height: 1.65;
+    text-align: justify;
+  }
+
+  .ai-applications {
+    margin-top: 2.5rem;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 16px;
+    padding: 2rem;
+  }
+
+  .ai-list-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .ai-list-grid ul {
+    padding-left: 1.2rem;
+    line-height: 1.75;
+    color: #e8eef5;
+  }
+
+  .ai-list-grid li {
+    text-align: left;
+  }
+
+  @media (max-width: 900px) {
+    .ai-grid,
+    .ai-list-grid {
+      grid-template-columns: 1fr;
+  }
+
+  .ai-header h2 {
+    font-size: 1.8rem;
+  }
+}
+  
 </style>
 
 <!-- ========== HERO CAROUSEL SPLIT SECTION WITH TABS ========== -->
@@ -654,6 +766,85 @@ feature_row2: []
       </div>
 
     </div>
+  </div>
+</section>
+
+<!-- ========== AI-ASSISTED SUBSURFACE WORKFLOWS ========== -->
+<section class="ai-section">
+  <div class="sf-container">
+
+    <div class="ai-header">
+      <span class="ai-label">Computational Intelligence</span>
+      <h2>AI-Assisted Subsurface Modelling & Decision Support</h2>
+      <p>
+        StrataFlux Energy combines physics-based simulation, computational automation, data-driven analysis, and AI-assisted workflows to improve the efficiency, interpretation, and reliability of subsurface energy studies.
+      </p>
+    </div>
+
+    <div class="ai-grid">
+
+      <div class="ai-card">
+        <div class="ai-icon">⌁</div>
+        <h3>Intelligent Forecasting</h3>
+        <p>
+          AI-assisted workflows can support CO₂ plume evolution analysis, hydrogen storage prediction, hydrocarbon production forecasting, and reservoir performance screening across multiple operating scenarios.
+        </p>
+      </div>
+
+      <div class="ai-card">
+        <div class="ai-icon">◎</div>
+        <h3>Uncertainty & Risk Evaluation</h3>
+        <p>
+          Data-driven methods help identify dominant parameters, rank scenarios, screen uncertainty ranges, and support risk-informed decisions for storage security, injectivity, containment, and field performance.
+        </p>
+      </div>
+
+      <div class="ai-card">
+        <div class="ai-icon">▣</div>
+        <h3>Workflow Automation</h3>
+        <p>
+          Computational automation improves simulation setup, batch processing, sensitivity analysis, result extraction, model comparison, and technical reporting for complex subsurface projects.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="ai-applications">
+      <h3>Where We Apply AI-Assisted Workflows</h3>
+
+      <div class="ai-list-grid">
+        <div>
+          <h4>CO₂ Storage</h4>
+          <ul>
+            <li>Storage screening and site ranking</li>
+            <li>Injectivity and pressure response evaluation</li>
+            <li>Plume migration and trapping assessment</li>
+            <li>Leakage risk and monitoring support</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Hydrogen Storage</h4>
+          <ul>
+            <li>Cyclic injection and withdrawal forecasting</li>
+            <li>Cushion gas and deliverability evaluation</li>
+            <li>Containment and migration screening</li>
+            <li>Operational scenario comparison</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Oil & Gas Reservoirs</h4>
+          <ul>
+            <li>History matching support</li>
+            <li>Production and decline forecasting</li>
+            <li>EOR, waterflood and gas injection screening</li>
+            <li>Reservoir surveillance and anomaly detection</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
