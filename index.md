@@ -361,7 +361,7 @@ feature_row2: []
     letter-spacing: 0.08em;
     text-transform: uppercase;
     font-size: 0.85rem;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.6rem;
   }
 
   .ai-header h2 {
