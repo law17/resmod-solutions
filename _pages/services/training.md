@@ -95,11 +95,9 @@ permalink: /services/training/
 <div class="service-layout">
 
   <!-- IMAGE -->
-  {% comment %}
   <div class="service-image">
-    <img src="{{ '/assets/images/training-workshop.jpg' | relative_url }}" alt="Open-source modelling and simulation training">
+    <img src="{{ '/assets/images/training-workshop.png' | relative_url }}" alt="Open-source modelling and simulation training">
   </div>
-  {% endcomment %}
 
   <!-- TEXT -->
   <div class="service-text">
