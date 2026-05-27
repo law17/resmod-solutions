@@ -96,7 +96,7 @@ permalink: /services/student-projects/
 
   <!-- IMAGE -->
   <div class="service-image">
-    <img src="{{ '/assets/images/student-project.jpg' | relative_url }}" alt="Research and technical modelling support for students and researchers">
+    <img src="{{ '/assets/images/student-project.png' | relative_url }}" alt="Research and technical modelling support for students and researchers">
   </div>
 
   <!-- TEXT -->
