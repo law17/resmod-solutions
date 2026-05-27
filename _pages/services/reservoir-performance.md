@@ -95,7 +95,7 @@ permalink: /services/upstream-oil-gas/
 
   <!-- IMAGE -->
   <div class="service-image">
-    <img src="{{ '/assets/images/reservoir_performance_reduced.png' | relative_url }}"> <!--alt="Reservoir performance forecasting and simulation">-->
+    <img src="{{ '/assets/images/reservoir_performance_reduced.png' | relative_url }}"> <!--alt="Reservoir performance forecasting and simulation">--> 
   </div>
 
   <!-- TEXT -->
