@@ -399,8 +399,8 @@ feature_row2: []
     background: linear-gradient(135deg, #63b32e, #2f7d32);
     color: white;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     font-size: 1.4rem;
     margin-bottom: 1rem;
   }
