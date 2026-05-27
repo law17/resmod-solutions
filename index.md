@@ -351,7 +351,7 @@ feature_row2: []
 
   .ai-header {
     max-width: 900px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   .ai-label {
