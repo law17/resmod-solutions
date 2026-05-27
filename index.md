@@ -400,7 +400,7 @@ feature_row2: []
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     font-size: 1.4rem;
     margin-bottom: 1rem;
   }
