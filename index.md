@@ -399,8 +399,8 @@ feature_row2: []
     background: linear-gradient(135deg, #63b32e, #2f7d32);
     color: white;
     display: flex;
-    align-items: left;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
     font-size: 1.4rem;
     margin-bottom: 1rem;
   }
@@ -414,7 +414,7 @@ feature_row2: []
   .ai-card p {
     color: #e8eef5;
     line-height: 1.65;
-    text-align: justify;
+    text-align: left;
   }
 
   .ai-applications {
