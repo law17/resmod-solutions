@@ -4,6 +4,15 @@ title: "Contact"
 permalink: /contact/
 ---
 
+<style>
+  * {
+    text-align: justify !important;
+  }
+  h1, h2, h3, h4, h5, h6, .btn, nav, .masthead, .page__hero-caption {
+    text-align: left !important;
+  }
+</style>
+
 **Let’s discuss your project.**
 
 **StrataFlux Energy is currently operating in an early development phase. Consultancy enquiries, collaborations, and technical discussions are welcome through the contact form below.**
