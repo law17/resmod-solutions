@@ -14,8 +14,7 @@ permalink: /training-hub/
 </style>
 
 **Upcoming Workshops**  
-- **To be communicated, online** ([Register](mailto:Email to be provided?subject=MRST Workshop Registration))  
-- **To be communicated** ([Register](mailto: Email to be provided?subject=PFLOTRAN Workshop))
+- **No public workshops currently scheduled. Custom workshops available on request.** ([Contact us:](mailto:Email to be provided?subject= Workshop Registration))  
 
 **Request a Custom Workshop**  
 We can tailor a workshop for your university department or research group.  
