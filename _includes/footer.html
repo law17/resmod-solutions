@@ -1,44 +1,16 @@
-<footer class="sf-footer">
-
-  <div class="sf-footer-container">
-
-    <div class="sf-footer-column">
-      <h3>Address</h3>
-
-      <p>
-        <strong>StrataFlux Energy</strong><br>
-        Technical Consultancy in Subsurface Energy Systems
-      </p>
-
-      <p>
-        Country
-      </p>
-
-      <p>
-        Email:<br>
-        <a href="mailto:info@stratafluxenergy.com">
-          info@stratafluxenergy.com
-        </a>
-      </p>
-    </div>
-
-    <div class="sf-footer-column">
-      <h3>Quick Links</h3>
-
-      <ul>
-        <li><a href="/about/">About</a></li>
-        <li><a href="/services/">Services</a></li>
-        <li><a href="/careers/">Careers</a></li>
-        <li><a href="/contact/">Contact</a></li>
-        <li><a href="/posts/">Blog</a></li>
-        <li><a href="/contact/">Contact</a></li>
+<footer class="page__footer">
+  <div class="page__footer-copyright">
+    <div class="page__footer-follow">
+      <ul class="social-icons">
+        {% if site.footer.links %}
+          {% for link in site.footer.links %}
+            <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+          {% endfor %}
+        {% endif %}
       </ul>
     </div>
-
+    <div class="page__footer-copyright">
+      &copy; {{ site.time | date: '%Y' }} {{ site.title | default: site.name }}. All rights reserved.
+    </div>
   </div>
-
-  <div class="sf-footer-bottom" style="font-size: 0.9rem;">
-    © {{ site.time | date: '%Y' }} StrataFlux Energy. All rights reserved.
-  </div>
-
 </footer>
