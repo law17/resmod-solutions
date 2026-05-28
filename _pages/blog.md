@@ -4,9 +4,9 @@ title: "Blog & Tutorials"
 permalink: /blog/
 author_profile: true
 author:
-  name: "Emma"
+  name: "StrataFlux Energy"
   avatar: "/assets/images/logo.png"
   bio: "Subsurface modelling specialist. Open‑source enthusiast."
   #location: "City, Country"
-  email: "blessv2013@gmail.com"
+  email: "To be provided shortly."
 ---
