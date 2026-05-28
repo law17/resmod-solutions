@@ -175,7 +175,7 @@ permalink: /services/student-projects/
 
     <hr>
 
-    <h3>What This Service Is Not</h3>
+    <h3>What Is Not Included In This Service</h3>
 
     <ul>
       <li>We do not write academic work for students.</li>
