@@ -6,6 +6,8 @@ permalink: /contact/
 
 **Let’s discuss your project.**
 
+**StrataFlux Energy is currently operating in an early development phase. Consultancy enquiries, collaborations, and technical discussions are welcome through the contact form below.**
+
 <form action="https://formspree.io/f/xredgdbq" method="POST">
   <label for="name">Name</label>
   <input type="text" name="name" id="name" required>
@@ -31,5 +33,4 @@ permalink: /contact/
 </form>
 
 <!---***Or email directly:** [info@stratafluxenergy.com](mailto:info@stratafluxenergy.com) --->
-**Or email directly:** Email will be provided shortly. 
 
