@@ -1,14 +1,38 @@
 <footer class="page__footer">
-  <div class="page__footer-copyright">
-    <div class="page__footer-follow">
-      <ul class="social-icons">
-        {% if site.footer.links %}
-          {% for link in site.footer.links %}
-            <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
-          {% endfor %}
-        {% endif %}
-      </ul>
+  <div class="page__footer-custom">
+    <div class="footer-columns">
+      <!-- Left column: Address -->
+      <div class="footer-column">
+        <h3>Address</h3>
+        <p>
+          StrataFlux Energy Ltd<br>
+          <!--123 Example Street<br>
+          Aberdeen, AB12 3CD<br>
+          -->United Kingdom
+        </p>
+      </div>
+
+      <!-- Right column: Quick Links (Socials) -->
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul class="social-links">
+          {% if site.footer.links %}
+            {% for link in site.footer.links %}
+              <li>
+                <a href="{{ link.url }}" rel="nofollow noopener noreferrer">
+                  <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}
+                </a>
+              </li>
+            {% endfor %}
+          {% else %}
+            
+            
+          {% endif %}
+        </ul>
+      </div>
     </div>
+
+    <!-- Copyright line below columns -->
     <div class="page__footer-copyright" style="font-size: 0.5rem;">
       &copy; {{ site.time | date: '%Y' }} {{ site.title | default: site.name }}. All rights reserved.
     </div>
