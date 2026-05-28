@@ -860,7 +860,8 @@ feature_row2: []
 
       <div class="support-card">
         <h3>Open-Source Modelling Training</h3>
-        <p>Hands-on training in reservoir simulation, geochemical modelling, reactive transport workflows, and open-source tools including PFLOTRAN, PHREEQC, MRST, and Python-based modelling workflows.</p>
+        <p>Hands-on training in reservoir simulation, geochemical modelling, reactive transport workflows, and open-source tools including PFLOTRAN, PHREEQC, MRST, and Python-based modelling workflows. At StrataFlux Energy, we believe in the responsible use and teaching of open‑source software. Our training courses cover various tools, each governed by its own licence. We comply fully with the terms of these licences and encourage our students to do same.
+</p>
         <a href="/services/training/" class="btn btn--primary">View Training</a>
       </div>
 
