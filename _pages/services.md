@@ -77,7 +77,7 @@ Technical reservoir simulation and forecasting services supporting field develop
 
 Hands-on technical training in reservoir simulation, geochemical modelling, reactive transport workflows, and scientific computing using modern open-source tools.
 
-At StrataFlux Energy, we believe in the responsible use and teaching of open‑source software. Our training courses cover the following tools, each governed by its own licence. We comply fully with the terms of these licences and encourage our students to do the same.
+At StrataFlux Energy, we believe in the responsible use and teaching of open‑source software. Our training courses cover the various tools, each governed by its own licence. We comply fully with the terms of these licences and encourage our students to do the same.
 
 **Training Areas**
 - PFLOTRAN
